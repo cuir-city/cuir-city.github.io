@@ -1,0 +1,116 @@
+@import "compass";
+@import "_compass-hdpi";
+
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* xs */
+@media (max-width: 767px) {
+    #header-top-mobile {
+        #logo-mobile {
+            margin-top: 10px;
+        }
+        #shopping-bag {
+            position: relative;
+            a {
+                position: absolute;
+                display: block;
+                text-indent: -9999px;
+                width: 26px;
+                height: 24px;
+                @include background-image-hdpi("icon-shopping-bag.png", "icon-shopping-bag@2x.png");
+                background-repeat: no-repeat;
+                margin-top: 10px;
+            }
+            span {
+                position: absolute;
+                background-color: #3e8893;
+                top: 10px;
+                left: 5px;
+                border-radius: 10px;
+                color: #fff;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .mainmenu {
+        text-align: center;
+    }
+
+    .mainmenu ul li {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    #logo {
+        text-align: center;
+    }
+    #swiper {
+        .container {
+            padding: 0;
+            .row {
+                margin: 0;
+                padding: 0;
+                .col-sm-12 {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .swiper-products-container {
+        width: 330px;
+        overflow: hidden;
+    }
+
+    ul.sub-menu {
+        position: relative;
+        width: 100%;
+        top: 0px;
+    }
+
+    #services {
+        div {
+            margin-bottom: 20px;
+        }
+    }
+
+    footer {
+        // col-xs-12 {
+        //     padding: 0;
+        // }
+    }
+}
+
+/* XS Portrait */
+@media (max-width: 480px) {
+
+
+
+}
