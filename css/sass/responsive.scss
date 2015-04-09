@@ -3,12 +3,10 @@
 
 /* lg */
 @media (min-width: 1200px) {
-
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-
 }
 
 
@@ -96,21 +94,51 @@
     }
 
     #services {
-        div {
+        padding-bottom: 20px;
+        a {
             margin-bottom: 20px;
         }
     }
 
-    footer {
-        // col-xs-12 {
-        //     padding: 0;
-        // }
+    #contact {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #newsletter {
+        text-align: center;
+    }
+
+    #customer-support {
+        text-align:center;
+      p {
+        i {
+            display: none;
+        }
+          span.phone {
+            font-size: 36px;
+            }
+        }
+    }
+
+    #share {
+        margin-top: 20px;
+    }
+
+    #seo {
+        margin-bottom: 0;
+        .container {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+    .col-sm-15 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
 /* XS Portrait */
 @media (max-width: 480px) {
-
-
-
 }

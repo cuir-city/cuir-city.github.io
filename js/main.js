@@ -1,5 +1,7 @@
+var swipers = [];
+
 /* Swiper */
-var mySwiper = new Swiper ('.swiper-container', {
+var mySwiper = new Swiper ('.swiper-push', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -8,6 +10,22 @@ var mySwiper = new Swiper ('.swiper-container', {
     pagination: '.swiper-pagination',
     paginationClickable: true
   })
+
+$('.swiper-images-product').each(function(){
+
+	var container = $(this);
+	var swiperImagesProduct = new Swiper (container, {
+	    // Optional parameters
+	    direction: 'horizontal',
+	    loop: true,
+	    simulateTouch: false,
+	    nextButton : container.parent().find('.btn-next'),
+	    prevButton : container.parent().find('.btn-previous'),
+	    lazyLoading: true
+	  })
+});
+
+
 
 /*scroll to top*/
 
@@ -46,7 +64,9 @@ function initSliderMobile(classNameContainer)
 {
 	if ($(this).width() < 767)
 	{
-		$('.swiper-products-container').each(function(){
+		if (swipers.length == 0)
+		{
+			$('.swiper-products-container').each(function(){
 			var container = $(this);
 			var wrapper = container.children().first();
 			wrapper.addClass('swiper-wrapper');
@@ -57,21 +77,29 @@ function initSliderMobile(classNameContainer)
 			    loop: true,
 
 			    // If we need pagination
-			    pagination: '.swiper-products-pagination',
+			    pagination: $(this).find('.swiper-products-pagination'),
 
 			    // Navigation arrows
 			    nextButton: '.swiper-products-button-next',
 			    prevButton: '.swiper-products-button-prev',
 			  })
 
-		});
+			swipers.push(mySwiper);
+
+			});
+		}
 	}
 	else {
-		$('.swiper-products-container').each(function(){
-			var container = $(this);
-			var wrapper = container.children().first();
-			wrapper.removeClass('swiper-wrapper');
-			wrapper.children().removeClass('swiper-slide');
+		swipers.forEach(function(swiper)
+		{
+			if (swiper != null)
+			{
+				swiper.destroy(true,true);
+			}
 		});
+		swipers = [];
+		$('.swiper-products-container > .swiper-wrapper').children().removeClass('swiper-slide');
+		$('.swiper-products-container > .swiper-wrapper').removeClass('swiper-wrapper');
+		$('.swiper-products-container > .swiper-products-pagination').empty();
 	}
 }

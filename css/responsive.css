@@ -3,15 +3,15 @@
 /* sm */
 /* xs */
 @media (max-width: 767px) {
-  /* line 22, sass/responsive.scss */
+  /* line 20, sass/responsive.scss */
   #header-top-mobile #logo-mobile {
     margin-top: 10px;
   }
-  /* line 25, sass/responsive.scss */
+  /* line 23, sass/responsive.scss */
   #header-top-mobile #shopping-bag {
     position: relative;
   }
-  /* line 27, sass/responsive.scss */
+  /* line 25, sass/responsive.scss */
   #header-top-mobile #shopping-bag a {
     position: absolute;
     display: block;
@@ -24,7 +24,7 @@
   }
 }
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi) {
-  /* line 27, sass/responsive.scss */
+  /* line 25, sass/responsive.scss */
   #header-top-mobile #shopping-bag a {
     background-image: url('../images/icon-shopping-bag@2x.png?1428306551');
     -moz-background-size: 26px 24px;
@@ -34,7 +34,7 @@
   }
 }
 @media (max-width: 767px) {
-  /* line 37, sass/responsive.scss */
+  /* line 35, sass/responsive.scss */
   #header-top-mobile #shopping-bag span {
     position: absolute;
     background-color: #3e8893;
@@ -48,63 +48,112 @@
     font-weight: 700;
   }
 
-  /* line 52, sass/responsive.scss */
+  /* line 50, sass/responsive.scss */
   .navbar-toggle {
     margin-right: 0px;
   }
 
-  /* line 56, sass/responsive.scss */
+  /* line 54, sass/responsive.scss */
   .navbar-toggle .icon-bar {
     background-color: #fff;
   }
 
-  /* line 60, sass/responsive.scss */
+  /* line 58, sass/responsive.scss */
   .mainmenu {
     text-align: center;
   }
 
-  /* line 64, sass/responsive.scss */
+  /* line 62, sass/responsive.scss */
   .mainmenu ul li {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* line 70, sass/responsive.scss */
+  /* line 68, sass/responsive.scss */
   #logo {
     text-align: center;
   }
 
-  /* line 74, sass/responsive.scss */
+  /* line 72, sass/responsive.scss */
   #swiper .container {
     padding: 0;
   }
-  /* line 76, sass/responsive.scss */
+  /* line 74, sass/responsive.scss */
   #swiper .container .row {
     margin: 0;
     padding: 0;
   }
-  /* line 79, sass/responsive.scss */
+  /* line 77, sass/responsive.scss */
   #swiper .container .row .col-sm-12 {
     margin: 0;
     padding: 0;
   }
 
-  /* line 87, sass/responsive.scss */
+  /* line 85, sass/responsive.scss */
   .swiper-products-container {
     width: 330px;
     overflow: hidden;
   }
 
-  /* line 92, sass/responsive.scss */
+  /* line 90, sass/responsive.scss */
   ul.sub-menu {
     position: relative;
     width: 100%;
     top: 0px;
   }
 
-  /* line 99, sass/responsive.scss */
-  #services div {
+  /* line 96, sass/responsive.scss */
+  #services {
+    padding-bottom: 20px;
+  }
+  /* line 98, sass/responsive.scss */
+  #services a {
     margin-bottom: 20px;
+  }
+
+  /* line 103, sass/responsive.scss */
+  #contact {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* line 108, sass/responsive.scss */
+  #newsletter {
+    text-align: center;
+  }
+
+  /* line 112, sass/responsive.scss */
+  #customer-support {
+    text-align: center;
+  }
+  /* line 115, sass/responsive.scss */
+  #customer-support p i {
+    display: none;
+  }
+  /* line 118, sass/responsive.scss */
+  #customer-support p span.phone {
+    font-size: 36px;
+  }
+
+  /* line 124, sass/responsive.scss */
+  #share {
+    margin-top: 20px;
+  }
+
+  /* line 128, sass/responsive.scss */
+  #seo {
+    margin-bottom: 0;
+  }
+  /* line 130, sass/responsive.scss */
+  #seo .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 136, sass/responsive.scss */
+  .col-sm-15 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 /* XS Portrait */

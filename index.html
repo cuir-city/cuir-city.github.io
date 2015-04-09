@@ -38,10 +38,79 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="account pull-right">
-							<ul class="nav">
-								<li><a href="">Connexion</a></li>
-								<li><a href="">Mon panier (2) <i class="fa fa-angle-down"></i></a></li>
+						<div class="user-info pull-right">
+							<ul class="nav navbar-nav">
+								<li class="dropdown account">
+									<a href="">Connexion <i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu account">
+										<li>
+											<div>
+												<ul>
+													<li><a href="#"><i class="glyphicon glyphicon-play"></i>Suivi de commande</a></li>
+													<li><a href="#"><i class="glyphicon glyphicon-play"></i>Acc&eacute;der &agrave; mon espace client</a></li>
+													<li class="logout"><a href="#"><i class="glyphicon glyphicon-remove"></i>D&eacute;connexion</a></li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="">Mon panier (2) <i class="fa fa-angle-down"></i></a>
+									<ul role="menu" class="sub-menu cart">
+										<li class="product row">
+											<div class="col-sm-4">
+												<img src="images/product_01.jpg" alt="Product">
+											</div>
+											<div class="col-sm-6 text-left">
+												<span>Reversible baseball</span>
+												<span>Jacket</span>
+												<span class="product-brand">Redskins</span>
+											</div>
+											<div class="col-sm-2">
+												<a href="" class="delete">x</a>
+											</div>
+										</li>
+										<li class="product row">
+											<div class="col-sm-4">
+												<img src="images/product_01.jpg" alt="Product">
+											</div>
+											<div class="col-sm-6 text-left">
+												<span>Reversible baseball</span>
+												<span>Jacket</span>
+												<span class="product-brand">Redskins</span>
+											</div>
+											<div class="col-sm-2">
+												<a href="" class="delete">x</a>
+											</div>
+										</li>
+										<li class="product row">
+											<div class="col-sm-4">
+												<img src="images/product_01.jpg" alt="Product">
+											</div>
+											<div class="col-sm-6 text-left">
+												<span>Reversible baseball</span>
+												<span>Jacket</span>
+												<span class="product-brand">Redskins</span>
+											</div>
+											<div class="col-sm-2">
+												<a href="" class="delete">x</a>
+											</div>
+										</li>
+										<li class="row total">
+											<div class="col-sm-6">
+												<span class="total pull-left">Total</span>
+											</div>
+											<div class="col-sm-6">
+												<span class="total-price pull-right">329 €</span>
+											</div>
+										</li>
+										<li class="row">
+											<div class="col-sm-12 text-center">
+												<a href="" class="order">Commander</a>
+											</div>
+										</li>
+									</ul>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -97,45 +166,52 @@
 			</div>
 		</div>
 		<div class="container">
-			<nav class="collapse navbar-collapse bs-navbar-collapse mainmenu">
-				<ul class="nav navbar-nav">
-					<li class="dropdown"><a href="#" class="active">Homme <i class="fa fa-angle-down hidden-xs"></i></a>
-						<ul role="menu" class="sub-menu">
-							<li><a href="#">Menu 1</a></li>
-							<li><a href="#">Menu 2</a></li>
-							<li><a href="#">Menu 3</a></li>
+			<div class="row">
+				<div class="col-sm-8">
+					<nav class="collapse navbar-collapse bs-navbar-collapse mainmenu">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a href="#" class="active">Homme <i class="fa fa-angle-down hidden-xs"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="#">Menu 1</a></li>
+									<li><a href="#">Menu 2</a></li>
+									<li><a href="#">Menu 3</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#">Femme <i class="fa fa-angle-down hidden-xs"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="#">Menu 1</a></li>
+									<li><a href="#">Menu 2</a></li>
+									<li><a href="#">Menu 3</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#">Garçon <i class="fa fa-angle-down hidden-xs"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="#">Menu 1</a></li>
+									<li><a href="#">Menu 2</a></li>
+									<li><a href="#">Menu 3</a></li>
+								</ul>
+							</li>
+							<li class="dropdown"><a href="#">Marques <i class="fa fa-angle-down hidden-xs"></i></a>
+								<ul role="menu" class="sub-menu">
+									<li><a href="#">Menu 1</a></li>
+									<li><a href="#">Menu 2</a></li>
+									<li><a href="#">Menu 3</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Destockage</a></li>
 						</ul>
-					</li>
-					<li class="dropdown"><a href="#">Femme <i class="fa fa-angle-down hidden-xs"></i></a>
-						<ul role="menu" class="sub-menu">
-							<li><a href="#">Menu 1</a></li>
-							<li><a href="#">Menu 2</a></li>
-							<li><a href="#">Menu 3</a></li>
-						</ul>
-					</li>
-					<li class="dropdown"><a href="#">Garçon <i class="fa fa-angle-down hidden-xs"></i></a>
-						<ul role="menu" class="sub-menu">
-							<li><a href="#">Menu 1</a></li>
-							<li><a href="#">Menu 2</a></li>
-							<li><a href="#">Menu 3</a></li>
-						</ul>
-					</li>
-					<li class="dropdown"><a href="#">Marques <i class="fa fa-angle-down hidden-xs"></i></a>
-						<ul role="menu" class="sub-menu">
-							<li><a href="#">Menu 1</a></li>
-							<li><a href="#">Menu 2</a></li>
-							<li><a href="#">Menu 3</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Destockage</a></li>
-				</ul>
-			</nav>
+					</nav>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<a href="" class="pull-right shops-link">Nos boutiques <i class="fa fa-map-marker"></i></a>
+				</div>
+			</div>
 		</div>
 	</header><!--/header-->
 
 	<section id="swiper">
 		<!-- Slider main container -->
-		<div class="swiper-container container">
+		<div class="swiper-push swiper-container container">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper row">
 				<!-- Slides -->
@@ -178,7 +254,6 @@
 							<h2>Lorem Ipsum</h2>
 							<a href="#" class="btn discover">Découvrir</a>
 						</header>
-						<!-- <img src="images/article_01.jpg"> -->
 					</article>
 				</div>
 				<div class="col-sm-6">
@@ -188,7 +263,6 @@
 							<h2>Lorem Ipsum</h2>
 							<a href="#" class="btn discover">Découvrir</a>
 						</header>
-						<!-- <img src="images/article_02.jpg"> -->
 					</article>
 				</div>
 			</div>
@@ -208,71 +282,368 @@
 			<div class="container swiper-products-container">
 				<!-- Additional required wrapper -->
 				<div class="row">
-					<!-- <div class=""> -->
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_01.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price crossed"><span>180 €</span>159,90 €</h2>
-								<span class="tag sales">-30%</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_02.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Edition limitée</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_03.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Nouveaut&eacute;</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_04.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Printemps / été</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_01.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Edition limitée</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_02.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Edition limitée</span>
-							</article>
-						</div>
-						<div class="col-sm-3">
-							<article class="product">
-								<a href="#" title="Product"><img class="lazy" data-original="images/product_03.jpg"></a>
-								<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
-								<h2 class="price">159,90 €</h2>
-								<span class="tag">Edition limitée</span>
-							</article>
-						</div>
-						<div class="col-sm-3 more-articles">
-							<a href="" class="btn">+ de produits phares</a>
-						</div>
-					<!-- </div> -->
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_03.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price crossed"><span>180 €</span>159,90 €</h2>
+							<span class="tag sales">-30%</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3">
+						<article class="product">
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
+							<h2 class="price">159,90 €</h2>
+							<span class="tag">Edition limitée</span>
+						</article>
+					</div>
+					<div class="col-sm-3 more-articles text-center">
+						<a href="" class="btn">+ de produits phares</a>
+					</div>
 				</div>
 
 				<!-- If we need pagination -->
-				<!-- <div class="swiper-products-pagination"></div> -->
+				<div class="swiper-products-pagination"></div>
 
 				<!-- If we need navigation buttons -->
 				<div class="swiper-products-button-prev"></div>
@@ -330,7 +701,50 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_01.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price crossed"><span>180 €</span>159,90 €</h2>
 							<span class="tag sales">-30%</span>
@@ -338,7 +752,49 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_02.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
@@ -346,7 +802,49 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_03.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
@@ -354,7 +852,49 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_04.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
@@ -362,7 +902,49 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_01.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
@@ -370,7 +952,49 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_02.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
@@ -378,19 +1002,61 @@
 					</div>
 					<div class="col-sm-3">
 						<article class="product">
-							<a href="#" title="Product"><img class="lazy" data-original="images/product_03.jpg"></a>
+							<div class="wrapper-image">
+								<div class="overlay">
+									<span>Tailles disponibles</span>
+									<ul class="nav">
+										<li>S</li>
+										<li>M</li>
+										<li>L</li>
+										<li>XL</li>
+										<li>2XL</li>
+										<li>3XL</li>
+										<li>4XL</li>
+										<li>...</li>
+										<li>...</li>
+										<li>...</li>
+									</ul>
+									<div class="actions">
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-previous"><i class="fa fa-arrow-left"></i></a>
+										</div>
+										<div class="col-sm-8 col-xs-8">
+											<a href="#">Voir le produit</a>
+										</div>
+										<div class="col-sm-2 col-xs-2">
+											<a href="#" class="btn-next"><i class="fa fa-arrow-right"></i></a>
+										</div>
+									</div>
+
+								</div>
+								<div class="swiper-images-product swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01.jpg">
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div>
+												<img class="lazy" data-original="images/product_01_02.jpg">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 							<a href="#" title="Redskins"><span class="brand redskins">Redskins</span></a>
 							<h2 class="price">159,90 €</h2>
 							<span class="tag">Edition limitée</span>
 						</article>
 					</div>
-					<div class="col-sm-3 more-articles">
-						<a href="" class="btn">+ de produits phares</a>
+					<div class="col-sm-3 more-articles text-center">
+						<a href="" class="btn">+ de promotions</a>
 					</div>
 				</div>
 
 				<!-- If we need pagination -->
-				<!-- <div class="swiper-products-pagination"></div> -->
+				<div class="swiper-products-pagination"></div>
 
 				<!-- If we need navigation buttons -->
 				<div class="swiper-products-button-prev"></div>
@@ -423,32 +1089,42 @@
 			</div>
 		</div>
 
-		<!-- <div class="footer-top">
+		<div id="contact" class="clearfix">
 			<div class="container">
 				<div class="row">
-					<div id="newsletter" class="col-sm-4">
-						<h1>Newsletter</h1>
+					<div id="newsletter" class="card col-sm-4 clearfix">
+						<h1><i class="mail"></i>Newsletter</h1>
 						<p>Sint certamina tamen tamen et suffragiorum suscipitur canities sint pacataeque domina !</p>
 						<form action="" class="form-inline">
 							<div class="row">
-								<div class="col-sm-10">
+								<div class="col-sm-10 col-xs-10">
 									<input type="email" class="form-control" placeholder="Votre email">
 								</div>
-								<button type="submit" class="btn btn-default col-sm-2">ok</button>
+								<div class="col-sm-2 col-xs-2">
+									<button type="submit" class="btn btn-default">ok</button>
+								</div>
 							</div>
 						</form>
 					</div>
-					<div id="newsletter" class="col-sm-4">
-
+					<div id="customer-support" class="card col-sm-4 clearfix">
+						<h1><i class="adviser"></i>Service client</h1>
+						<p>Nos conseillers sont &agrave; votre &eacute;coute <br/> <span class="phone"><i>au</i> 03 91 840 140</span></p>
+						<p>du lundi au vendredi de 9h30 &agrave; 12h30 <br/> et de 13h30 à 18h30</p>
 					</div>
-					<div id="newsletter" class="col-sm-4">
-
+					<div id="advice" class="card col-sm-4 clearfix hidden-xs">
+						<h1>Conseils Cuir-City.com</h1>
+						<ul>
+							<li><a href="#">Id&eacute;e de look</a></li>
+							<li><a href="#">Comment entretenir son cuir ?</a></li>
+							<li><a href="#">Diff&eacute;rentes mati&egrave;res</a></li>
+							<li><a href="#">Guide des tailles</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 
-		<div class="footer-middle">
+		<div id="seo">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-15 hidden-xs">
@@ -527,7 +1203,7 @@
 			</div>
 		</div>
 
-		<div class="footer-bottom">
+		<div id="copyright">
 			<div class="container">
 				<div class="row text-center">
 					<img src="images/logo-footer@2x.png" width="124" height="29" alt="Cuir CIty">
