@@ -167,43 +167,415 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8">
+				<div class="col-md-8 col-sm-12">
 					<nav class="collapse navbar-collapse bs-navbar-collapse mainmenu">
 						<ul class="nav navbar-nav">
-							<li class="dropdown"><a href="#" class="active">Homme <i class="fa fa-angle-down hidden-xs"></i></a>
-								<ul role="menu" class="sub-menu">
-									<li><a href="#">Menu 1</a></li>
-									<li><a href="#">Menu 2</a></li>
-									<li><a href="#">Menu 3</a></li>
-								</ul>
+							<li class="dropdown"><a href="#homme" class="active">Homme <i class="fa fa-angle-down hidden-xs"></i></a>
+
 							</li>
-							<li class="dropdown"><a href="#">Femme <i class="fa fa-angle-down hidden-xs"></i></a>
-								<ul role="menu" class="sub-menu">
-									<li><a href="#">Menu 1</a></li>
-									<li><a href="#">Menu 2</a></li>
-									<li><a href="#">Menu 3</a></li>
-								</ul>
+							<li class="dropdown"><a href="#femme" >Femme <i class="fa fa-angle-down hidden-xs"></i></a>
 							</li>
-							<li class="dropdown"><a href="#">Garçon <i class="fa fa-angle-down hidden-xs"></i></a>
-								<ul role="menu" class="sub-menu">
-									<li><a href="#">Menu 1</a></li>
-									<li><a href="#">Menu 2</a></li>
-									<li><a href="#">Menu 3</a></li>
-								</ul>
+							<li class="dropdown"><a href="#garcon">Garçon <i class="fa fa-angle-down hidden-xs"></i></a>
 							</li>
-							<li class="dropdown"><a href="#">Marques <i class="fa fa-angle-down hidden-xs"></i></a>
-								<ul role="menu" class="sub-menu">
-									<li><a href="#">Menu 1</a></li>
-									<li><a href="#">Menu 2</a></li>
-									<li><a href="#">Menu 3</a></li>
-								</ul>
+							<li class="dropdown"><a href="#marques">Marques <i class="fa fa-angle-down hidden-xs"></i></a>
 							</li>
 							<li><a href="#">Destockage</a></li>
 						</ul>
+
 					</nav>
 				</div>
-				<div class="col-sm-4 hidden-xs">
+				<div class="col-sm-4 hidden-sm hidden-xs">
 					<a href="" class="pull-right shops-link">Nos boutiques <i class="fa fa-map-marker"></i></a>
+				</div>
+			</div>
+			<div id="homme" class="container sub-menu-container">
+				<ul class="clearfix">
+					<li class="col-md-2"><a href="#blousons" data-toggle="tab" class="blousons active">Blousons</a></li>
+					<li class="col-md-2"><a href="#vestes" data-toggle="tab" class="vestes">Vestes</a></li>
+					<li class="col-md-2"><a href="#pantalons" data-toggle="tab" class="pantalons">Pantalons</a></li>
+					<li class="col-md-2"><a href="#chaussures" data-toggle="tab" class="chaussures">Chaussures</a></li>
+					<li class="col-md-2"><a href="#accessoires" data-toggle="tab" class="accessoires">Accessoires</a></li>
+					<li class="col-md-2"><a href="#textiles" data-toggle="tab" class="textiles">Textiles</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="sub-menu-content default active">
+						<p class="up"><i class="fa fa-angle-up"></i></p>
+						<p>Choisissez votre cat&eacute;gorie parmi <strong>nos v&ecirc;tements en cuir</strong> et <strong>notre rayon textiles</strong></p>
+						<p>ou</p>
+						<p>d&eacute;couvrez nos</p>
+						<p><a href="#" class="btn">nos nouveaut&eacute;s</a></p>
+					</div>
+					<div id="blousons" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-15 col-sm-4 filters">
+									<h3>Par Type</h3>
+									<ul>
+										<li class="icon"><a href="#" class="aviateur">Aviateur</a></li>
+										<li class="icon"><a href="#" class="perfecto">Perfecto</a></li>
+										<li class="icon"><a href="#" class="bombardier">Bombardier</a></li>
+										<li class="icon"><a href="#" class="teddy">Teddy</a></li>
+										<li class="icon"><a href="#" class="doudoune">Doudoune</a></li>
+										<li class="icon"><a href="#" class="gilet">Gilet</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 col-sm-4 filters">
+									<ul>
+										<li class="icon"><a href="#" class="capuche">Avec capuche</a></li>
+										<li class="icon"><a href="#" class="col-motard">Col motard</a></li>
+										<li class="icon"><a href="#" class="col-chemise">Col chemise</a></li>
+										<li class="icon"><a href="#" class="col-fourrure">Col fourrure</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 col-sm-4 filters">
+									<h3>Par Style</h3>
+									<ul>
+										<li><a href="#">Tendance & Branch&eacute;</a></li>
+										<li><a href="#">Classique & ind&eacute;modable</a></li>
+										<li><a href="#">Rock</a></li>
+										<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+										<li><a href="#">Chic & Classe</a></li>
+										<li><a href="#">Color&eacute;</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 col-sm-4 filters">
+									<h3>Par Cuir</h3>
+									<ul>
+										<li><a href="#">Fin & l&eacute;ger</a></li>
+										<li><a href="#">Chaud & R&eacute;sistant</a></li>
+										<li><a href="#">Matelass&eacute;</a></li>
+										<li><a href="#">Aspect daim & velours</a></li>
+										<li><a href="#">Aspect vieilli</a></li>
+										<li><a href="#">Aspect brillant</a></li>
+										<li><a href="#">Peau retournée</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 col-sm-4 filters">
+									<h3>Par Marque</h3>
+									<ul>
+										<li><a href="#">Redskins</a></li>
+										<li><a href="#">Schott</a></li>
+										<li><a href="#">Aokwood</a></li>
+										<li><a href="#">Kaporal</a></li>
+										<li><a href="#">Serge Pariente</a></li>
+										<li><a href="#">Cityzen</a></li>
+										<li><a href="#">Chevignon</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="vestes" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-15 filters">
+									<h3>Par Type</h3>
+									<ul>
+										<li class="icon"><a href="#" class="mi-longues">Mi-longues</a></li>
+										<li class="icon"><a href="#" class="manteaux">Manteaux</a></li>
+										<li class="icon"><a href="#" class="blazers">Blazers</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Style</h3>
+									<ul>
+										<li><a href="#">Tendance & Branch&eacute;</a></li>
+										<li><a href="#">Classique & ind&eacute;modable</a></li>
+										<li><a href="#">Rock</a></li>
+										<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+										<li><a href="#">Chic & Classe</a></li>
+										<li><a href="#">Color&eacute;</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Cuir</h3>
+									<ul>
+										<li><a href="#">Fin & l&eacute;ger</a></li>
+										<li><a href="#">Chaud & R&eacute;sistant</a></li>
+										<li><a href="#">Matelass&eacute;</a></li>
+										<li><a href="#">Aspect daim & velours</a></li>
+										<li><a href="#">Aspect vieilli</a></li>
+										<li><a href="#">Aspect brillant</a></li>
+										<li><a href="#">Peau retournée</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Marque</h3>
+									<ul>
+										<li><a href="#">Redskins</a></li>
+										<li><a href="#">Schott</a></li>
+										<li><a href="#">Aokwood</a></li>
+										<li><a href="#">Kaporal</a></li>
+										<li><a href="#">Serge Pariente</a></li>
+										<li><a href="#">Cityzen</a></li>
+										<li><a href="#">Chevignon</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 image hidden-sm hidden-xs image">
+									<img src="images/homme-veste.jpg" srcset="images/homme-veste@2x.jpg 2x" />
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="pantalons" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12 image">
+								<img src="http://placehold.it/1140x300">
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="chaussures" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-6 filters">
+									<h3>Chaussures</h3>
+									<ul>
+										<li><a href="#">Baskets en cuir</a></li>
+										<li><a href="#">Baskets en toile</a></li>
+										<li><a href="#">Boots et bottines</a></li>
+										<li><a href="#">Chaussures de ville</a></li>
+									</ul>
+								</div>
+								<div class="col-md-6 image">
+									<img src="http://placehold.it/570x300">
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="femme" class="container sub-menu-container">
+				<ul class="clearfix">
+					<li class="col-md-2"><a href="#femme-blousons" data-toggle="tab" class="blousons active">Blousons</a></li>
+					<li class="col-md-2"><a href="#femme-vestes" data-toggle="tab" class="vestes">Vestes</a></li>
+					<li class="col-md-2"><a href="#femme-pantalons" data-toggle="tab" class="pantalons">Pantalons</a></li>
+					<li class="col-md-2"><a href="#femme-chaussures" data-toggle="tab" class="chaussures">Chaussures</a></li>
+					<li class="col-md-2"><a href="#femme-accessoires" data-toggle="tab" class="accessoires">Accessoires</a></li>
+					<li class="col-md-2"><a href="#femme-textiles" data-toggle="tab" class="textiles">Textiles</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="sub-menu-content default active">
+						<p class="up"><i class="fa fa-angle-up"></i></p>
+						<p>Choisissez votre cat&eacute;gorie parmi <strong>nos v&ecirc;tements en cuir</strong> et <strong>notre rayon textiles</strong></p>
+						<p>ou</p>
+						<p>d&eacute;couvrez nos</p>
+						<p><a href="#" class="btn">nos nouveaut&eacute;s</a></p>
+					</div>
+					<div id="femme-blousons" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-15 filters">
+									<h3>Par Type</h3>
+									<ul>
+										<li class="icon"><a href="#" class="perfecto">Perfecto</a></li>
+										<li class="icon"><a href="#" class="bombardier">Bombardier</a></li>
+										<li class="icon"><a href="#" class="doudoune">Doudoune</a></li>
+										<li class="icon"><a href="#" class="fourrure">Fourrure</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<ul>
+										<li class="icon"><a href="#" class="capuche">Avec capuche</a></li>
+										<li class="icon"><a href="#" class="col-motard">Col motard</a></li>
+										<li class="icon"><a href="#" class="col-chemise">Col chemise</a></li>
+										<li class="icon"><a href="#" class="col-fourrure">Col fourrure</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Style</h3>
+									<ul>
+										<li><a href="#">Tendance & Branch&eacute;</a></li>
+										<li><a href="#">Classique & ind&eacute;modable</a></li>
+										<li><a href="#">Rock</a></li>
+										<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+										<li><a href="#">Chic & Classe</a></li>
+										<li><a href="#">Color&eacute;</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Cuir</h3>
+									<ul>
+										<li><a href="#">Fin & l&eacute;ger</a></li>
+										<li><a href="#">Chaud & R&eacute;sistant</a></li>
+										<li><a href="#">Matelass&eacute;</a></li>
+										<li><a href="#">Aspect daim & velours</a></li>
+										<li><a href="#">Aspect vieilli</a></li>
+										<li><a href="#">Aspect brillant</a></li>
+										<li><a href="#">Peau retournée</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Marque</h3>
+									<ul>
+										<li><a href="#">Redskins</a></li>
+										<li><a href="#">Schott</a></li>
+										<li><a href="#">Aokwood</a></li>
+										<li><a href="#">Kaporal</a></li>
+										<li><a href="#">Serge Pariente</a></li>
+										<li><a href="#">Cityzen</a></li>
+										<li><a href="#">Chevignon</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="femme-vestes" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-15 filters">
+									<h3>Par Type</h3>
+									<ul>
+										<li class="icon"><a href="#" class="mi-longues">Mi-longues</a></li>
+										<li class="icon"><a href="#" class="manteaux">Manteaux</a></li>
+										<li class="icon"><a href="#" class="blazers">Blazers</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Style</h3>
+									<ul>
+										<li><a href="#">Tendance & Branch&eacute;</a></li>
+										<li><a href="#">Classique & ind&eacute;modable</a></li>
+										<li><a href="#">Rock</a></li>
+										<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+										<li><a href="#">Chic & Classe</a></li>
+										<li><a href="#">Color&eacute;</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Cuir</h3>
+									<ul>
+										<li><a href="#">Fin & l&eacute;ger</a></li>
+										<li><a href="#">Chaud & R&eacute;sistant</a></li>
+										<li><a href="#">Matelass&eacute;</a></li>
+										<li><a href="#">Aspect daim & velours</a></li>
+										<li><a href="#">Aspect vieilli</a></li>
+										<li><a href="#">Aspect brillant</a></li>
+										<li><a href="#">Peau retournée</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 filters">
+									<h3>Par Marque</h3>
+									<ul>
+										<li><a href="#">Redskins</a></li>
+										<li><a href="#">Schott</a></li>
+										<li><a href="#">Aokwood</a></li>
+										<li><a href="#">Kaporal</a></li>
+										<li><a href="#">Serge Pariente</a></li>
+										<li><a href="#">Cityzen</a></li>
+										<li><a href="#">Chevignon</a></li>
+									</ul>
+								</div>
+								<div class="col-md-15 hidden-sm hidden-xs image">
+									<img src="images/femme-veste.jpg" srcset="images/femme-veste@2x.jpg 2x" />
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="femme-pantalons" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12 image">
+								<img src="http://placehold.it/1140x300">
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="femme-chaussures" class="sub-menu-content">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-6 filters">
+									<h3>Chaussures</h3>
+									<ul>
+										<li><a href="#">Baskets en cuir</a></li>
+										<li><a href="#">Baskets en toile</a></li>
+										<li><a href="#">Boots et bottines</a></li>
+										<li><a href="#">Chaussures de ville</a></li>
+									</ul>
+								</div>
+								<div class="col-md-6 image">
+									<img src="http://placehold.it/570x300">
+								</div>
+							</div>
+						</div>
+						<div class="row links">
+							<div class="col-md-4 col-md-offset-4">
+								<div class="col-md-6">
+									<a href="#" class="btn">Nouveaut&eacute;s</a>
+								</div>
+								<div class="col-md-6">
+									<a href="#" class="btn">Tout voir</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

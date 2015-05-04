@@ -1,4 +1,5 @@
 var swipers = [];
+var currentMenu;
 
 /* Swiper */
 var mySwiper = new Swiper ('.swiper-push', {
@@ -25,11 +26,8 @@ $('.swiper-images-product').each(function(){
 	  })
 });
 
-
-
-/*scroll to top*/
-
 $(document).ready(function(){
+
 	$(function () {
 		$.scrollUp({
 	        scrollName: 'scrollUp', // Element ID
@@ -51,6 +49,26 @@ $(document).ready(function(){
 
 	$("img.lazy").lazyload({
 		effect : "fadeIn"
+	});
+
+	// Mega menu
+	$('.mainmenu .nav li a').mouseenter(function(event){
+		$('.mainmenu .nav li a').removeClass('active');
+		$(this).addClass('active');
+		var menu = $(this).attr('href');
+		if (currentMenu != menu)
+		{
+			currentMenu = menu;
+			$('.sub-menu-container').hide();
+			$(menu).fadeIn('fast');
+		}
+		event.preventDefault();
+	});
+
+	$('.sub-menu-container').mouseleave(function(){
+		$('.mainmenu .nav li a').removeClass('active');
+		$(this).hide();
+		currentMenu = undefined;
 	});
 
 	initSliderMobile();

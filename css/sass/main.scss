@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  position: relative;
+}
+
 .btn:hover,
 .btn:focus{
   outline: none;
@@ -298,50 +302,13 @@ a#scrollUp i{
 }
 
 .mainmenu {
-  .nav.navbar-nav > li:hover > ul.sub-menu{
+  .nav.navbar-nav > li:hover > .sub-menu-container{
     display: block;
     -webkit-animation: fadeInUp 400ms;
     -moz-animation: fadeInUp 400ms;
     -ms-animation: fadeInUp 400ms;
     -o-animation: fadeInUp 400ms;
     animation: fadeInUp 400ms;
-  }
-
-  ul.sub-menu {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    background: rgba(0, 0, 0, 1);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 220px;
-    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-    display: none;
-    z-index: 999;
-  }
-
-  .dropdown ul.sub-menu li .active{
-    color: #3e8893;
-    padding-left: 0;
-  }
-
-
-  .navbar-nav li ul.sub-menu li{
-    padding: 10px 20px 0 ;
-  }
-
-  .navbar-nav li ul.sub-menu li:last-child{
-    padding-bottom: 20px;
-  }
-
-  .navbar-nav li ul.sub-menu li a{
-    color: #fff;
-  }
-
-  .navbar-nav li ul.sub-menu li a:hover{
-    color: #FDB45E;
   }
 
   .fa-angle-down{
@@ -364,7 +331,6 @@ a#scrollUp i{
   font-weight: 400;
   text-transform: uppercase;
   padding: 0;
-  padding-bottom: 10px;
 }
 
 .mainmenu ul li a:hover, .mainmenu ul li a.active,  .shop-menu ul li a.active{
@@ -372,15 +338,277 @@ a#scrollUp i{
   color:#3e8893;
 }
 
-/*  Dropdown menu*/
+.sub-menu-container {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 10px;
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    > ul {
+      background: #000;
+      margin-bottom: 0;
+      li {
+        display: inline-block;
+        line-height: 60px;
+       &.active {
+          a {
+              color: #316e77 !important;
+              text-decoration: none;
+              &.blousons {
+                @include background-image-hdpi("icon-blousons-hover.png", "icon-blousons-hover@2x.png");
+              }
+              &.vestes {
+                @include background-image-hdpi("icon-vestes-hover.png", "icon-vestes-hover@2x.png");
+              }
+              &.pantalons {
+                @include background-image-hdpi("icon-pantalons-hover.png", "icon-pantalons-hover@2x.png");
+              }
+              &.chaussures {
+                @include background-image-hdpi("icon-chaussures-hover.png", "icon-chaussures-hover@2x.png");
+              }
+              &.accessoires {
+                @include background-image-hdpi("icon-accessoires-hover.png", "icon-accessoires-hover@2x.png");
+              }
+              &.textiles {
+                @include background-image-hdpi("icon-textiles-hover.png", "icon-textiles-hover@2x.png");
+              }
+            }
+        }
+        a {
+          display: block;
+          color: #fff !important;
+          padding-top: 5px;
+          text-transform: uppercase;
+          &:hover {
+            color: #316e77 !important;
+          }
+          &.blousons {
+            padding-left: 45px;
+            @include background-image-hdpi("icon-blousons.png", "icon-blousons@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-blousons-hover.png", "icon-blousons-hover@2x.png");
+            }
+          }
+          &.vestes {
+            padding-left: 45px;
+            @include background-image-hdpi("icon-vestes.png", "icon-vestes@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-vestes-hover.png", "icon-vestes-hover@2x.png");
+            }
+          }
+          &.pantalons {
+            padding-left: 30px;
+            @include background-image-hdpi("icon-pantalons.png", "icon-pantalons@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-pantalons-hover.png", "icon-pantalons-hover@2x.png");
+            }
+          }
+          &.chaussures {
+            padding-left: 55px;
+            @include background-image-hdpi("icon-chaussures.png", "icon-chaussures@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-chaussures-hover.png", "icon-chaussures-hover@2x.png");
+            }
+          }
+          &.accessoires {
+            padding-left: 45px;
+            @include background-image-hdpi("icon-accessoires.png", "icon-accessoires@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-accessoires-hover.png", "icon-accessoires-hover@2x.png");
+            }
+          }
+          &.textiles {
+            padding-left: 45px;
+            @include background-image-hdpi("icon-textiles.png", "icon-textiles@2x.png");
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            &:hover {
+              @include background-image-hdpi("icon-textiles-hover.png", "icon-textiles-hover@2x.png");
+            }
+          }
+        }
 
-// .navbar-header
-// .navbar-toggle .icon-bar {
-//   background-color: #fff;
-// }
-
-
-
+      }
+    }
+    .sub-menu-content {
+      display: none;
+      // background: #fff;
+      a.btn {
+          color: #302e31;
+          text-transform: uppercase;
+          border: 2px solid #000;
+          border-radius: 0px;
+          padding-top: 2px;
+          padding-bottom: 2px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      &.default {
+        min-height: 300px;
+        padding-top: 50px;
+        p {
+          &.up {
+            font-size: 24px;
+          }
+          font-size: 16px;
+          text-transform: uppercase;
+          text-align: center;
+        }
+      }
+      .filters {
+        padding-left: 40px;
+        padding-top: 20px;
+      }
+      .col-md-12 {
+        padding: 0;
+      }
+      .image {
+        padding: 0;
+        overflow: hidden;
+        min-height: 300px;
+      }
+      // .bg-femme-veste {
+      //   background-size: cover;
+      //   height: 300px;
+      //   @include background-image-hdpi("femme-veste.jpg", "femme-veste@2x.jpg");
+      // }
+      &.active {
+        display: block;
+      }
+      h3 {
+        margin-top: 0;
+        color: #3e8893;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      ul {
+        padding-left: 0;
+        li {
+          font-size: 16px;
+          line-height: 30px;
+          padding-left: 0px;
+          padding-right: 0px;
+          &.icon {
+            line-height: 45px;
+          }
+          a {
+            display: block;
+            color: #000;
+            text-transform: none;
+            &:hover {
+              color: #316e77 !important;
+            }
+            &.aviateur {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-aviateur.png", "icon-aviateur@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.perfecto {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-perfecto.png", "icon-perfecto@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.bombardier {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-bombardier.png", "icon-bombardier@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.teddy {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-teddy.png", "icon-teddy@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.doudoune {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-doudoune.png", "icon-doudoune@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.gilet {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-gilet.png", "icon-gilet@2x.png");
+              background-repeat: no-repeat;
+              background-position: 6px 50%;
+            }
+            &.capuche {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-capuche.png", "icon-capuche@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.col-motard {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-col-motard.png", "icon-col-motard@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.col-chemise {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-col-chemise.png", "icon-col-chemise@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.col-fourrure {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-col-fourrure.png", "icon-col-fourrure@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.fourrure {
+              padding-left: 45px;
+              @include background-image-hdpi("icon-fourrure.png", "icon-fourrure@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.mi-longues{
+              padding-left: 45px;
+              @include background-image-hdpi("icon-mi-longues.png", "icon-mi-longues@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.manteaux{
+              padding-left: 45px;
+              @include background-image-hdpi("icon-manteaux.png", "icon-manteaux@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+            &.blazers{
+              padding-left: 45px;
+              @include background-image-hdpi("icon-blazers.png", "icon-blazers@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
+          }
+        }
+      }
+      .links {
+        background: #eee;
+        min-height: 50px;
+        line-height: 50px;
+      }
+    }
+  }
 
 @-webkit-keyframes fadeInUp {
   0% {
@@ -609,6 +837,7 @@ a#scrollUp i{
 
 #swiper {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 
