@@ -13,10 +13,11 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  position: relative;
   @include smooth;
-
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
+
 
 ul li {
   list-style: none;
@@ -837,7 +838,7 @@ a#scrollUp i{
 
 #swiper {
   margin-bottom: 10px;
-  margin-top: 10px;
+  // margin-top: 10px;
 }
 
 
@@ -1202,6 +1203,9 @@ article img {
     float: left;
   }
 }
+
+@import "responsive";
+@import "nav";
 
 
 

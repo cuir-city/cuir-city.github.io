@@ -72,6 +72,8 @@ $(document).ready(function(){
 	});
 
 	initSliderMobile();
+
+
 });
 
 $(window).resize(function() {
