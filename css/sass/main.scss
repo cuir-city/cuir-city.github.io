@@ -46,6 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   position: relative;
+  // padding-left: 0;
+  // padding-right: 0;
 }
 
 .btn:hover,
@@ -94,25 +96,38 @@ a#scrollUp i{
 .header-top {
   background: none repeat scroll 0 0 #171717;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
+.header-top .nav li a, .navbar-nav li a, .nav-pills li a {
+  padding-top: 0  !important;
+  padding-bottom: 0  !important;
+}
 .contactinfo ul li:first-child{
   margin-left: -15px;
 }
 
-.contactinfo ul li a{
+.contactinfo ul li a.need-help{
   font-size: 12px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  @include background-image-hdpi("icon-tel.png", "icon-tel@2x.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 30px !important;
+  line-height: 20px;
+  margin-left: 20px;
+  &:hover {
+    background-color: rgba(0,0,0,0);
+  }
 }
 
 .contactinfo ul li  a span {
   color: #35717a;
 }
 
-
-.contactinfo ul li a:hover{
-	background:inherit;
+.user-info ul li {
+  margin-left: 40px;
 }
 
 .user-info ul li a {
@@ -120,7 +135,6 @@ a#scrollUp i{
   color: #fff;
   border: 0 none;
   border-radius: 0;
-  padding: 10px 15px;
   text-transform: uppercase;
 }
 
@@ -136,6 +150,14 @@ a#scrollUp i{
   -o-transition: all 0.9s ease 0s;
 }
 
+.shopping-bag {
+  @include background-image-hdpi("icon-shopping-bag.png", "icon-shopping-bag@2x.png");
+      background-repeat: no-repeat;
+      background-position: 0 50%;
+      line-height: 30px;
+      padding-left: 30px ! important;
+}
+
 .user-info {
   .nav li:hover > ul.sub-menu{
     display: block;
@@ -147,8 +169,8 @@ a#scrollUp i{
   }
   ul.sub-menu {
     position: absolute;
-    top: 40px;
-    left: -100px;
+    top: 20px;
+    right: 0;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -244,6 +266,12 @@ a#scrollUp i{
   margin-bottom: 20px;
   padding-bottom: 5px;
   padding-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .header-middle {
@@ -838,7 +866,7 @@ a#scrollUp i{
 
 #swiper {
   margin-bottom: 10px;
-  // margin-top: 10px;
+  margin-top: 10px;
 }
 
 
