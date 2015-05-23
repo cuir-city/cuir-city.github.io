@@ -801,13 +801,9 @@ a#scrollUp i{
   text-transform: uppercase;
 }
 
-.single-widget ul li {
-  line-height: 14px;
-}
-
 .single-widget ul li a{
-  line-height: 14px;
-  color: #8C8C88;
+  line-height: 20px;
+  color: #585656;
   font-size: 14px;
   font-weight: 300;
   padding: 5px 0;
@@ -818,7 +814,14 @@ a#scrollUp i{
 	color:#3e8893;
 }
 
-#share {
+.follow-us {
+  a {
+    display: block;
+    color: #585656;
+    margin-bottom: 10px;
+  }
+}
+.social {
   li {
     display: inline-block;
     margin-bottom: 5px;
@@ -826,7 +829,7 @@ a#scrollUp i{
   a {
     font-size: 20px;
     background-color: #3e8893;
-    color: #fff;
+    color: #fff !important;
     border-radius: 20px;
     width: 40px;
     height: 40px;
@@ -834,7 +837,7 @@ a#scrollUp i{
     vertical-align: middle;
     margin-right: 5px;
     &:hover {
-      background-color: #333333;
+      background-color: #333333 !important;
     }
     i {
       line-height: 30px;
@@ -1086,7 +1089,7 @@ article img {
     font-size: 16px;
     font-weight: 700;
     &.crossed {
-      color: #ff0000;
+      color: #e13250;
       span {
         text-decoration: line-through;
         color: #949494;
@@ -1104,8 +1107,8 @@ article img {
     text-transform: uppercase;
     min-width: 100px;
     &.sales {
-      border: 1px solid #ff0000;
-      color: #ff0000;
+      border: 1px solid #e13250;
+      color: #e13250;
     }
   }
 }
@@ -1201,7 +1204,10 @@ article img {
       background-repeat: no-repeat;
       background-position: 50% 0;
     }
-    span {
+    span:first-child {
+      color: #3e8893;
+    }
+    span:last-child {
       text-transform: none;
       font-weight: 400;
       font-style: italic;

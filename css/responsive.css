@@ -45,11 +45,11 @@
   }
 
   /* line 62, sass/responsive.scss */
-  #share {
+  .social {
     margin-top: 20px;
   }
   /* line 64, sass/responsive.scss */
-  #share li {
+  .social li {
     margin-bottom: 5px;
   }
 }
@@ -177,37 +177,41 @@
   #newsletter {
     text-align: center;
   }
+  /* line 165, sass/responsive.scss */
+  #newsletter form {
+    margin: 0 20px;
+  }
 
-  /* line 167, sass/responsive.scss */
+  /* line 170, sass/responsive.scss */
   #customer-support {
     text-align: center;
   }
-  /* line 170, sass/responsive.scss */
+  /* line 173, sass/responsive.scss */
   #customer-support p i {
     display: none;
   }
-  /* line 173, sass/responsive.scss */
+  /* line 176, sass/responsive.scss */
   #customer-support p span.phone {
     font-size: 36px;
   }
 
-  /* line 179, sass/responsive.scss */
-  #share {
+  /* line 182, sass/responsive.scss */
+  .social {
     margin-top: 20px;
     text-align: center;
   }
 
-  /* line 184, sass/responsive.scss */
+  /* line 187, sass/responsive.scss */
   #seo {
     margin-bottom: 0;
   }
-  /* line 186, sass/responsive.scss */
+  /* line 189, sass/responsive.scss */
   #seo .container {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 192, sass/responsive.scss */
+  /* line 195, sass/responsive.scss */
   .col-sm-15 {
     padding-left: 0;
     padding-right: 0;
