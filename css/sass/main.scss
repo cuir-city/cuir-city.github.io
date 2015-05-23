@@ -981,7 +981,7 @@ article img {
 }
 
 #featured-products, #promotions {
-  .col-sm-3 {
+  [class^="col-"] {
     margin-bottom: 10px;
   }
   .swiper-products-pagination {
