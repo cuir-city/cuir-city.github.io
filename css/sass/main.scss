@@ -46,8 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   position: relative;
-  // padding-left: 0;
-  // padding-right: 0;
 }
 
 .btn:hover,
@@ -127,7 +125,6 @@ a#scrollUp i{
 }
 
 .user-info ul li {
-  margin-left: 40px;
 }
 
 .user-info ul li a {
@@ -139,7 +136,7 @@ a#scrollUp i{
 }
 
 .user-info ul li a:hover{
-  background: none;
+  background-color: #000;
 }
 
 .user-info ul li a i:hover{
@@ -307,6 +304,7 @@ a#scrollUp i{
 }
 
 .search-box {
+  margin-top: 20px;
   width: 100%;
   input {
     background: #f2f2f2;
@@ -1169,7 +1167,6 @@ article img {
       @include background-image-hdpi("icon-delivery-black.png", "icon-delivery-black@2x.png");
       background-repeat: no-repeat;
       background-position: 50% 0;
-
     }
     &.moneyback {
       @include background-image-hdpi("icon-money-back.png", "icon-money-back@2x.png");

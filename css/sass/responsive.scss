@@ -12,12 +12,29 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    #services {
+        .service {
+            margin-bottom: 20px;
+        }
+    }
+
+    #contact {
+        .card p {
+            margin: 0 0 5px;
+        }
+    }
+
+    #share {
+        margin-top: 20px;
+        li {
+            margin-bottom: 5px;
+        }
+    }
 }
 
 /* xs */
 @media (max-width: 767px) {
-
-
 
     #header-top-mobile {
         #logo-mobile {
@@ -72,6 +89,7 @@
         text-align: center;
     }
     #swiper {
+        margin-top: 0;
         .container {
             padding: 0;
             .row {
@@ -114,18 +132,19 @@
 
     #customer-support {
         text-align:center;
-      p {
-        i {
-            display: none;
-        }
-          span.phone {
-            font-size: 36px;
+        p {
+            i {
+                display: none;
+            }
+            span.phone {
+                font-size: 36px;
             }
         }
     }
 
     #share {
         margin-top: 20px;
+        text-align: center;
     }
 
     #seo {
