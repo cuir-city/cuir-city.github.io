@@ -7,6 +7,16 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+    #news {
+        .newsweek {
+            hr {
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
 }
 
 
@@ -48,7 +58,7 @@
                 text-indent: -9999px;
                 width: 26px;
                 height: 24px;
-                @include background-image-hdpi("icon-shopping-bag.png", "icon-shopping-bag@2x.png");
+                @include background-image-hdpi("icon-shopping-bag-mobile.png", "icon-shopping-bag-mobile@2x.png");
                 background-repeat: no-repeat;
                 margin-top: 10px;
             }
