@@ -34,7 +34,7 @@
 
 <body>
 	<!-- slide menu left -->
-	<nav class="menu push-menu-left hidden-sm hidden-md">
+	<nav class="menu push-menu-left hidden-lg hidden-md hidden-sm">
 	    <ul>
 	        <li class="searchbox">
 	        	<form action="#">
@@ -108,14 +108,14 @@
 			<div class="header-top"><!--header-top-->
 				<div class="container hidden-xs">
 					<div class="row">
-						<div class="col-sm-6">
+						<div class="cold-md-6 col-sm-6">
 							<div class="contactinfo">
 								<ul class="nav nav-pills">
 									<li><a href="#" class="need-help">Besoin d'aide ? <span>Contactez-nous !</span></a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="user-info pull-right">
 								<ul class="nav navbar-nav">
 									<li class="dropdown account">
@@ -247,21 +247,194 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container mainmenu">
 				<div class="row">
 					<div class="col-md-8 col-sm-12">
-						<nav class="collapse navbar-collapse bs-navbar-collapse mainmenu">
+						<nav class="collapse navbar-collapse bs-navbar-collapse ">
 							<ul class="nav navbar-nav">
-								<li class="dropdown"><a href="#homme" class="active">Homme <i class="fa fa-angle-down hidden-xs"></i></a>
+								<li class="dropdown"><a href="#homme" class="active">Homme <i class="caret hidden-xs"></i></a>
+									<div class="sub-menu">
+										<ul class="sub-categories clearfix">
+											<li class="col-md-2 col-sm-4">
+												<a href="#blousons" class="blousons">Blousons</a>
+											</li>
+											<li class="col-md-2 col-sm-4">
+												<a href="#vestes" class="vestes">Vestes</a>
+											</li>
+											<li class="col-md-2 col-sm-4">
+												<a href="#pantalons" class="pantalons">Pantalons</a>
+											</li>
+											<li class="col-md-2 col-sm-4">
+												<a href="#chaussures" class="chaussures">Chaussures</a>
+											</li>
+											<li class="col-md-2 col-sm-4">
+												<a href="#accessoires" class="accessoires">Accessoires</a>
+											</li>
+											<li class="col-md-2 col-sm-4">
+												<a href="#textiles" class="textiles">Textiles</a>
+											</li>
+										</ul>
+										<div class="content default active clearfix">
+											<p class="up"><i class="fa fa-angle-up"></i></p>
+											<p>Choisissez votre cat&eacute;gorie parmi <strong>nos v&ecirc;tements en cuir</strong> et <strong>notre rayon textiles</strong></p>
+											<p><span>ou</span></p>
+											<p>d&eacute;couvrez nos</p>
+											<p><a href="#" class="btn">nouveaut&eacute;s</a></p>
+										</div>
+										<div id="blousons" class="content clearfix">
+											<div class="columns clearfix">
+												<div class="col-md-15 col-sm-15">
+													<h2>Par type</h2>
+													<ul>
+														<li><a href="#" class="icon aviateur">Aviateur</a></li>
+														<li class="icon"><a href="#" class="icon perfecto">Perfecto</a></li>
+														<li class="icon"><a href="#" class="icon bombardier">Bombardier</a></li>
+														<li class="icon"><a href="#" class="icon teddy">Teddy</a></li>
+														<li class="icon"><a href="#" class="icon doudoune">Doudoune</a></li>
+														<li class="icon"><a href="#" class="icon gilet">Gilet</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 fill">
+													<h2 class="invisible">Par type</h2>
+													<ul>
+														<li><a href="" class="icon capuche"><span>Avec capuche</span></a></li>
+														<li><a href="" class="icon col-motard">Col motard</a></li>
+														<li><a href="" class="icon col-chemise">Col chemise</a></li>
+														<li><a href="" class="icon col-fourrure">Col fourrure</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par style</h2>
+													<ul>
+														<li><a href="#">Tendance & Branch&eacute;</a></li>
+														<li><a href="#">Classique & ind&eacute;modable</a></li>
+														<li><a href="#">Rock</a></li>
+														<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+														<li><a href="#">Chic & Classe</a></li>
+														<li><a href="#">Color&eacute;</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par cuir</h2>
+													<ul>
+														<li><a href="#">Fin & l&eacute;ger</a></li>
+														<li><a href="#">Chaud & R&eacute;sistant</a></li>
+														<li><a href="#">Matelass&eacute;</a></li>
+														<li><a href="#">Aspect daim & velours</a></li>
+														<li><a href="#">Aspect vieilli</a></li>
+														<li><a href="#">Aspect brillant</a></li>
+														<li><a href="#">Peau retournée</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par marque</h2>
+													<ul>
+														<li><a href="#">Redskins</a></li>
+														<li><a href="#">Schott</a></li>
+														<li><a href="#">Aokwood</a></li>
+														<li><a href="#">Kaporal</a></li>
+														<li><a href="#">Serge Pariente</a></li>
+														<li><a href="#">Cityzen</a></li>
+														<li><a href="#">Chevignon</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="links clearfix">
+												<a href="#">Nouveaut&eacute;s</a>
+												<a href="#">Tout voir</a>
+											</div>
+										</div>
+										<div id="vestes" class="content clearfix">
+											<div class="columns clearfix">
+												<div class="col-md-15 col-sm-15">
+													<h2>Par type</h2>
+													<ul>
+														<li class="icon"><a href="#" class="icon mi-longues">Mi-longues</a></li>
+														<li class="icon"><a href="#" class="icon manteaux">Manteaux</a></li>
+														<li class="icon"><a href="#" class="icon blazzers">Blazzers</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par style</h2>
+													<ul>
+														<li><a href="#">Tendance & Branch&eacute;</a></li>
+														<li><a href="#">Classique & ind&eacute;modable</a></li>
+														<li><a href="#">Rock</a></li>
+														<li><a href="#">Sport & D&eacute;contract&eacute;</a></li>
+														<li><a href="#">Chic & Classe</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par cuir</h2>
+													<ul>
+														<li><a href="#">Fin & l&eacute;ger</a></li>
+														<li><a href="#">Chaud & R&eacute;sistant</a></li>
+														<li><a href="#">Matelass&eacute;</a></li>
+														<li><a href="#">Aspect daim & velours</a></li>
+														<li><a href="#">Aspect vieilli</a></li>
+														<li><a href="#">Aspect brillant</a></li>
+														<li><a href="#">Peau retournée</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 border">
+													<h2>Par marque</h2>
+													<ul>
+														<li><a href="#">Redskins</a></li>
+														<li><a href="#">Schott</a></li>
+														<li><a href="#">Aokwood</a></li>
+														<li><a href="#">Kaporal</a></li>
+														<li><a href="#">Serge Pariente</a></li>
+														<li><a href="#">Cityzen</a></li>
+														<li><a href="#">Chevignon</a></li>
+													</ul>
+												</div>
+												<div class="col-md-15 col-sm-15 background-image background-image-vestes">
+												</div>
+											</div>
+											<div class="links clearfix">
+												<a href="#">Nouveaut&eacute;s</a>
+												<a href="#">Tout voir</a>
+											</div>
+										</div>
+										<div id="pantalons" class="content clearfix">
+											<div class="columns nopadding clearfix">
+												<div class="col-md-12 col-sm-12 nopadding">
+													<img src="http://placehold.it/1140x300" alt="pantalons">
+												</div>
+											</div>
+											<div class="links clearfix">
+												<a href="#">Nouveaut&eacute;s</a>
+												<a href="#">Tout voir</a>
+											</div>
+										</div>
+										<div id="chaussures" class="content clearfix">
+											<div class="columns clearfix">
+												<div class="col-md-3 col-sm-3">
+													<h2>Chaussures</h2>
+													<ul>
+														<li><a href="#">Baskets en cuir</a></li>
+														<li><a href="#">Baskets en toile</a></li>
+														<li><a href="#">Boots et  bottines</a></li>
+													</ul>
+												</div>
+												<div class="col-md-9 col-sm-9 background-image background-image-chaussures">
+												</div>
+											</div>
+											<div class="links clearfix">
+												<a href="#">Nouveaut&eacute;s</a>
+												<a href="#">Tout voir</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown"><a href="#femme" >Femme <i class="caret hidden-xs"></i></a>
 
 								</li>
-								<li class="dropdown"><a href="#femme" >Femme <i class="fa fa-angle-down hidden-xs"></i></a>
+								<li class="dropdown"><a href="#garcon">Garçon <i class="caret hidden-xs"></i></a>
 								</li>
-								<li class="dropdown"><a href="#garcon">Garçon <i class="fa fa-angle-down hidden-xs"></i></a>
+								<li class="dropdown"><a href="#marques">Marques <i class="caret hidden-xs"></i></a>
 								</li>
-								<li class="dropdown"><a href="#marques">Marques <i class="fa fa-angle-down hidden-xs"></i></a>
-								</li>
-								<li><a href="#">Destockage</a></li>
+								<li class="dropdown"><a href="#">Destockage</a></li>
 							</ul>
 
 						</nav>
@@ -270,7 +443,7 @@
 						<a href="" class="pull-right shops-link">Nos boutiques <i class="fa fa-map-marker"></i></a>
 					</div>
 				</div>
-				<div id="homme" class="container sub-menu-container">
+				<!-- <div id="homme" class="container sub-menu-container">
 					<ul class="clearfix">
 						<li class="col-md-2"><a href="#blousons" data-toggle="tab" class="blousons active">Blousons</a></li>
 						<li class="col-md-2"><a href="#vestes" data-toggle="tab" class="vestes">Vestes</a></li>
@@ -659,7 +832,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</header><!--/header-->
 

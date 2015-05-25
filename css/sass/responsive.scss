@@ -17,6 +17,9 @@
             }
         }
     }
+    .sub-menu {
+        width: 940px !important;
+    }
 }
 
 
@@ -33,6 +36,10 @@
             vertical-align: middle;
             line-height: 15px;
         }
+    }
+
+    .sub-menu {
+        width: 720px !important;
     }
 
     #news {
@@ -118,7 +125,6 @@
         padding-left: 0;
     }
 
-
     #logo {
         text-align: center;
     }
@@ -142,11 +148,11 @@
         overflow: hidden;
     }
 
-    ul.sub-menu {
-        position: relative;
-        width: 100%;
-        top: 0px;
-    }
+    // ul.sub-menu {
+    //     position: relative;
+    //     width: 100%;
+    //     top: 0px;
+    // }
 
     #services {
         padding-bottom: 20px;
