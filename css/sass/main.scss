@@ -902,6 +902,34 @@ article img {
 }
 
 #brands {
+  padding: 20px 0;
+  background-color: #f2f2f2;
+  min-height: 140px;
+  text-align: center;
+  ul {
+    padding-left: 0;
+    li {
+      display: inline-block;
+      margin: 10px 10px;
+      a img {
+        // max-width: 50%;
+      }
+    }
+  }
+  a.more-brands {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      background-color: rgba(0, 0, 0, 0);
+      background: rgba(0, 0, 0, 0);
+      color: #302e31;
+      text-transform: uppercase;
+      border: 1px solid #000;
+      border-radius: 0;
+      vertical-align: middle;
+      padding: 5px 0;
+      text-align: center;
+    }
 }
 
 .section-title {
