@@ -947,9 +947,6 @@ article header {
   background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-8 */
 
-
-
-
   h1, h2 {
     margin: 0;
     padding: 0;
@@ -969,7 +966,7 @@ article header {
     margin-bottom: 50px;
   }
 }
-article img {
+#swiper article img {
   width: 100%;
   max-width: 100%;
 }
@@ -1130,26 +1127,21 @@ article img {
 
   .brand {
     display: inline-block;
-    margin-top: 20px;
-    text-indent: -9999px;
-    overflow: hidden;
-    &.redskins {
-      width: 160px;
-      height: 24px;
-      @include background-image-hdpi("brand_redskins.png", "brand_redskins.png");
-    }
-    &.redskins {
-      width: 160px;
-      height: 24px;
-      @include background-image-hdpi("brand_redskins.png", "brand_redskins.png");
+    margin-top: 10px;
+    img {
+      max-width: 100%;
     }
   }
   .price {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 16px;
     font-weight: 700;
     &.crossed {
       color: #e13250;
       span {
+        font-size: 14px;
         text-decoration: line-through;
         color: #949494;
         padding-right: 5px;
