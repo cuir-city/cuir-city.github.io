@@ -23,12 +23,12 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 33, sass/responsive.scss */
-  .header-middle .container .row {
+  .banner-info .container .row {
     padding-left: 10px;
   }
   /* line 36, sass/responsive.scss */
-  .header-middle a {
-    display: table-cell;
+  .banner-info a {
+    display: table-cell !important;
     height: 40px;
     vertical-align: middle;
     line-height: 15px;
