@@ -61,8 +61,6 @@ a#scrollUp {
   padding: 5px 10px;
   background: #333333;
   color: #FFF;
-  -webkit-animation: bounce 2s ease infinite;
-  animation: bounce 2s ease infinite;
 }
 
 a#scrollUp i{
@@ -128,6 +126,7 @@ a#scrollUp i{
 }
 
 .user-info ul li {
+  position: initial;
 }
 
 .user-info ul li a {
@@ -169,8 +168,8 @@ a#scrollUp i{
   }
   ul.sub-menu {
     position: absolute;
-    top: 20px;
-    right: 0;
+    top: 21px;
+    right: 15px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -190,6 +189,7 @@ a#scrollUp i{
       li a {
         text-transform: none;
         &:hover {
+          background-color: rgba(0,0,0,0);
           text-decoration: underline;
         }
         i {
@@ -912,7 +912,6 @@ article img {
       display: inline-block;
       margin: 10px 10px;
       a img {
-        // max-width: 50%;
       }
     }
   }
