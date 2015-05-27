@@ -17,8 +17,11 @@
             }
         }
     }
-    div.sub-menu {
+    .mainmenu .categories .sub-menu {
         width: 940px !important;
+    }
+    .card {
+        width: 31.333333% !important;
     }
 }
 
@@ -38,7 +41,7 @@
         }
     }
 
-    div.sub-menu {
+    .mainmenu .categories .sub-menu {
         width: 720px !important;
     }
 
@@ -61,6 +64,10 @@
     }
 
     #contact {
+        .card {
+            min-height: 190px !important;
+            width: 31.333333% !important;
+        }
         .card p {
             margin: 0;
         }
@@ -158,6 +165,9 @@
     #contact {
         padding-top: 0px;
         padding-bottom: 0px;
+        .card {
+            width: 100% !important;
+        }
     }
 
     #newsletter {

@@ -26,19 +26,9 @@ $('.swiper-images-product').each(function(){
 	  })
 });
 
-function setMegamenuWidth() {
-	// var containerWidth = $('.mainmenu').width();
-	// $('li.dropdown .sub-menu').width(containerWidth);
-}
-
-$( window ).resize(function() {
-	setMegamenuWidth();
-});
-
 $(document).ready(function(){
 
-	$(function () {
-		$.scrollUp({
+	$.scrollUp({
 	        scrollName: 'scrollUp', // Element ID
 	        scrollDistance: 300, // Distance from top/bottom before showing element (px)
 	        scrollFrom: 'top', // 'top' or 'bottom'
@@ -53,42 +43,47 @@ $(document).ready(function(){
 	        scrollImg: false, // Set true to use image
 	        activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 	        zIndex: 2147483647 // Z-Index for the overlay
-		});
 	});
 
 	$("img.lazy").lazyload({
 		effect : "fadeIn"
 	});
 
-	$('.mainmenu li.dropdown').mouseenter(function(){
-		$('.mainmenu li.dropdown').removeClass('active');
-		$(this).addClass('active');
-		$(this).find('.sub-menu').show();
-	});
-
-	$('.mainmenu li.dropdown').mouseleave(function(){
-		$(this).find('.sub-menu').hide();
-		$('.mainmenu li.dropdown').removeClass('active');
-	});
-
-	$('.sub-categories li a').mouseenter(function(){
-		$('.sub-categories li a').removeClass('active');
-		$(this).addClass('active');
-		var id = $(this).attr('href');
-		$('.sub-menu .content').removeClass('active');
-		$(id).addClass('active');
-	})
-
-	setMegamenuWidth();
-
+	// Main menu
+	initMainMenu();
 	initSliderMobile();
-
-
 });
 
 $(window).resize(function() {
 	initSliderMobile();
 });
+
+function initMainMenu()
+{
+	$('.mainmenu li.dropdown').mouseenter(function(){
+		$('#main-overlay').show();
+		$('.mainmenu li.dropdown').removeClass('active');
+		$(this).addClass('active');
+		$(this).find('.sub-menu').show();
+		$(this).find('.sub-menu').children('.content').removeClass('active');
+		$(this).find('.sub-menu').children('.content').first().addClass('active');
+		$('.sub-categories li a').removeClass('active');
+	});
+
+	$('.mainmenu li.dropdown').mouseleave(function(){
+		$('#main-overlay').hide();
+		$(this).find('.sub-menu').hide();
+		$('.mainmenu li.dropdown').removeClass('active');
+	});
+
+	$('.mainmenu .categories .sub-categories li a').mouseenter(function(){
+		$('.sub-categories li a').removeClass('active');
+		$(this).addClass('active');
+		var id = $(this).attr('data-category');
+		$(this).parents('.sub-menu').find('.content').removeClass('active');
+		$(this).parents('.sub-menu').find(id).addClass('active');
+	})
+}
 
 function initSliderMobile(classNameContainer)
 {
