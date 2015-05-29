@@ -867,6 +867,7 @@ article header {
   }
 }
 
+/** Product **/
 .product {
   text-align: center;
   .wrapper-image {
@@ -918,16 +919,6 @@ article header {
         }
       }
 
-    }
-    &:hover {
-      .overlay {
-        display: block;
-        -webkit-animation: fadeInUp 400ms;
-        -moz-animation: fadeInUp 400ms;
-        -ms-animation: fadeInUp 400ms;
-        -o-animation: fadeInUp 400ms;
-        animation: fadeInUp 400ms;
-      }
     }
   }
 
@@ -985,6 +976,23 @@ article header {
     background-repeat: no-repeat;
     &:hover {
       @include background-image-hdpi("icon-favorite-hover.png", "icon-favorite-hover.png");
+    }
+  }
+}
+
+.no-touch {
+  .product {
+    .wrapper-image {
+      &:hover {
+        .overlay {
+          display: block;
+          -webkit-animation: fadeInUp 400ms;
+          -moz-animation: fadeInUp 400ms;
+          -ms-animation: fadeInUp 400ms;
+          -o-animation: fadeInUp 400ms;
+          animation: fadeInUp 400ms;
+        }
+      }
     }
   }
 }
