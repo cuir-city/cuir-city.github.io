@@ -280,14 +280,16 @@ a#scrollUp i{
           line-height: 21px;
           padding-left: 25px;
 
+          span {
+              font-style: italic;
+              text-transform: none;
+            }
+
           &.money-back {
             @include background-image-hdpi("icon-heart.png", "icon-heart@2x.png");
             background-repeat: no-repeat;
             background-position: 0 50%;
-            span {
-              font-style: italic;
-              text-transform: none;
-            }
+
           }
 
           &.delivery {
