@@ -17,7 +17,7 @@
             }
         }
     }
-    .mainmenu .categories .sub-menu {
+    .desktop-menu .categories .sub-menu {
         width: 940px !important;
     }
     .card {
@@ -41,7 +41,7 @@
         }
     }
 
-    .mainmenu .categories .sub-menu {
+    .desktop-menu .categories .sub-menu {
         width: 720px !important;
     }
 
@@ -137,6 +137,7 @@
     }
     #swiper {
         margin-top: 0;
+        margin-bottom: 0;
         .container {
             padding: 0;
             .row {
@@ -211,3 +212,17 @@
 /* XS Portrait */
 @media (max-width: 480px) {
 }
+
+@media only screen and (max-width: 240px) and (orientation : portrait) {
+  /* PORTRAIT:
+  LG Viewty KU990
+  Nokia 700
+  Nokia 2700
+  Nokia N95
+  Samsung Galaxy S3 Mini
+  Nokia 300*/
+    [class^="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
