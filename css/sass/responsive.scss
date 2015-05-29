@@ -150,6 +150,9 @@
                     }
                 }
             }
+            .swiper-slide {
+                min-height: 375px;
+            }
         }
     #featured-products,#promotions {
         .container {
