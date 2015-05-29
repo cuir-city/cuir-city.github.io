@@ -135,24 +135,35 @@
     #logo {
         text-align: center;
     }
-    #swiper {
-        margin-top: 0;
-        margin-bottom: 0;
+    #featured-products,#promotions {
         .container {
-            padding: 0;
-            .row {
-                margin: 0;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        #swiper {
+            margin-top: 0;
+            margin-bottom: 0;
+            .container {
                 padding: 0;
-                .col-sm-12 {
+                .row {
                     margin: 0;
                     padding: 0;
+                    .col-sm-12 {
+                        margin: 0;
+                        padding: 0;
+                    }
                 }
             }
         }
     }
 
+
     .swiper-products-container {
-        width: 330px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 375px;
         overflow: hidden;
         .product .favorite {
             display: none;
