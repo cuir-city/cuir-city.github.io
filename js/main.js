@@ -12,22 +12,6 @@ var mySwiper = new Swiper ('.swiper-push', {
     paginationClickable: true
   })
 
-// $('.swiper-images-product').each(function(){
-
-// 	var container = $(this);
-// 	var swiperImagesProduct = new Swiper (container, {
-// 	    // Optional parameters
-// 	    direction: 'horizontal',
-// 	    loop: true,
-// 	    simulateTouch: false,
-// 	    allowSwipeToPrev: false,
-// 	    allowSwipeToNext: false,
-// 	    nextButton : container.parent().find('.btn-next'),
-// 	    prevButton : container.parent().find('.btn-previous'),
-// 	    lazyLoading: true
-// 	  })
-// });
-
 $(document).ready(function(){
 
 	$.scrollUp({
@@ -50,6 +34,7 @@ $(document).ready(function(){
 	$("img.lazy").lazyload({
 		effect : "fadeIn"
 	});
+
 
 	// Desktop menu
 	initDesktopMenu();
@@ -118,6 +103,22 @@ function initSliderMobile(classNameContainer)
 		}
 	}
 	else {
+
+		$('.swiper-images-product').each(function(){
+			var container = $(this);
+			var swiperImagesProduct = new Swiper (container, {
+			    // Optional parameters
+			    direction: 'horizontal',
+			    loop: true,
+			    simulateTouch: false,
+			    allowSwipeToPrev: false,
+			    allowSwipeToNext: false,
+			    nextButton : container.parents('.product').find('.btn-next'),
+			    prevButton : container.parents('.product').find('.btn-previous'),
+			    lazyLoading: true
+			  })
+		});
+
 		swipers.forEach(function(swiper)
 		{
 			if (swiper != null)

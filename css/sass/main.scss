@@ -881,9 +881,9 @@ article header {
       border: 1px solid #000;
       background-color:rgba(0,0,0,0.50);
       width:100%;
-      min-height: 300px;
+      min-height: 250px;
       display: none;
-      z-index: 999;
+      z-index: 999999;
       span {
         font-weight: 700;
         display: inline-block;
@@ -919,6 +919,9 @@ article header {
         }
       }
 
+    }
+    .product-link {
+      display: block;
     }
   }
 
