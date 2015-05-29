@@ -49,8 +49,9 @@ $(document).ready(function(){
 		effect : "fadeIn"
 	});
 
-	// Main menu
-	initMainMenu();
+	// Desktop menu
+	initDesktopMenu();
+	// Sliders mobile
 	initSliderMobile();
 });
 
@@ -58,11 +59,11 @@ $(window).resize(function() {
 	initSliderMobile();
 });
 
-function initMainMenu()
+function initDesktopMenu()
 {
-	$('.mainmenu li.dropdown').mouseenter(function(){
+	$('.desktop-menu li.dropdown').mouseenter(function(){
 		$('#main-overlay').show();
-		$('.mainmenu li.dropdown').removeClass('active');
+		$('.desktop-menu li.dropdown').removeClass('active');
 		$(this).addClass('active');
 		$(this).find('.sub-menu').show();
 		$(this).find('.sub-menu').children('.content').removeClass('active');
@@ -70,13 +71,13 @@ function initMainMenu()
 		$('.sub-categories li a').removeClass('active');
 	});
 
-	$('.mainmenu li.dropdown').mouseleave(function(){
+	$('.desktop-menu li.dropdown').mouseleave(function(){
 		$('#main-overlay').hide();
 		$(this).find('.sub-menu').hide();
-		$('.mainmenu li.dropdown').removeClass('active');
+		$('.desktop-menu li.dropdown').removeClass('active');
 	});
 
-	$('.mainmenu .categories .sub-categories li a').mouseenter(function(){
+	$('.desktop-menu .categories .sub-categories li a').mouseenter(function(){
 		$('.sub-categories li a').removeClass('active');
 		$(this).addClass('active');
 		var id = $(this).attr('data-category');

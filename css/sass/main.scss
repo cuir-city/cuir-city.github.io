@@ -309,13 +309,13 @@ a#scrollUp i{
   }
 }
 
-.logo {
+header .logo {
   a {
     margin-left: 10px;
   }
 }
 
-.search-box {
+header .search-box {
   margin-top: 20px;
   width: 100%;
   background: #f2f2f2;
@@ -347,7 +347,7 @@ a#scrollUp i{
   }
 }
 
-.mainmenu {
+.desktop-menu {
   .sub-menu {
     display: none;
     position: absolute;
@@ -355,11 +355,11 @@ a#scrollUp i{
   }
 }
 
-.mainmenu .categories > li.dropdown {
+.desktop-menu .categories > li.dropdown {
   position: inherit;
 }
 
-.mainmenu .categories li.dropdown {
+.desktop-menu .categories li.dropdown {
   &.active {
     > a {
       background: rgba(0,0,0,0);
@@ -639,7 +639,7 @@ a#scrollUp i{
   }
 }
 
-.mainmenu .shops {
+.desktop-menu .shops {
   li.dropdown {
     position: inherit;
     > a {
@@ -715,212 +715,8 @@ a#scrollUp i{
 }
 
 /*************************
-*******Footer CSS******
+******* Body ******
 **************************/
-
-#footer {
-  background: #efefef;
-}
-
-#contact {
-  div.card {
-    min-height: 160px;
-    width: 32.333333%;
-    &:not(:last-child)
-    {
-      margin-right: 15px;
-    }
-  }
-padding: 20px 0;
-h1 {
-  margin-top: 15px;
-}
-i{
-  vertical-align: middle;
-}
-#newsletter {
-  background-color: #3e8893;
-  color: #fff;
-  h3 {
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    i.mail {
-      display: inline-block;
-      width: 26px;
-      height: 18px;
-      @include background-image-hdpi("icon-mail.png", "icon-mail@2x.png");
-      margin-right: 10px;
-    }
-  }
-  form {
-    border-bottom: 1px solid #fff;
-    height: 30px;
-  }
-  input[type=email] {
-    color: #fff;
-    width: 100%;
-    background: none;
-    border-radius: 0;
-    border: none;
-    margin: 0;
-    @include box-shadow(none);
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    line-height: 12px;
-    @include input-placeholder {
-      color: #fff;
-      font-style: italic;
-    }
-  }
-  button {
-    width: 100%;
-    background: none;
-    border: none;
-    color: #fff;
-    padding-left: 0;
-    padding-right: 0;
-    text-align: right;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-  .col-sm-2 {
-    padding-left: 0;
-  }
-}
-#customer-support {
-  background-color: #fff;
-  h3 {
-    background-repeat: no-repeat;
-    color: #333333;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    i.adviser {
-      display: inline-block;
-      width: 21px;
-      height: 24px;
-      @include background-image-hdpi("icon-adviser.png", "icon-adviser@2x.png");
-      margin-right: 10px;
-    }
-  }
-  p {
-    color: #585656;
-    span.phone {
-      font-weight: 700;
-      color: #3e8893;
-    }
-  }
-}
-#advice {
-  background-color: #fff;
-  h3 {
-    color: #333333;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  ul {
-    padding: 0;
-    margin: 0;
-    a {
-      color: #585656;
-    }
-  }
-
-}
-}
-
-#seo {
-  border-top: 1px solid #fff;
-  margin-bottom: 20px;
-}
-
-.single-widget h3 {
-  color: #3e8893;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 22px;
-  text-transform: uppercase;
-}
-
-.single-widget ul li a{
-  line-height: 20px;
-  color: #585656;
-  font-size: 14px;
-  font-weight: 300;
-  padding: 5px 0;
-}
-
-.single-widget ul li a:hover{
-  background:none;
-  color:#3e8893;
-}
-
-.follow-us {
-  a {
-    display: block;
-    color: #585656;
-    margin-bottom: 10px;
-  }
-}
-.social {
-  li {
-    display: inline-block;
-    margin-bottom: 5px;
-  }
-  a {
-    font-size: 20px;
-    background-color: #3e8893 !important;
-    color: #fff !important;
-    border-radius: 20px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 5px;
-    &:hover {
-      background-color: #333333 !important;
-    }
-    i {
-      line-height: 30px;
-    }
-  }
-}
-
-#services-list {
-  padding: 0;
-  margin: 20px 0 0 0;
-  font-size: 28px;
-  text-transform: uppercase;
-  li {
-    &:first-child {
-      border-top: 1px solid #fff;
-    }
-    border-bottom: 1px solid #fff;
-    padding: 20px;
-    a {
-      color: #585656;
-    }
-  }
-}
-
-#copyright {
-  background: #000000;
-  padding: 10px 0;
-  color: #fff;
-  span {
-    margin-left: 20px;
-  }
-}
-
-
-/*************************
-******* Home ******
-**************************/
-
-
 #swiper {
   margin-bottom: 10px;
 }
@@ -1209,8 +1005,6 @@ article header {
   }
 }
 
-
-
 #news {
   background-color: #f2f2f2;
   padding: 20px 0;
@@ -1246,6 +1040,207 @@ article header {
         }
       }
     }
+  }
+}
+
+/*************************
+*******Footer CSS******
+**************************/
+
+#footer {
+  background: #efefef;
+}
+
+#contact {
+  div.card {
+    min-height: 160px;
+    width: 32.333333%;
+    &:not(:last-child)
+    {
+      margin-right: 15px;
+    }
+  }
+padding: 20px 0;
+h1 {
+  margin-top: 15px;
+}
+i{
+  vertical-align: middle;
+}
+#newsletter {
+  background-color: #3e8893;
+  color: #fff;
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    i.mail {
+      display: inline-block;
+      width: 26px;
+      height: 18px;
+      @include background-image-hdpi("icon-mail.png", "icon-mail@2x.png");
+      margin-right: 10px;
+    }
+  }
+  form {
+    border-bottom: 1px solid #fff;
+    height: 30px;
+  }
+  input[type=email] {
+    color: #fff;
+    width: 100%;
+    background: none;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    @include box-shadow(none);
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 12px;
+    @include input-placeholder {
+      color: #fff;
+      font-style: italic;
+    }
+  }
+  button {
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .col-sm-2 {
+    padding-left: 0;
+  }
+}
+#customer-support {
+  background-color: #fff;
+  h3 {
+    background-repeat: no-repeat;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    i.adviser {
+      display: inline-block;
+      width: 21px;
+      height: 24px;
+      @include background-image-hdpi("icon-adviser.png", "icon-adviser@2x.png");
+      margin-right: 10px;
+    }
+  }
+  p {
+    color: #585656;
+    span.phone {
+      font-weight: 700;
+      color: #3e8893;
+    }
+  }
+}
+#advice {
+  background-color: #fff;
+  h3 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    a {
+      color: #585656;
+    }
+  }
+
+}
+}
+
+#seo {
+  border-top: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.single-widget h3 {
+  color: #3e8893;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+
+.single-widget ul li a{
+  line-height: 20px;
+  color: #585656;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 5px 0;
+}
+
+.single-widget ul li a:hover{
+  background:none;
+  color:#3e8893;
+}
+
+.follow-us {
+  a {
+    display: block;
+    color: #585656;
+    margin-bottom: 10px;
+  }
+}
+.social {
+  li {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  a {
+    font-size: 20px;
+    background-color: #3e8893 !important;
+    color: #fff !important;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    &:hover {
+      background-color: #333333 !important;
+    }
+    i {
+      line-height: 30px;
+    }
+  }
+}
+
+#services-list {
+  padding: 0;
+  margin: 20px 0 0 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  li {
+    &:first-child {
+      border-top: 1px solid #fff;
+    }
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    a {
+      color: #585656;
+    }
+  }
+}
+
+#copyright {
+  background: #000000;
+  padding: 10px 0;
+  color: #fff;
+  span {
+    margin-left: 20px;
   }
 }
 
@@ -1305,6 +1300,7 @@ article header {
   }
 }
 
+// Gris 5 columns
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
