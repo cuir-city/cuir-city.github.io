@@ -278,14 +278,13 @@ a#scrollUp i{
           text-transform: uppercase;
           display: inline-block;
           line-height: 21px;
-          padding-left: 25px;
-
           span {
               font-style: italic;
               text-transform: none;
             }
 
           &.money-back {
+            padding-left: 25px;
             @include background-image-hdpi("icon-heart.png", "icon-heart@2x.png");
             background-repeat: no-repeat;
             background-position: 0 50%;
@@ -293,12 +292,14 @@ a#scrollUp i{
           }
 
           &.delivery {
+            padding-left: 30px;
             @include background-image-hdpi("icon-delivery.png", "icon-delivery@2x.png");
             background-repeat: no-repeat;
             background-position: 0 50%;
           }
 
           &.star {
+            padding-left: 25px;
             @include background-image-hdpi("icon-star.png", "icon-star@2x.png");
             background-repeat: no-repeat;
             background-position: 0 50%;
@@ -1188,6 +1189,10 @@ i{
 }
 
 .follow-us {
+  [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
   a {
     display: block;
     color: #585656;
@@ -1198,6 +1203,7 @@ i{
   li {
     display: inline-block;
     margin-bottom: 5px;
+    text-align: center;
   }
   a {
     font-size: 20px;

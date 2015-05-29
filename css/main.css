@@ -329,21 +329,21 @@ a#scrollUp i {
   text-transform: uppercase;
   display: inline-block;
   line-height: 21px;
-  padding-left: 25px;
 }
-/* line 283, sass/main.scss */
+/* line 281, sass/main.scss */
 .banner-info .container .row [class^="col-"] a span {
   font-style: italic;
   text-transform: none;
 }
-/* line 288, sass/main.scss */
+/* line 286, sass/main.scss */
 .banner-info .container .row [class^="col-"] a.money-back {
+  padding-left: 25px;
   background-image: url('../images/icon-heart.png?1432054710');
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 288, sass/main.scss */
+  /* line 286, sass/main.scss */
   .banner-info .container .row [class^="col-"] a.money-back {
     background-image: url('../images/icon-heart@2x.png?1432054710');
     -moz-background-size: 18px 16px;
@@ -352,14 +352,15 @@ a#scrollUp i {
     background-size: 18px 16px;
   }
 }
-/* line 295, sass/main.scss */
+/* line 294, sass/main.scss */
 .banner-info .container .row [class^="col-"] a.delivery {
+  padding-left: 30px;
   background-image: url('../images/icon-delivery.png?1432054710');
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 295, sass/main.scss */
+  /* line 294, sass/main.scss */
   .banner-info .container .row [class^="col-"] a.delivery {
     background-image: url('../images/icon-delivery@2x.png?1432054710');
     -moz-background-size: 21px 21px;
@@ -370,6 +371,7 @@ a#scrollUp i {
 }
 /* line 301, sass/main.scss */
 .banner-info .container .row [class^="col-"] a.star {
+  padding-left: 25px;
   background-image: url('../images/icon-star.png?1432054710');
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -385,18 +387,18 @@ a#scrollUp i {
   }
 }
 
-/* line 313, sass/main.scss */
+/* line 314, sass/main.scss */
 header .logo a {
   margin-left: 10px;
 }
 
-/* line 318, sass/main.scss */
+/* line 319, sass/main.scss */
 header .search-box {
   margin-top: 20px;
   width: 100%;
   background: #f2f2f2;
 }
-/* line 322, sass/main.scss */
+/* line 323, sass/main.scss */
 header .search-box input {
   border: medium none;
   color: #8b8a8a;
@@ -413,7 +415,7 @@ header .search-box input {
   font-weight: 300;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 322, sass/main.scss */
+  /* line 323, sass/main.scss */
   header .search-box input {
     background-image: url('../images/icon-search@2x.png?1432373868');
     -moz-background-size: 20px 20px;
@@ -442,7 +444,7 @@ header .search-box input::-webkit-input-placeholder {
   font-style: italic;
   font-weight: 300;
 }
-/* line 341, sass/main.scss */
+/* line 342, sass/main.scss */
 header .search-box button {
   background: transparent;
   margin-top: 1px;
@@ -451,24 +453,24 @@ header .search-box button {
   outline: medium none;
 }
 
-/* line 351, sass/main.scss */
+/* line 352, sass/main.scss */
 .desktop-menu .sub-menu {
   display: none;
   position: absolute;
   z-index: 999999;
 }
 
-/* line 358, sass/main.scss */
+/* line 359, sass/main.scss */
 .desktop-menu .categories > li.dropdown {
   position: inherit;
 }
 
-/* line 364, sass/main.scss */
+/* line 365, sass/main.scss */
 .desktop-menu .categories li.dropdown.active > a {
   background: transparent;
   color: #3e8893;
 }
-/* line 369, sass/main.scss */
+/* line 370, sass/main.scss */
 .desktop-menu .categories li.dropdown > a {
   color: #000;
   text-transform: uppercase;
@@ -476,7 +478,7 @@ header .search-box button {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 377, sass/main.scss */
+/* line 378, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu {
   display: none;
   position: absolute;
@@ -487,12 +489,12 @@ header .search-box button {
   width: 1140px;
   text-align: center;
 }
-/* line 386, sass/main.scss */
+/* line 387, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul {
   padding-left: 0;
   background: #000;
 }
-/* line 390, sass/main.scss */
+/* line 391, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a {
   color: #fff;
   line-height: 60px;
@@ -502,13 +504,13 @@ header .search-box button {
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
-/* line 398, sass/main.scss */
+/* line 399, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.blousons {
   background-image: url('../images/icon-blousons.png?1432054710');
   padding-left: 30px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 398, sass/main.scss */
+  /* line 399, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.blousons {
     background-image: url('../images/icon-blousons@2x.png?1432054710');
     -moz-background-size: 39px 40px;
@@ -517,13 +519,13 @@ header .search-box button {
     background-size: 39px 40px;
   }
 }
-/* line 402, sass/main.scss */
+/* line 403, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.blousons-femme {
   background-image: url('../images/icon-blousons-femme.png?1432904454');
   padding-left: 30px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 402, sass/main.scss */
+  /* line 403, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.blousons-femme {
     background-image: url('../images/icon-blousons-femme@2x.png?1432904454');
     -moz-background-size: 40px 40px;
@@ -532,12 +534,12 @@ header .search-box button {
     background-size: 40px 40px;
   }
 }
-/* line 406, sass/main.scss */
+/* line 407, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.vestes {
   background-image: url('../images/icon-vestes.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 406, sass/main.scss */
+  /* line 407, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.vestes {
     background-image: url('../images/icon-vestes@2x.png?1432054710');
     -moz-background-size: 36px 42px;
@@ -546,12 +548,12 @@ header .search-box button {
     background-size: 36px 42px;
   }
 }
-/* line 409, sass/main.scss */
+/* line 410, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.vestes-femme {
   background-image: url('../images/icon-vestes-femme.png?1432904454');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 409, sass/main.scss */
+  /* line 410, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.vestes-femme {
     background-image: url('../images/icon-vestes-femme@2x.png?1432904454');
     -moz-background-size: 38px 42px;
@@ -560,12 +562,12 @@ header .search-box button {
     background-size: 38px 42px;
   }
 }
-/* line 412, sass/main.scss */
+/* line 413, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.pantalons {
   background-image: url('../images/icon-pantalons.png?1432904454');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 412, sass/main.scss */
+  /* line 413, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.pantalons {
     background-image: url('../images/icon-pantalons@2x.png?1432904454');
     -moz-background-size: 20px 42px;
@@ -574,13 +576,13 @@ header .search-box button {
     background-size: 20px 42px;
   }
 }
-/* line 415, sass/main.scss */
+/* line 416, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.chaussures {
   background-image: url('../images/icon-chaussures.png?1432054710');
   padding-left: 35px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 415, sass/main.scss */
+  /* line 416, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.chaussures {
     background-image: url('../images/icon-chaussures@2x.png?1432054710');
     -moz-background-size: 44px 23px;
@@ -589,13 +591,13 @@ header .search-box button {
     background-size: 44px 23px;
   }
 }
-/* line 419, sass/main.scss */
+/* line 420, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.accessoires {
   background-image: url('../images/icon-accessoires.png?1432054710');
   padding-left: 35px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 419, sass/main.scss */
+  /* line 420, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.accessoires {
     background-image: url('../images/icon-accessoires@2x.png?1432054710');
     -moz-background-size: 35px 30px;
@@ -604,12 +606,12 @@ header .search-box button {
     background-size: 35px 30px;
   }
 }
-/* line 423, sass/main.scss */
+/* line 424, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.textiles {
   background-image: url('../images/icon-textiles.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 423, sass/main.scss */
+  /* line 424, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.textiles {
     background-image: url('../images/icon-textiles@2x.png?1432054710');
     -moz-background-size: 39px 35px;
@@ -618,16 +620,16 @@ header .search-box button {
     background-size: 39px 35px;
   }
 }
-/* line 426, sass/main.scss */
+/* line 427, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active {
   color: #3e8893;
 }
-/* line 428, sass/main.scss */
+/* line 429, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.blousons {
   background-image: url('../images/icon-blousons-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 428, sass/main.scss */
+  /* line 429, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.blousons {
     background-image: url('../images/icon-blousons-hover@2x.png?1432054710');
     -moz-background-size: 39px 40px;
@@ -636,13 +638,13 @@ header .search-box button {
     background-size: 39px 40px;
   }
 }
-/* line 431, sass/main.scss */
+/* line 432, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.blousons-femme {
   background-image: url('../images/icon-blousons-femme-hover.png?1432904454');
   padding-left: 30px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 431, sass/main.scss */
+  /* line 432, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.blousons-femme {
     background-image: url('../images/icon-blousons-femme-hover@2x.png?1432904454');
     -moz-background-size: 40px 40px;
@@ -651,12 +653,12 @@ header .search-box button {
     background-size: 40px 40px;
   }
 }
-/* line 435, sass/main.scss */
+/* line 436, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.vestes {
   background-image: url('../images/icon-vestes-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 435, sass/main.scss */
+  /* line 436, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.vestes {
     background-image: url('../images/icon-vestes-hover@2x.png?1432054710');
     -moz-background-size: 36px 42px;
@@ -665,12 +667,12 @@ header .search-box button {
     background-size: 36px 42px;
   }
 }
-/* line 438, sass/main.scss */
+/* line 439, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.vestes-femme {
   background-image: url('../images/icon-vestes-femme-hover.png?1432904454');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 438, sass/main.scss */
+  /* line 439, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.vestes-femme {
     background-image: url('../images/icon-vestes-femme-hover@2x.png?1432904454');
     -moz-background-size: 38px 42px;
@@ -679,12 +681,12 @@ header .search-box button {
     background-size: 38px 42px;
   }
 }
-/* line 441, sass/main.scss */
+/* line 442, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.pantalons {
   background-image: url('../images/icon-pantalons-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 441, sass/main.scss */
+  /* line 442, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.pantalons {
     background-image: url('../images/icon-pantalons-hover@2x.png?1432054710');
     -moz-background-size: 20px 45px;
@@ -693,12 +695,12 @@ header .search-box button {
     background-size: 20px 45px;
   }
 }
-/* line 444, sass/main.scss */
+/* line 445, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.chaussures {
   background-image: url('../images/icon-chaussures-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 444, sass/main.scss */
+  /* line 445, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.chaussures {
     background-image: url('../images/icon-chaussures-hover@2x.png?1432054710');
     -moz-background-size: 44px 23px;
@@ -707,12 +709,12 @@ header .search-box button {
     background-size: 44px 23px;
   }
 }
-/* line 447, sass/main.scss */
+/* line 448, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.accessoires {
   background-image: url('../images/icon-accessoires-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 447, sass/main.scss */
+  /* line 448, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.accessoires {
     background-image: url('../images/icon-accessoires-hover@2x.png?1432054710');
     -moz-background-size: 35px 30px;
@@ -721,12 +723,12 @@ header .search-box button {
     background-size: 35px 30px;
   }
 }
-/* line 450, sass/main.scss */
+/* line 451, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.textiles {
   background-image: url('../images/icon-textiles-hover.png?1432054710');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 450, sass/main.scss */
+  /* line 451, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a.active.textiles {
     background-image: url('../images/icon-textiles-hover@2x.png?1432054710');
     -moz-background-size: 39px 35px;
@@ -735,36 +737,36 @@ header .search-box button {
     background-size: 39px 35px;
   }
 }
-/* line 457, sass/main.scss */
+/* line 458, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content {
   display: none;
   text-align: left;
 }
-/* line 459, sass/main.scss */
+/* line 460, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.active {
   display: block;
 }
-/* line 462, sass/main.scss */
+/* line 463, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default {
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: center;
 }
-/* line 466, sass/main.scss */
+/* line 467, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p {
   font-size: 16px;
   text-transform: uppercase;
 }
-/* line 469, sass/main.scss */
+/* line 470, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p.up {
   font-size: 24px;
 }
-/* line 472, sass/main.scss */
+/* line 473, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p span {
   font-style: italic;
   text-transform: none;
 }
-/* line 476, sass/main.scss */
+/* line 477, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p a {
   display: inline-block;
   font-size: 12px;
@@ -778,22 +780,22 @@ header .search-box button {
   vertical-align: middle;
   padding: 10px 40px !important;
 }
-/* line 492, sass/main.scss */
+/* line 493, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns {
   min-height: 300px;
   padding-left: 15px;
   overflow: hidden;
 }
-/* line 496, sass/main.scss */
+/* line 497, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns [class^="col-"] {
   margin-bottom: -9999px;
   padding-bottom: 9999px;
 }
-/* line 500, sass/main.scss */
+/* line 501, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .border {
   border-left: 1px solid #e1e1e1;
 }
-/* line 503, sass/main.scss */
+/* line 504, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns h2 {
   font-size: 14px;
   font-weight: 700;
@@ -801,33 +803,33 @@ header .search-box button {
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 510, sass/main.scss */
+/* line 511, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul {
   padding-left: 0;
   padding-top: 10px;
 }
-/* line 513, sass/main.scss */
+/* line 514, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li {
   line-height: 30px;
 }
-/* line 517, sass/main.scss */
+/* line 518, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a {
   color: #000;
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
-/* line 521, sass/main.scss */
+/* line 522, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.icon {
   display: block;
   line-height: 45px;
 }
-/* line 525, sass/main.scss */
+/* line 526, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.aviateur {
   background-image: url('../images/icon-aviateur.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 525, sass/main.scss */
+  /* line 526, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.aviateur {
     background-image: url('../images/icon-aviateur@2x.png?1432054710');
     -moz-background-size: 32px 33px;
@@ -836,13 +838,13 @@ header .search-box button {
     background-size: 32px 33px;
   }
 }
-/* line 529, sass/main.scss */
+/* line 530, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.perfecto {
   background-image: url('../images/icon-perfecto.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 529, sass/main.scss */
+  /* line 530, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.perfecto {
     background-image: url('../images/icon-perfecto@2x.png?1432054710');
     -moz-background-size: 32px 33px;
@@ -851,13 +853,13 @@ header .search-box button {
     background-size: 32px 33px;
   }
 }
-/* line 533, sass/main.scss */
+/* line 534, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.perfecto-femme {
   background-image: url('../images/icon-perfecto-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 533, sass/main.scss */
+  /* line 534, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.perfecto-femme {
     background-image: url('../images/icon-perfecto-femme@2x.png?1432904454');
     -moz-background-size: 32px 33px;
@@ -866,13 +868,13 @@ header .search-box button {
     background-size: 32px 33px;
   }
 }
-/* line 537, sass/main.scss */
+/* line 538, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.bombardier {
   background-image: url('../images/icon-bombardier.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 537, sass/main.scss */
+  /* line 538, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.bombardier {
     background-image: url('../images/icon-bombardier@2x.png?1432054710');
     -moz-background-size: 32px 35px;
@@ -881,13 +883,13 @@ header .search-box button {
     background-size: 32px 35px;
   }
 }
-/* line 541, sass/main.scss */
+/* line 542, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.bombardier-femme {
   background-image: url('../images/icon-bombardier-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 541, sass/main.scss */
+  /* line 542, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.bombardier-femme {
     background-image: url('../images/icon-bombardier-femme@2x.png?1432904454');
     -moz-background-size: 32px 33px;
@@ -896,13 +898,13 @@ header .search-box button {
     background-size: 32px 33px;
   }
 }
-/* line 545, sass/main.scss */
+/* line 546, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.teddy {
   background-image: url('../images/icon-teddy.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 545, sass/main.scss */
+  /* line 546, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.teddy {
     background-image: url('../images/icon-teddy@2x.png?1432054710');
     -moz-background-size: 32px 33px;
@@ -911,13 +913,13 @@ header .search-box button {
     background-size: 32px 33px;
   }
 }
-/* line 549, sass/main.scss */
+/* line 550, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.doudoune {
   background-image: url('../images/icon-doudoune.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 549, sass/main.scss */
+  /* line 550, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.doudoune {
     background-image: url('../images/icon-doudoune@2x.png?1432054710');
     -moz-background-size: 33px 44px;
@@ -926,13 +928,13 @@ header .search-box button {
     background-size: 33px 44px;
   }
 }
-/* line 553, sass/main.scss */
+/* line 554, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.doudoune-femme {
   background-image: url('../images/icon-doudoune-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 553, sass/main.scss */
+  /* line 554, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.doudoune-femme {
     background-image: url('../images/icon-doudoune-femme@2x.png?1432904454');
     -moz-background-size: 32px 44px;
@@ -941,13 +943,13 @@ header .search-box button {
     background-size: 32px 44px;
   }
 }
-/* line 557, sass/main.scss */
+/* line 558, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.fourrure-femme {
   background-image: url('../images/icon-fourrure-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 557, sass/main.scss */
+  /* line 558, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.fourrure-femme {
     background-image: url('../images/icon-fourrure-femme@2x.png?1432904454');
     -moz-background-size: 32px 49px;
@@ -956,14 +958,14 @@ header .search-box button {
     background-size: 32px 49px;
   }
 }
-/* line 561, sass/main.scss */
+/* line 562, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.gilet {
   background-image: url('../images/icon-gilet.png?1432054710');
   padding-left: 45px;
   background-position: 6px 50%;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 561, sass/main.scss */
+  /* line 562, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.gilet {
     background-image: url('../images/icon-gilet@2x.png?1432054710');
     -moz-background-size: 20px 28px;
@@ -972,13 +974,13 @@ header .search-box button {
     background-size: 20px 28px;
   }
 }
-/* line 566, sass/main.scss */
+/* line 567, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.capuche {
   background-image: url('../images/icon-capuche.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 566, sass/main.scss */
+  /* line 567, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.capuche {
     background-image: url('../images/icon-capuche@2x.png?1432054710');
     -moz-background-size: 32px 45px;
@@ -987,13 +989,13 @@ header .search-box button {
     background-size: 32px 45px;
   }
 }
-/* line 570, sass/main.scss */
+/* line 571, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.capuche-femme {
   background-image: url('../images/icon-capuche-femme.png?1432740697');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 570, sass/main.scss */
+  /* line 571, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.capuche-femme {
     background-image: url('../images/icon-capuche-femme@2x.png?1432740697');
     -moz-background-size: 32px 42px;
@@ -1002,13 +1004,13 @@ header .search-box button {
     background-size: 32px 42px;
   }
 }
-/* line 574, sass/main.scss */
+/* line 575, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-motard {
   background-image: url('../images/icon-col-motard.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 574, sass/main.scss */
+  /* line 575, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-motard {
     background-image: url('../images/icon-col-motard@2x.png?1432054710');
     -moz-background-size: 32px 32px;
@@ -1017,13 +1019,13 @@ header .search-box button {
     background-size: 32px 32px;
   }
 }
-/* line 578, sass/main.scss */
+/* line 579, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-chemise {
   background-image: url('../images/icon-col-chemise.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 578, sass/main.scss */
+  /* line 579, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-chemise {
     background-image: url('../images/icon-col-chemise@2x.png?1432054710');
     -moz-background-size: 32px 32px;
@@ -1032,13 +1034,13 @@ header .search-box button {
     background-size: 32px 32px;
   }
 }
-/* line 582, sass/main.scss */
+/* line 583, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-fourrure {
   background-image: url('../images/icon-col-fourrure.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 582, sass/main.scss */
+  /* line 583, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.col-fourrure {
     background-image: url('../images/icon-col-fourrure@2x.png?1432054710');
     -moz-background-size: 32px 32px;
@@ -1047,13 +1049,13 @@ header .search-box button {
     background-size: 32px 32px;
   }
 }
-/* line 586, sass/main.scss */
+/* line 587, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.mi-longues {
   background-image: url('../images/icon-mi-longues.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 586, sass/main.scss */
+  /* line 587, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.mi-longues {
     background-image: url('../images/icon-mi-longues@2x.png?1432054710');
     -moz-background-size: 34px 37px;
@@ -1062,13 +1064,13 @@ header .search-box button {
     background-size: 34px 37px;
   }
 }
-/* line 590, sass/main.scss */
+/* line 591, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.mi-longues-femme {
   background-image: url('../images/icon-mi-longues-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 590, sass/main.scss */
+  /* line 591, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.mi-longues-femme {
     background-image: url('../images/icon-mi-longues-femme@2x.png?1432904454');
     -moz-background-size: 32px 34px;
@@ -1077,13 +1079,13 @@ header .search-box button {
     background-size: 32px 34px;
   }
 }
-/* line 594, sass/main.scss */
+/* line 595, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.manteaux {
   background-image: url('../images/icon-manteaux.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 594, sass/main.scss */
+  /* line 595, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.manteaux {
     background-image: url('../images/icon-manteaux@2x.png?1432054710');
     -moz-background-size: 36px 45px;
@@ -1092,13 +1094,13 @@ header .search-box button {
     background-size: 36px 45px;
   }
 }
-/* line 598, sass/main.scss */
+/* line 599, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.manteaux-femme {
   background-image: url('../images/icon-manteaux-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 598, sass/main.scss */
+  /* line 599, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.manteaux-femme {
     background-image: url('../images/icon-manteaux-femme@2x.png?1432904454');
     -moz-background-size: 32px 40px;
@@ -1107,13 +1109,13 @@ header .search-box button {
     background-size: 32px 40px;
   }
 }
-/* line 602, sass/main.scss */
+/* line 603, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.blazers {
   background-image: url('../images/icon-blazers.png?1432054710');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 602, sass/main.scss */
+  /* line 603, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.blazers {
     background-image: url('../images/icon-blazers@2x.png?1432054710');
     -moz-background-size: 32px 37px;
@@ -1122,13 +1124,13 @@ header .search-box button {
     background-size: 32px 37px;
   }
 }
-/* line 606, sass/main.scss */
+/* line 607, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.blazers-femme {
   background-image: url('../images/icon-blazers-femme.png?1432904454');
   padding-left: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 606, sass/main.scss */
+  /* line 607, sass/main.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a.blazers-femme {
     background-image: url('../images/icon-blazers-femme@2x.png?1432904454');
     -moz-background-size: 32px 37px;
@@ -1137,29 +1139,29 @@ header .search-box button {
     background-size: 32px 37px;
   }
 }
-/* line 610, sass/main.scss */
+/* line 611, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a:hover {
   color: #3e8893;
 }
-/* line 615, sass/main.scss */
+/* line 616, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-vestes {
   background-image: url(../images/homme-veste.jpg);
 }
-/* line 618, sass/main.scss */
+/* line 619, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-vestes-femme {
   background-image: url(../images/femme-veste.jpg);
 }
-/* line 621, sass/main.scss */
+/* line 622, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-chaussures {
   background-image: url(http://placehold.it/1000x300);
 }
-/* line 626, sass/main.scss */
+/* line 627, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .links {
   background: #f2f2f2;
   padding: 20px 0;
   text-align: center;
 }
-/* line 630, sass/main.scss */
+/* line 631, sass/main.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .links a {
   color: #302e31;
   border: 1px solid #302e31;
@@ -1168,30 +1170,30 @@ header .search-box button {
   text-transform: uppercase;
 }
 
-/* line 643, sass/main.scss */
+/* line 644, sass/main.scss */
 .desktop-menu .shops li.dropdown {
   position: inherit;
 }
-/* line 645, sass/main.scss */
+/* line 646, sass/main.scss */
 .desktop-menu .shops li.dropdown > a {
   color: #171717;
 }
-/* line 648, sass/main.scss */
+/* line 649, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu {
   right: 15px;
   background-color: #000;
   width: 315px !important;
   margin-left: 0;
 }
-/* line 653, sass/main.scss */
+/* line 654, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul {
   padding: 20px 25px;
 }
-/* line 656, sass/main.scss */
+/* line 657, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li:not(:first-child) {
   margin-top: 15px;
 }
-/* line 659, sass/main.scss */
+/* line 660, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a {
   display: block;
   text-transform: none;
@@ -1200,34 +1202,34 @@ header .search-box button {
   color: #fff;
   text-align: center;
 }
-/* line 666, sass/main.scss */
+/* line 667, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a:hover {
   background-color: #3e8893 !important;
   color: #fff;
 }
-/* line 670, sass/main.scss */
+/* line 671, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span {
   line-height: 16px;
   display: block;
 }
-/* line 673, sass/main.scss */
+/* line 674, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span.shop-label {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 677, sass/main.scss */
+/* line 678, sass/main.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span.shop-address {
   font-size: 12px;
 }
 
-/* line 688, sass/main.scss */
+/* line 689, sass/main.scss */
 .shops-link {
   font-size: 16px;
   text-transform: uppercase;
   color: #727272;
   line-height: 40px;
 }
-/* line 693, sass/main.scss */
+/* line 694, sass/main.scss */
 .shops-link > a {
   background-image: url('../images/icon-store.png?1432904454');
   background-repeat: no-repeat;
@@ -1236,7 +1238,7 @@ header .search-box button {
   margin-right: 10px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 693, sass/main.scss */
+  /* line 694, sass/main.scss */
   .shops-link > a {
     background-image: url('../images/icon-store@2x.png?1432904454');
     -moz-background-size: 14px 18px;
@@ -1245,16 +1247,16 @@ header .search-box button {
     background-size: 14px 18px;
   }
 }
-/* line 700, sass/main.scss */
+/* line 701, sass/main.scss */
 .shops-link:hover {
   color: #3e8893;
 }
-/* line 703, sass/main.scss */
+/* line 704, sass/main.scss */
 .shops-link i {
   color: #3e8893;
 }
 
-/* line 708, sass/main.scss */
+/* line 709, sass/main.scss */
 #main-overlay {
   display: none;
   position: absolute;
@@ -1267,30 +1269,30 @@ header .search-box button {
 /*************************
 ******* Body ******
 **************************/
-/* line 720, sass/main.scss */
+/* line 721, sass/main.scss */
 #swiper {
   margin-bottom: 10px;
 }
 
-/* line 724, sass/main.scss */
+/* line 725, sass/main.scss */
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   border: 1px solid #fff;
 }
 
-/* line 730, sass/main.scss */
+/* line 731, sass/main.scss */
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #fff;
 }
 
-/* line 735, sass/main.scss */
+/* line 736, sass/main.scss */
 article {
   position: relative;
 }
 
-/* line 739, sass/main.scss */
+/* line 740, sass/main.scss */
 article header {
   position: absolute;
   width: 100%;
@@ -1314,83 +1316,83 @@ article header {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
   /* IE6-8 */
 }
-/* line 755, sass/main.scss */
+/* line 756, sass/main.scss */
 article header h1, article header h2 {
   margin: 0;
   padding: 0;
   color: #fff;
   text-transform: uppercase;
 }
-/* line 761, sass/main.scss */
+/* line 762, sass/main.scss */
 article header h1 {
   font-weight: 700;
   font-size: 30px;
 }
-/* line 765, sass/main.scss */
+/* line 766, sass/main.scss */
 article header h2 {
   font-size: 18px;
   font-weight: 400;
 }
-/* line 769, sass/main.scss */
+/* line 770, sass/main.scss */
 article header .discover {
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-/* line 774, sass/main.scss */
+/* line 775, sass/main.scss */
 #swiper article img {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 779, sass/main.scss */
+/* line 780, sass/main.scss */
 .item {
   position: relative;
 }
-/* line 781, sass/main.scss */
+/* line 782, sass/main.scss */
 .item .col-sm-12 {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 787, sass/main.scss */
+/* line 788, sass/main.scss */
 #articles {
   margin-bottom: 20px;
 }
-/* line 789, sass/main.scss */
+/* line 790, sass/main.scss */
 #articles .col-sm-6:first-child {
   padding-right: 0;
 }
-/* line 792, sass/main.scss */
+/* line 793, sass/main.scss */
 #articles article {
   min-height: 270px;
 }
-/* line 794, sass/main.scss */
+/* line 795, sass/main.scss */
 #articles article h1 {
   font-size: 24px;
 }
-/* line 797, sass/main.scss */
+/* line 798, sass/main.scss */
 #articles article h2 {
   font-size: 14px;
 }
 
-/* line 803, sass/main.scss */
+/* line 804, sass/main.scss */
 #brands {
   padding: 20px 0;
   background-color: #f2f2f2;
   min-height: 140px;
   text-align: center;
 }
-/* line 808, sass/main.scss */
+/* line 809, sass/main.scss */
 #brands ul {
   padding-left: 0;
 }
-/* line 810, sass/main.scss */
+/* line 811, sass/main.scss */
 #brands ul li {
   display: inline-block;
   margin: 10px 10px;
 }
-/* line 817, sass/main.scss */
+/* line 818, sass/main.scss */
 #brands a.more-brands {
   display: inline-block;
   font-size: 12px;
@@ -1406,11 +1408,11 @@ article header .discover {
   text-align: center;
 }
 
-/* line 833, sass/main.scss */
+/* line 834, sass/main.scss */
 .section-title {
   margin-bottom: 20px;
 }
-/* line 835, sass/main.scss */
+/* line 836, sass/main.scss */
 .section-title h1 {
   font-size: 28px;
   font-weight: 700;
@@ -1418,7 +1420,7 @@ article header .discover {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 842, sass/main.scss */
+/* line 843, sass/main.scss */
 .section-title p {
   font-size: 16px;
   font-weight: 400;
@@ -1427,39 +1429,39 @@ article header .discover {
   text-align: center;
 }
 
-/* line 852, sass/main.scss */
+/* line 853, sass/main.scss */
 #featured-products [class^="col-"], #promotions [class^="col-"] {
   margin-bottom: 10px;
 }
-/* line 855, sass/main.scss */
+/* line 856, sass/main.scss */
 #featured-products .swiper-products-pagination, #promotions .swiper-products-pagination {
   text-align: center;
 }
-/* line 857, sass/main.scss */
+/* line 858, sass/main.scss */
 #featured-products .swiper-products-pagination .swiper-pagination-bullet, #promotions .swiper-products-pagination .swiper-pagination-bullet {
   background: #fff;
   border: 1px solid #3e8893;
   margin-right: 2px;
 }
-/* line 862, sass/main.scss */
+/* line 863, sass/main.scss */
 #featured-products .swiper-products-pagination .swiper-pagination-bullet-active, #promotions .swiper-products-pagination .swiper-pagination-bullet-active {
   background: #3e8893;
   opacity: 1;
 }
 
-/* line 869, sass/main.scss */
+/* line 870, sass/main.scss */
 .product {
   text-align: center;
 }
-/* line 871, sass/main.scss */
+/* line 872, sass/main.scss */
 .product .wrapper-image {
   position: relative;
 }
-/* line 873, sass/main.scss */
+/* line 874, sass/main.scss */
 .product .wrapper-image img {
   max-width: 230px;
 }
-/* line 876, sass/main.scss */
+/* line 877, sass/main.scss */
 .product .wrapper-image .overlay {
   position: absolute;
   bottom: 0;
@@ -1470,7 +1472,7 @@ article header .discover {
   display: none;
   z-index: 999;
 }
-/* line 885, sass/main.scss */
+/* line 886, sass/main.scss */
 .product .wrapper-image .overlay span {
   font-weight: 700;
   display: inline-block;
@@ -1479,7 +1481,7 @@ article header .discover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 894, sass/main.scss */
+/* line 895, sass/main.scss */
 .product .wrapper-image .overlay ul li {
   display: inline-block;
   background-color: #fff;
@@ -1490,7 +1492,7 @@ article header .discover {
   text-transform: uppercase;
   padding: 10px 20px;
 }
-/* line 905, sass/main.scss */
+/* line 906, sass/main.scss */
 .product .wrapper-image .overlay .actions {
   position: absolute;
   left: 0;
@@ -1500,13 +1502,13 @@ article header .discover {
   border-top: 1px solid #000;
   padding: 10px 0;
 }
-/* line 913, sass/main.scss */
+/* line 914, sass/main.scss */
 .product .wrapper-image .overlay .actions a {
   color: #302e31;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 922, sass/main.scss */
+/* line 923, sass/main.scss */
 .product .wrapper-image:hover .overlay {
   display: block;
   -webkit-animation: fadeInUp 400ms;
@@ -1515,16 +1517,16 @@ article header .discover {
   -o-animation: fadeInUp 400ms;
   animation: fadeInUp 400ms;
 }
-/* line 933, sass/main.scss */
+/* line 934, sass/main.scss */
 .product .brand {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 936, sass/main.scss */
+/* line 937, sass/main.scss */
 .product .brand img {
   max-width: 100%;
 }
-/* line 940, sass/main.scss */
+/* line 941, sass/main.scss */
 .product .price {
   display: block;
   margin-top: 10px;
@@ -1532,18 +1534,18 @@ article header .discover {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 946, sass/main.scss */
+/* line 947, sass/main.scss */
 .product .price.crossed {
   color: #e13250;
 }
-/* line 948, sass/main.scss */
+/* line 949, sass/main.scss */
 .product .price.crossed span {
   font-size: 14px;
   text-decoration: line-through;
   color: #949494;
   padding-right: 5px;
 }
-/* line 956, sass/main.scss */
+/* line 957, sass/main.scss */
 .product span.tag {
   display: inline-block;
   color: #221a32;
@@ -1554,18 +1556,18 @@ article header .discover {
   text-transform: uppercase;
   margin: 2px;
 }
-/* line 965, sass/main.scss */
+/* line 966, sass/main.scss */
 .product span.tag.offer-percentage {
   border: 1px solid #e13250;
   color: #e13250;
 }
-/* line 969, sass/main.scss */
+/* line 970, sass/main.scss */
 .product span.tag.offer-label {
   border: 1px solid #e13250;
   color: #fff;
   background-color: #e13250;
 }
-/* line 975, sass/main.scss */
+/* line 976, sass/main.scss */
 .product .favorite {
   display: block;
   overflow: hidden;
@@ -1578,7 +1580,7 @@ article header .discover {
   background-repeat: no-repeat;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 975, sass/main.scss */
+  /* line 976, sass/main.scss */
   .product .favorite {
     background-image: url('../images/icon-favorite.png?1432657964');
     -moz-background-size: 17px 15px;
@@ -1587,12 +1589,12 @@ article header .discover {
     background-size: 17px 15px;
   }
 }
-/* line 985, sass/main.scss */
+/* line 986, sass/main.scss */
 .product .favorite:hover {
   background-image: url('../images/icon-favorite-hover.png?1432657964');
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 985, sass/main.scss */
+  /* line 986, sass/main.scss */
   .product .favorite:hover {
     background-image: url('../images/icon-favorite-hover.png?1432657964');
     -moz-background-size: 17px 15px;
@@ -1602,7 +1604,7 @@ article header .discover {
   }
 }
 
-/* line 992, sass/main.scss */
+/* line 993, sass/main.scss */
 .more-articles a {
   display: inline-block;
   font-size: 12px;
@@ -1618,45 +1620,45 @@ article header .discover {
   padding: 5px 30px;
 }
 
-/* line 1008, sass/main.scss */
+/* line 1009, sass/main.scss */
 #news {
   background-color: #f2f2f2;
   padding: 20px 0;
 }
-/* line 1011, sass/main.scss */
+/* line 1012, sass/main.scss */
 #news article {
   background-color: #333333;
   min-height: 267px;
 }
-/* line 1015, sass/main.scss */
+/* line 1016, sass/main.scss */
 #news article header h1 {
   font-size: 20px;
 }
-/* line 1018, sass/main.scss */
+/* line 1019, sass/main.scss */
 #news article header h2 {
   font-size: 16px;
 }
-/* line 1021, sass/main.scss */
+/* line 1022, sass/main.scss */
 #news article header .discover {
   margin-bottom: 20px;
 }
-/* line 1026, sass/main.scss */
+/* line 1027, sass/main.scss */
 #news article.newsweek header {
   background: none;
 }
-/* line 1028, sass/main.scss */
+/* line 1029, sass/main.scss */
 #news article.newsweek header h1 {
   font-size: 24px;
 }
-/* line 1031, sass/main.scss */
+/* line 1032, sass/main.scss */
 #news article.newsweek header h2 {
   font-size: 20px;
 }
-/* line 1034, sass/main.scss */
+/* line 1035, sass/main.scss */
 #news article.newsweek header hr {
   width: 10%;
 }
-/* line 1037, sass/main.scss */
+/* line 1038, sass/main.scss */
 #news article.newsweek header p {
   padding-left: 20px;
   padding-right: 20px;
@@ -1665,44 +1667,44 @@ article header .discover {
 /*************************
 *******Footer CSS******
 **************************/
-/* line 1050, sass/main.scss */
+/* line 1051, sass/main.scss */
 #footer {
   background: #efefef;
 }
 
-/* line 1054, sass/main.scss */
+/* line 1055, sass/main.scss */
 #contact {
   padding: 20px 0;
 }
-/* line 1055, sass/main.scss */
+/* line 1056, sass/main.scss */
 #contact div.card {
   min-height: 160px;
   width: 32.333333%;
 }
-/* line 1058, sass/main.scss */
+/* line 1059, sass/main.scss */
 #contact div.card:not(:last-child) {
   margin-right: 15px;
 }
-/* line 1064, sass/main.scss */
+/* line 1065, sass/main.scss */
 #contact h1 {
   margin-top: 15px;
 }
-/* line 1067, sass/main.scss */
+/* line 1068, sass/main.scss */
 #contact i {
   vertical-align: middle;
 }
-/* line 1070, sass/main.scss */
+/* line 1071, sass/main.scss */
 #contact #newsletter {
   background-color: #3e8893;
   color: #fff;
 }
-/* line 1073, sass/main.scss */
+/* line 1074, sass/main.scss */
 #contact #newsletter h3 {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1077, sass/main.scss */
+/* line 1078, sass/main.scss */
 #contact #newsletter h3 i.mail {
   display: inline-block;
   width: 26px;
@@ -1711,7 +1713,7 @@ article header .discover {
   margin-right: 10px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1077, sass/main.scss */
+  /* line 1078, sass/main.scss */
   #contact #newsletter h3 i.mail {
     background-image: url('../images/icon-mail@2x.png?1432054710');
     -moz-background-size: 26px 18px;
@@ -1720,12 +1722,12 @@ article header .discover {
     background-size: 26px 18px;
   }
 }
-/* line 1085, sass/main.scss */
+/* line 1086, sass/main.scss */
 #contact #newsletter form {
   border-bottom: 1px solid #fff;
   height: 30px;
 }
-/* line 1089, sass/main.scss */
+/* line 1090, sass/main.scss */
 #contact #newsletter input[type=email] {
   color: #fff;
   width: 100%;
@@ -1761,7 +1763,7 @@ article header .discover {
   color: #fff;
   font-style: italic;
 }
-/* line 1106, sass/main.scss */
+/* line 1107, sass/main.scss */
 #contact #newsletter button {
   width: 100%;
   background: none;
@@ -1773,15 +1775,15 @@ article header .discover {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 1117, sass/main.scss */
+/* line 1118, sass/main.scss */
 #contact #newsletter .col-sm-2 {
   padding-left: 0;
 }
-/* line 1121, sass/main.scss */
+/* line 1122, sass/main.scss */
 #contact #customer-support {
   background-color: #fff;
 }
-/* line 1123, sass/main.scss */
+/* line 1124, sass/main.scss */
 #contact #customer-support h3 {
   background-repeat: no-repeat;
   color: #333333;
@@ -1789,7 +1791,7 @@ article header .discover {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1129, sass/main.scss */
+/* line 1130, sass/main.scss */
 #contact #customer-support h3 i.adviser {
   display: inline-block;
   width: 21px;
@@ -1798,7 +1800,7 @@ article header .discover {
   margin-right: 10px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1129, sass/main.scss */
+  /* line 1130, sass/main.scss */
   #contact #customer-support h3 i.adviser {
     background-image: url('../images/icon-adviser@2x.png?1432054710');
     -moz-background-size: 21px 24px;
@@ -1807,43 +1809,43 @@ article header .discover {
     background-size: 21px 24px;
   }
 }
-/* line 1137, sass/main.scss */
+/* line 1138, sass/main.scss */
 #contact #customer-support p {
   color: #585656;
 }
-/* line 1139, sass/main.scss */
+/* line 1140, sass/main.scss */
 #contact #customer-support p span.phone {
   font-weight: 700;
   color: #3e8893;
 }
-/* line 1145, sass/main.scss */
+/* line 1146, sass/main.scss */
 #contact #advice {
   background-color: #fff;
 }
-/* line 1147, sass/main.scss */
+/* line 1148, sass/main.scss */
 #contact #advice h3 {
   color: #333333;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1153, sass/main.scss */
+/* line 1154, sass/main.scss */
 #contact #advice ul {
   padding: 0;
   margin: 0;
 }
-/* line 1156, sass/main.scss */
+/* line 1157, sass/main.scss */
 #contact #advice ul a {
   color: #585656;
 }
 
-/* line 1164, sass/main.scss */
+/* line 1165, sass/main.scss */
 #seo {
   border-top: 1px solid #fff;
   margin-bottom: 20px;
 }
 
-/* line 1169, sass/main.scss */
+/* line 1170, sass/main.scss */
 .single-widget h3 {
   color: #3e8893;
   font-size: 14px;
@@ -1852,7 +1854,7 @@ article header .discover {
   text-transform: uppercase;
 }
 
-/* line 1177, sass/main.scss */
+/* line 1178, sass/main.scss */
 .single-widget ul li a {
   line-height: 20px;
   color: #585656;
@@ -1861,25 +1863,31 @@ article header .discover {
   padding: 5px 0;
 }
 
-/* line 1185, sass/main.scss */
+/* line 1186, sass/main.scss */
 .single-widget ul li a:hover {
   background: none;
   color: #3e8893;
 }
 
-/* line 1191, sass/main.scss */
+/* line 1192, sass/main.scss */
+.follow-us [class^="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 1196, sass/main.scss */
 .follow-us a {
   display: block;
   color: #585656;
   margin-bottom: 10px;
 }
 
-/* line 1198, sass/main.scss */
+/* line 1203, sass/main.scss */
 .social li {
   display: inline-block;
   margin-bottom: 5px;
+  text-align: center;
 }
-/* line 1202, sass/main.scss */
+/* line 1208, sass/main.scss */
 .social a {
   font-size: 20px;
   background-color: #3e8893 !important;
@@ -1891,57 +1899,57 @@ article header .discover {
   vertical-align: middle;
   margin-right: 5px;
 }
-/* line 1212, sass/main.scss */
+/* line 1218, sass/main.scss */
 .social a:hover {
   background-color: #333333 !important;
 }
-/* line 1215, sass/main.scss */
+/* line 1221, sass/main.scss */
 .social a i {
   line-height: 30px;
 }
 
-/* line 1221, sass/main.scss */
+/* line 1227, sass/main.scss */
 #services-list {
   padding: 0;
   margin: 20px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
 }
-/* line 1226, sass/main.scss */
+/* line 1232, sass/main.scss */
 #services-list li {
   border-bottom: 1px solid #fff;
   padding: 20px;
 }
-/* line 1227, sass/main.scss */
+/* line 1233, sass/main.scss */
 #services-list li:first-child {
   border-top: 1px solid #fff;
 }
-/* line 1232, sass/main.scss */
+/* line 1238, sass/main.scss */
 #services-list li a {
   color: #585656;
 }
 
-/* line 1238, sass/main.scss */
+/* line 1244, sass/main.scss */
 #copyright {
   background: #000000;
   padding: 10px 0;
   color: #fff;
 }
-/* line 1242, sass/main.scss */
+/* line 1248, sass/main.scss */
 #copyright span {
   margin-left: 20px;
 }
 
-/* line 1247, sass/main.scss */
+/* line 1253, sass/main.scss */
 #services {
   background-color: #f2f2f2;
   padding: 20px;
 }
-/* line 1250, sass/main.scss */
+/* line 1256, sass/main.scss */
 #services ul {
   padding-left: 0;
 }
-/* line 1253, sass/main.scss */
+/* line 1259, sass/main.scss */
 #services a {
   display: inline-block;
   font-size: 14px;
@@ -1951,14 +1959,14 @@ article header .discover {
   text-transform: uppercase;
   padding-top: 60px;
 }
-/* line 1261, sass/main.scss */
+/* line 1267, sass/main.scss */
 #services a.delivery {
   background-image: url('../images/icon-delivery-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1261, sass/main.scss */
+  /* line 1267, sass/main.scss */
   #services a.delivery {
     background-image: url('../images/icon-delivery-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1967,14 +1975,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1266, sass/main.scss */
+/* line 1272, sass/main.scss */
 #services a.moneyback {
   background-image: url('../images/icon-money-back.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1266, sass/main.scss */
+  /* line 1272, sass/main.scss */
   #services a.moneyback {
     background-image: url('../images/icon-money-back@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1983,14 +1991,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1271, sass/main.scss */
+/* line 1277, sass/main.scss */
 #services a.payment-facility {
   background-image: url('../images/icon-payment-facility.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1271, sass/main.scss */
+  /* line 1277, sass/main.scss */
   #services a.payment-facility {
     background-image: url('../images/icon-payment-facility@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1999,14 +2007,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1276, sass/main.scss */
+/* line 1282, sass/main.scss */
 #services a.secure-payment {
   background-image: url('../images/icon-secure-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1276, sass/main.scss */
+  /* line 1282, sass/main.scss */
   #services a.secure-payment {
     background-image: url('../images/icon-secure-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -2015,14 +2023,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1281, sass/main.scss */
+/* line 1287, sass/main.scss */
 #services a.satisfy {
   background-image: url('../images/icon-satisfy-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1281, sass/main.scss */
+  /* line 1287, sass/main.scss */
   #services a.satisfy {
     background-image: url('../images/icon-satisfy-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -2031,29 +2039,29 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1286, sass/main.scss */
+/* line 1292, sass/main.scss */
 #services a span:first-child {
   color: #3e8893;
 }
-/* line 1289, sass/main.scss */
+/* line 1295, sass/main.scss */
 #services a span:last-child {
   text-transform: none;
   font-weight: 400;
   font-style: italic;
 }
 
-/* line 1297, sass/main.scss */
+/* line 1303, sass/main.scss */
 #seo {
   font-size: 12px;
   color: #8c8b8b;
   padding-top: 20px;
 }
-/* line 1301, sass/main.scss */
+/* line 1307, sass/main.scss */
 #seo p {
   text-align: center;
 }
 
-/* line 1307, sass/main.scss */
+/* line 1313, sass/main.scss */
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -2064,28 +2072,28 @@ article header .discover {
   padding-left: 10px;
 }
 
-/* line 1317, sass/main.scss */
+/* line 1323, sass/main.scss */
 .col-xs-15 {
   width: 20%;
   float: left;
 }
 
 @media (min-width: 768px) {
-  /* line 1322, sass/main.scss */
+  /* line 1328, sass/main.scss */
   .col-sm-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 992px) {
-  /* line 1328, sass/main.scss */
+  /* line 1334, sass/main.scss */
   .col-md-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1334, sass/main.scss */
+  /* line 1340, sass/main.scss */
   .col-lg-15 {
     width: 20%;
     float: left;

@@ -20,6 +20,8 @@ $('.swiper-images-product').each(function(){
 	    direction: 'horizontal',
 	    loop: true,
 	    simulateTouch: false,
+	    allowSwipeToPrev: false,
+	    allowSwipeToNext: false,
 	    nextButton : container.parent().find('.btn-next'),
 	    prevButton : container.parent().find('.btn-previous'),
 	    lazyLoading: true
