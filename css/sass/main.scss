@@ -260,9 +260,11 @@ a#scrollUp i{
 }
 
 .banner-info {
+  position: relative;
   .container
   {
     .row {
+      position: relative;
       border: 1px solid #3e8893;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -306,8 +308,25 @@ a#scrollUp i{
           }
         }
       }
+      .close-link {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #3f8893 !important;
+        color: #fff;
+        width: 30px;
+        line-height: 31px;
+        text-align: center;
+        font-size: 14px;
+        text-indent: -9999px;
+        @include background-image-hdpi("icon-close.png", "icon-close@2x.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+      }
     }
   }
+
 }
 
 header .logo {
@@ -850,6 +869,7 @@ article header {
 }
 
 #featured-products, #promotions {
+  margin-bottom: 20px;
   [class^="col-"] {
     margin-bottom: 10px;
   }
