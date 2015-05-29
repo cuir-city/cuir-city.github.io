@@ -80,24 +80,25 @@ function initSliderMobile(classNameContainer)
 		if (swipers.length == 0)
 		{
 			$('.swiper-products-container').each(function(){
-			var container = $(this);
-			var wrapper = container.children().first();
-			wrapper.addClass('swiper-wrapper');
-			wrapper.children().addClass('swiper-slide');
-			var mySwiper = new Swiper ($(this), {
-			    // Optional parameters
-			    direction: 'horizontal',
-			    loop: true,
+				var container = $(this);
+				var wrapper = container.children().first();
+				wrapper.addClass('swiper-wrapper');
+				wrapper.children().addClass('swiper-slide');
+				var mySwiper = new Swiper ($(this), {
+				// Optional parameters
+				// If we need pagination
+				pagination: $(this).find('.swiper-products-pagination'),
+				direction: 'horizontal',
+				loop: true,
+				grabCursor: true,
+				centeredSlides: true,
+				slidesPerView: 2,
+				// Navigation arrows
+				nextButton: '.swiper-products-button-next',
+				prevButton: '.swiper-products-button-prev',
+				})
 
-			    // If we need pagination
-			    pagination: $(this).find('.swiper-products-pagination'),
-
-			    // Navigation arrows
-			    nextButton: '.swiper-products-button-next',
-			    prevButton: '.swiper-products-button-prev',
-			  })
-
-			swipers.push(mySwiper);
+				swipers.push(mySwiper);
 
 			});
 		}

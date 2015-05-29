@@ -154,6 +154,12 @@
     .swiper-products-container {
         width: 330px;
         overflow: hidden;
+        .product .favorite {
+            display: none;
+        }
+        .product .wrapper-image img {
+            max-width: 140px;
+        }
     }
 
     #services {

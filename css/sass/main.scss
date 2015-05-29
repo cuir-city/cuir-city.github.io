@@ -872,6 +872,7 @@ article header {
   text-align: center;
   .wrapper-image {
     position: relative;
+    min-height: 210px;
     img {
       max-width: 230px;
     }

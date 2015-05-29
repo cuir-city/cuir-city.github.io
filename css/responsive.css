@@ -171,65 +171,73 @@
     width: 330px;
     overflow: hidden;
   }
+  /* line 157, sass/responsive.scss */
+  .swiper-products-container .product .favorite {
+    display: none;
+  }
+  /* line 160, sass/responsive.scss */
+  .swiper-products-container .product .wrapper-image img {
+    max-width: 140px;
+  }
 
-  /* line 159, sass/responsive.scss */
+  /* line 165, sass/responsive.scss */
   #services {
     padding-bottom: 20px;
   }
-  /* line 161, sass/responsive.scss */
+  /* line 167, sass/responsive.scss */
   #services a {
     margin-bottom: 20px;
   }
 
-  /* line 166, sass/responsive.scss */
+  /* line 172, sass/responsive.scss */
   #contact {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 169, sass/responsive.scss */
+  /* line 175, sass/responsive.scss */
   #contact .card {
     width: 100% !important;
   }
 
-  /* line 174, sass/responsive.scss */
+  /* line 180, sass/responsive.scss */
   #newsletter {
     text-align: center;
   }
-  /* line 176, sass/responsive.scss */
+  /* line 182, sass/responsive.scss */
   #newsletter form {
     margin: 0 20px;
   }
 
-  /* line 181, sass/responsive.scss */
+  /* line 187, sass/responsive.scss */
   #customer-support {
     text-align: center;
   }
-  /* line 184, sass/responsive.scss */
+  /* line 190, sass/responsive.scss */
   #customer-support p i {
     display: none;
   }
-  /* line 187, sass/responsive.scss */
+  /* line 193, sass/responsive.scss */
   #customer-support p span.phone {
     font-size: 36px;
   }
 
-  /* line 193, sass/responsive.scss */
+  /* line 199, sass/responsive.scss */
   .social {
     margin-top: 20px;
     text-align: center;
   }
 
-  /* line 198, sass/responsive.scss */
+  /* line 204, sass/responsive.scss */
   #seo {
     margin-bottom: 0;
   }
-  /* line 200, sass/responsive.scss */
+  /* line 206, sass/responsive.scss */
   #seo .container {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 206, sass/responsive.scss */
+  /* line 212, sass/responsive.scss */
   .col-sm-15 {
     padding-left: 0;
     padding-right: 0;
@@ -244,7 +252,7 @@
   Nokia N95
   Samsung Galaxy S3 Mini
   Nokia 300*/
-  /* line 224, sass/responsive.scss */
+  /* line 230, sass/responsive.scss */
   [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
