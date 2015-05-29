@@ -783,6 +783,10 @@ article header {
 
 #billboard {
   margin-bottom: 10px;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
   .swiper-slide {
     position: relative;
     min-height: 395px;
