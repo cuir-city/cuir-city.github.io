@@ -146,33 +146,33 @@
     text-align: center;
   }
 
-  /* line 139, sass/responsive.scss */
-  #featured-products .container, #promotions .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  /* line 143, sass/responsive.scss */
-  #featured-products #swiper, #promotions #swiper {
+  /* line 138, sass/responsive.scss */
+  #swiper {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 146, sass/responsive.scss */
-  #featured-products #swiper .container, #promotions #swiper .container {
+  /* line 141, sass/responsive.scss */
+  #swiper .container {
     padding: 0;
   }
-  /* line 148, sass/responsive.scss */
-  #featured-products #swiper .container .row, #promotions #swiper .container .row {
+  /* line 143, sass/responsive.scss */
+  #swiper .container .row {
     margin: 0;
     padding: 0;
   }
-  /* line 151, sass/responsive.scss */
-  #featured-products #swiper .container .row .col-sm-12, #promotions #swiper .container .row .col-sm-12 {
+  /* line 146, sass/responsive.scss */
+  #swiper .container .row .col-sm-12 {
     margin: 0;
     padding: 0;
   }
 
-  /* line 161, sass/responsive.scss */
-  .swiper-products-container {
+  /* line 154, sass/responsive.scss */
+  #featured-products .container, #promotions .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 159, sass/responsive.scss */
+  #featured-products .swiper-products-container, #promotions .swiper-products-container {
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -180,73 +180,73 @@
     width: 375px;
     overflow: hidden;
   }
-  /* line 168, sass/responsive.scss */
-  .swiper-products-container .product .favorite {
+  /* line 166, sass/responsive.scss */
+  #featured-products .swiper-products-container .product .favorite, #promotions .swiper-products-container .product .favorite {
     display: none;
   }
-  /* line 171, sass/responsive.scss */
-  .swiper-products-container .product .wrapper-image img {
+  /* line 169, sass/responsive.scss */
+  #featured-products .swiper-products-container .product .wrapper-image img, #promotions .swiper-products-container .product .wrapper-image img {
     max-width: 140px;
   }
 
-  /* line 176, sass/responsive.scss */
+  /* line 178, sass/responsive.scss */
   #services {
     padding-bottom: 20px;
   }
-  /* line 178, sass/responsive.scss */
+  /* line 180, sass/responsive.scss */
   #services a {
     margin-bottom: 20px;
   }
 
-  /* line 183, sass/responsive.scss */
+  /* line 185, sass/responsive.scss */
   #contact {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 186, sass/responsive.scss */
+  /* line 188, sass/responsive.scss */
   #contact .card {
     width: 100% !important;
   }
 
-  /* line 191, sass/responsive.scss */
+  /* line 193, sass/responsive.scss */
   #newsletter {
     text-align: center;
   }
-  /* line 193, sass/responsive.scss */
+  /* line 195, sass/responsive.scss */
   #newsletter form {
     margin: 0 20px;
   }
 
-  /* line 198, sass/responsive.scss */
+  /* line 200, sass/responsive.scss */
   #customer-support {
     text-align: center;
   }
-  /* line 201, sass/responsive.scss */
+  /* line 203, sass/responsive.scss */
   #customer-support p i {
     display: none;
   }
-  /* line 204, sass/responsive.scss */
+  /* line 206, sass/responsive.scss */
   #customer-support p span.phone {
     font-size: 36px;
   }
 
-  /* line 210, sass/responsive.scss */
+  /* line 212, sass/responsive.scss */
   .social {
     margin-top: 20px;
     text-align: center;
   }
 
-  /* line 215, sass/responsive.scss */
+  /* line 217, sass/responsive.scss */
   #seo {
     margin-bottom: 0;
   }
-  /* line 217, sass/responsive.scss */
+  /* line 219, sass/responsive.scss */
   #seo .container {
     margin-left: 0;
     margin-right: 0;
   }
 
-  /* line 223, sass/responsive.scss */
+  /* line 225, sass/responsive.scss */
   .col-sm-15 {
     padding-left: 0;
     padding-right: 0;
@@ -261,7 +261,7 @@
   Nokia N95
   Samsung Galaxy S3 Mini
   Nokia 300*/
-  /* line 241, sass/responsive.scss */
+  /* line 243, sass/responsive.scss */
   [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
