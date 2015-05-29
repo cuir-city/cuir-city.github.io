@@ -1270,7 +1270,7 @@ header .search-box button {
 ******* Body ******
 **************************/
 /* line 721, sass/main.scss */
-#swiper {
+#billboard {
   margin-bottom: 10px;
 }
 
@@ -1340,7 +1340,7 @@ article header .discover {
 }
 
 /* line 775, sass/main.scss */
-#swiper article img {
+#billboard article img {
   width: 100%;
   max-width: 100%;
 }
