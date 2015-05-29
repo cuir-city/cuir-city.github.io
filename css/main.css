@@ -1596,17 +1596,7 @@ article header .discover {
   }
 }
 
-/* line 987, sass/main.scss */
-.no-touch .product .wrapper-image:hover .overlay {
-  display: block;
-  -webkit-animation: fadeInUp 400ms;
-  -moz-animation: fadeInUp 400ms;
-  -ms-animation: fadeInUp 400ms;
-  -o-animation: fadeInUp 400ms;
-  animation: fadeInUp 400ms;
-}
-
-/* line 1001, sass/main.scss */
+/* line 984, sass/main.scss */
 .more-articles a {
   display: inline-block;
   font-size: 12px;
@@ -1622,45 +1612,45 @@ article header .discover {
   padding: 5px 30px;
 }
 
-/* line 1017, sass/main.scss */
+/* line 1000, sass/main.scss */
 #news {
   background-color: #f2f2f2;
   padding: 20px 0;
 }
-/* line 1020, sass/main.scss */
+/* line 1003, sass/main.scss */
 #news article {
   background-color: #333333;
   min-height: 267px;
 }
-/* line 1024, sass/main.scss */
+/* line 1007, sass/main.scss */
 #news article header h1 {
   font-size: 20px;
 }
-/* line 1027, sass/main.scss */
+/* line 1010, sass/main.scss */
 #news article header h2 {
   font-size: 16px;
 }
-/* line 1030, sass/main.scss */
+/* line 1013, sass/main.scss */
 #news article header .discover {
   margin-bottom: 20px;
 }
-/* line 1035, sass/main.scss */
+/* line 1018, sass/main.scss */
 #news article.newsweek header {
   background: none;
 }
-/* line 1037, sass/main.scss */
+/* line 1020, sass/main.scss */
 #news article.newsweek header h1 {
   font-size: 24px;
 }
-/* line 1040, sass/main.scss */
+/* line 1023, sass/main.scss */
 #news article.newsweek header h2 {
   font-size: 20px;
 }
-/* line 1043, sass/main.scss */
+/* line 1026, sass/main.scss */
 #news article.newsweek header hr {
   width: 10%;
 }
-/* line 1046, sass/main.scss */
+/* line 1029, sass/main.scss */
 #news article.newsweek header p {
   padding-left: 20px;
   padding-right: 20px;
@@ -1669,44 +1659,44 @@ article header .discover {
 /*************************
 *******Footer CSS******
 **************************/
-/* line 1059, sass/main.scss */
+/* line 1042, sass/main.scss */
 #footer {
   background: #efefef;
 }
 
-/* line 1063, sass/main.scss */
+/* line 1046, sass/main.scss */
 #contact {
   padding: 20px 0;
 }
-/* line 1064, sass/main.scss */
+/* line 1047, sass/main.scss */
 #contact div.card {
   min-height: 160px;
   width: 32.333333%;
 }
-/* line 1067, sass/main.scss */
+/* line 1050, sass/main.scss */
 #contact div.card:not(:last-child) {
   margin-right: 15px;
 }
-/* line 1073, sass/main.scss */
+/* line 1056, sass/main.scss */
 #contact h1 {
   margin-top: 15px;
 }
-/* line 1076, sass/main.scss */
+/* line 1059, sass/main.scss */
 #contact i {
   vertical-align: middle;
 }
-/* line 1079, sass/main.scss */
+/* line 1062, sass/main.scss */
 #contact #newsletter {
   background-color: #3e8893;
   color: #fff;
 }
-/* line 1082, sass/main.scss */
+/* line 1065, sass/main.scss */
 #contact #newsletter h3 {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1086, sass/main.scss */
+/* line 1069, sass/main.scss */
 #contact #newsletter h3 i.mail {
   display: inline-block;
   width: 26px;
@@ -1715,7 +1705,7 @@ article header .discover {
   margin-right: 10px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1086, sass/main.scss */
+  /* line 1069, sass/main.scss */
   #contact #newsletter h3 i.mail {
     background-image: url('../images/icon-mail@2x.png?1432054710');
     -moz-background-size: 26px 18px;
@@ -1724,12 +1714,12 @@ article header .discover {
     background-size: 26px 18px;
   }
 }
-/* line 1094, sass/main.scss */
+/* line 1077, sass/main.scss */
 #contact #newsletter form {
   border-bottom: 1px solid #fff;
   height: 30px;
 }
-/* line 1098, sass/main.scss */
+/* line 1081, sass/main.scss */
 #contact #newsletter input[type=email] {
   color: #fff;
   width: 100%;
@@ -1765,7 +1755,7 @@ article header .discover {
   color: #fff;
   font-style: italic;
 }
-/* line 1115, sass/main.scss */
+/* line 1098, sass/main.scss */
 #contact #newsletter button {
   width: 100%;
   background: none;
@@ -1777,15 +1767,15 @@ article header .discover {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 1126, sass/main.scss */
+/* line 1109, sass/main.scss */
 #contact #newsletter .col-sm-2 {
   padding-left: 0;
 }
-/* line 1130, sass/main.scss */
+/* line 1113, sass/main.scss */
 #contact #customer-support {
   background-color: #fff;
 }
-/* line 1132, sass/main.scss */
+/* line 1115, sass/main.scss */
 #contact #customer-support h3 {
   background-repeat: no-repeat;
   color: #333333;
@@ -1793,7 +1783,7 @@ article header .discover {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1138, sass/main.scss */
+/* line 1121, sass/main.scss */
 #contact #customer-support h3 i.adviser {
   display: inline-block;
   width: 21px;
@@ -1802,7 +1792,7 @@ article header .discover {
   margin-right: 10px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1138, sass/main.scss */
+  /* line 1121, sass/main.scss */
   #contact #customer-support h3 i.adviser {
     background-image: url('../images/icon-adviser@2x.png?1432054710');
     -moz-background-size: 21px 24px;
@@ -1811,43 +1801,43 @@ article header .discover {
     background-size: 21px 24px;
   }
 }
-/* line 1146, sass/main.scss */
+/* line 1129, sass/main.scss */
 #contact #customer-support p {
   color: #585656;
 }
-/* line 1148, sass/main.scss */
+/* line 1131, sass/main.scss */
 #contact #customer-support p span.phone {
   font-weight: 700;
   color: #3e8893;
 }
-/* line 1154, sass/main.scss */
+/* line 1137, sass/main.scss */
 #contact #advice {
   background-color: #fff;
 }
-/* line 1156, sass/main.scss */
+/* line 1139, sass/main.scss */
 #contact #advice h3 {
   color: #333333;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 1162, sass/main.scss */
+/* line 1145, sass/main.scss */
 #contact #advice ul {
   padding: 0;
   margin: 0;
 }
-/* line 1165, sass/main.scss */
+/* line 1148, sass/main.scss */
 #contact #advice ul a {
   color: #585656;
 }
 
-/* line 1173, sass/main.scss */
+/* line 1156, sass/main.scss */
 #seo {
   border-top: 1px solid #fff;
   margin-bottom: 20px;
 }
 
-/* line 1178, sass/main.scss */
+/* line 1161, sass/main.scss */
 .single-widget h3 {
   color: #3e8893;
   font-size: 14px;
@@ -1856,7 +1846,7 @@ article header .discover {
   text-transform: uppercase;
 }
 
-/* line 1186, sass/main.scss */
+/* line 1169, sass/main.scss */
 .single-widget ul li a {
   line-height: 20px;
   color: #585656;
@@ -1865,31 +1855,31 @@ article header .discover {
   padding: 5px 0;
 }
 
-/* line 1194, sass/main.scss */
+/* line 1177, sass/main.scss */
 .single-widget ul li a:hover {
   background: none;
   color: #3e8893;
 }
 
-/* line 1200, sass/main.scss */
+/* line 1183, sass/main.scss */
 .follow-us [class^="col-"] {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 1204, sass/main.scss */
+/* line 1187, sass/main.scss */
 .follow-us a {
   display: block;
   color: #585656;
   margin-bottom: 10px;
 }
 
-/* line 1211, sass/main.scss */
+/* line 1194, sass/main.scss */
 .social li {
   display: inline-block;
   margin-bottom: 5px;
   text-align: center;
 }
-/* line 1216, sass/main.scss */
+/* line 1199, sass/main.scss */
 .social a {
   font-size: 20px;
   background-color: #3e8893 !important;
@@ -1901,57 +1891,57 @@ article header .discover {
   vertical-align: middle;
   margin-right: 5px;
 }
-/* line 1226, sass/main.scss */
+/* line 1209, sass/main.scss */
 .social a:hover {
   background-color: #333333 !important;
 }
-/* line 1229, sass/main.scss */
+/* line 1212, sass/main.scss */
 .social a i {
   line-height: 30px;
 }
 
-/* line 1235, sass/main.scss */
+/* line 1218, sass/main.scss */
 #services-list {
   padding: 0;
   margin: 20px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
 }
-/* line 1240, sass/main.scss */
+/* line 1223, sass/main.scss */
 #services-list li {
   border-bottom: 1px solid #fff;
   padding: 20px;
 }
-/* line 1241, sass/main.scss */
+/* line 1224, sass/main.scss */
 #services-list li:first-child {
   border-top: 1px solid #fff;
 }
-/* line 1246, sass/main.scss */
+/* line 1229, sass/main.scss */
 #services-list li a {
   color: #585656;
 }
 
-/* line 1252, sass/main.scss */
+/* line 1235, sass/main.scss */
 #copyright {
   background: #000000;
   padding: 10px 0;
   color: #fff;
 }
-/* line 1256, sass/main.scss */
+/* line 1239, sass/main.scss */
 #copyright span {
   margin-left: 20px;
 }
 
-/* line 1261, sass/main.scss */
+/* line 1244, sass/main.scss */
 #services {
   background-color: #f2f2f2;
   padding: 20px;
 }
-/* line 1264, sass/main.scss */
+/* line 1247, sass/main.scss */
 #services ul {
   padding-left: 0;
 }
-/* line 1267, sass/main.scss */
+/* line 1250, sass/main.scss */
 #services a {
   display: inline-block;
   font-size: 14px;
@@ -1961,14 +1951,14 @@ article header .discover {
   text-transform: uppercase;
   padding-top: 60px;
 }
-/* line 1275, sass/main.scss */
+/* line 1258, sass/main.scss */
 #services a.delivery {
   background-image: url('../images/icon-delivery-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1275, sass/main.scss */
+  /* line 1258, sass/main.scss */
   #services a.delivery {
     background-image: url('../images/icon-delivery-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1977,14 +1967,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1280, sass/main.scss */
+/* line 1263, sass/main.scss */
 #services a.moneyback {
   background-image: url('../images/icon-money-back.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1280, sass/main.scss */
+  /* line 1263, sass/main.scss */
   #services a.moneyback {
     background-image: url('../images/icon-money-back@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1993,14 +1983,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1285, sass/main.scss */
+/* line 1268, sass/main.scss */
 #services a.payment-facility {
   background-image: url('../images/icon-payment-facility.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1285, sass/main.scss */
+  /* line 1268, sass/main.scss */
   #services a.payment-facility {
     background-image: url('../images/icon-payment-facility@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -2009,14 +1999,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1290, sass/main.scss */
+/* line 1273, sass/main.scss */
 #services a.secure-payment {
   background-image: url('../images/icon-secure-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1290, sass/main.scss */
+  /* line 1273, sass/main.scss */
   #services a.secure-payment {
     background-image: url('../images/icon-secure-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -2025,14 +2015,14 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1295, sass/main.scss */
+/* line 1278, sass/main.scss */
 #services a.satisfy {
   background-image: url('../images/icon-satisfy-black.png?1432054710');
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 1295, sass/main.scss */
+  /* line 1278, sass/main.scss */
   #services a.satisfy {
     background-image: url('../images/icon-satisfy-black@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -2041,29 +2031,39 @@ article header .discover {
     background-size: 46px 46px;
   }
 }
-/* line 1300, sass/main.scss */
+/* line 1283, sass/main.scss */
 #services a span:first-child {
   color: #3e8893;
 }
-/* line 1303, sass/main.scss */
+/* line 1286, sass/main.scss */
 #services a span:last-child {
   text-transform: none;
   font-weight: 400;
   font-style: italic;
 }
 
-/* line 1311, sass/main.scss */
+/* line 1294, sass/main.scss */
 #seo {
   font-size: 12px;
   color: #8c8b8b;
   padding-top: 20px;
 }
-/* line 1315, sass/main.scss */
+/* line 1298, sass/main.scss */
 #seo p {
   text-align: center;
 }
 
-/* line 1321, sass/main.scss */
+/* line 1308, sass/main.scss */
+.no-touch .product .wrapper-image:hover .overlay {
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  -moz-animation: fadeInUp 400ms;
+  -ms-animation: fadeInUp 400ms;
+  -o-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+
+/* line 1322, sass/main.scss */
 .col-xs-15,
 .col-sm-15,
 .col-md-15,
@@ -2074,28 +2074,28 @@ article header .discover {
   padding-left: 10px;
 }
 
-/* line 1331, sass/main.scss */
+/* line 1332, sass/main.scss */
 .col-xs-15 {
   width: 20%;
   float: left;
 }
 
 @media (min-width: 768px) {
-  /* line 1336, sass/main.scss */
+  /* line 1337, sass/main.scss */
   .col-sm-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 992px) {
-  /* line 1342, sass/main.scss */
+  /* line 1343, sass/main.scss */
   .col-md-15 {
     width: 20%;
     float: left;
   }
 }
 @media (min-width: 1200px) {
-  /* line 1348, sass/main.scss */
+  /* line 1349, sass/main.scss */
   .col-lg-15 {
     width: 20%;
     float: left;

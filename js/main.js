@@ -12,21 +12,21 @@ var mySwiper = new Swiper ('.swiper-push', {
     paginationClickable: true
   })
 
-$('.swiper-images-product').each(function(){
+// $('.swiper-images-product').each(function(){
 
-	var container = $(this);
-	var swiperImagesProduct = new Swiper (container, {
-	    // Optional parameters
-	    direction: 'horizontal',
-	    loop: true,
-	    simulateTouch: false,
-	    allowSwipeToPrev: false,
-	    allowSwipeToNext: false,
-	    nextButton : container.parent().find('.btn-next'),
-	    prevButton : container.parent().find('.btn-previous'),
-	    lazyLoading: true
-	  })
-});
+// 	var container = $(this);
+// 	var swiperImagesProduct = new Swiper (container, {
+// 	    // Optional parameters
+// 	    direction: 'horizontal',
+// 	    loop: true,
+// 	    simulateTouch: false,
+// 	    allowSwipeToPrev: false,
+// 	    allowSwipeToNext: false,
+// 	    nextButton : container.parent().find('.btn-next'),
+// 	    prevButton : container.parent().find('.btn-previous'),
+// 	    lazyLoading: true
+// 	  })
+// });
 
 $(document).ready(function(){
 

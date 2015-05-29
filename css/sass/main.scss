@@ -980,23 +980,6 @@ article header {
   }
 }
 
-.no-touch {
-  .product {
-    .wrapper-image {
-      &:hover {
-        .overlay {
-          display: block;
-          -webkit-animation: fadeInUp 400ms;
-          -moz-animation: fadeInUp 400ms;
-          -ms-animation: fadeInUp 400ms;
-          -o-animation: fadeInUp 400ms;
-          animation: fadeInUp 400ms;
-        }
-      }
-    }
-  }
-}
-
 .more-articles {
   a {
     display: inline-block;
@@ -1314,6 +1297,24 @@ i{
   padding-top: 20px;
   p {
     text-align: center;
+  }
+}
+
+// No touch css
+.no-touch {
+  .product {
+    .wrapper-image {
+      &:hover {
+        .overlay {
+          display: block;
+          -webkit-animation: fadeInUp 400ms;
+          -moz-animation: fadeInUp 400ms;
+          -ms-animation: fadeInUp 400ms;
+          -o-animation: fadeInUp 400ms;
+          animation: fadeInUp 400ms;
+        }
+      }
+    }
   }
 }
 
