@@ -85,15 +85,13 @@ function initSliderMobile(classNameContainer)
 				wrapper.addClass('swiper-wrapper');
 				wrapper.children().addClass('swiper-slide');
 				var mySwiper = new Swiper ($(this), {
-				// Optional parameters
-				// If we need pagination
 				pagination: $(this).find('.swiper-products-pagination'),
 				direction: 'horizontal',
 				loop: true,
 				grabCursor: true,
 				centeredSlides: true,
 				slidesPerView: 2,
-				// Navigation arrows
+				speed: 600,
 				nextButton: '.swiper-products-button-next',
 				prevButton: '.swiper-products-button-prev',
 				})
