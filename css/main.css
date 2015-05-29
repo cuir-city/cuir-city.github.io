@@ -1317,19 +1317,19 @@ article header {
   /* IE6-8 */
 }
 /* line 756, sass/main.scss */
-article header h1, article header h2 {
+article header h2, article header h3 {
   margin: 0;
   padding: 0;
   color: #fff;
   text-transform: uppercase;
 }
 /* line 762, sass/main.scss */
-article header h1 {
+article header h2 {
   font-weight: 700;
   font-size: 30px;
 }
 /* line 766, sass/main.scss */
-article header h2 {
+article header h3 {
   font-size: 18px;
   font-weight: 400;
 }
@@ -1413,7 +1413,7 @@ article header .discover {
   margin-bottom: 20px;
 }
 /* line 836, sass/main.scss */
-.section-title h1 {
+.section-title h2 {
   font-size: 28px;
   font-weight: 700;
   color: #302e31;
@@ -1628,11 +1628,11 @@ article header .discover {
   min-height: 267px;
 }
 /* line 1011, sass/main.scss */
-#news article header h1 {
+#news article header h2 {
   font-size: 20px;
 }
 /* line 1014, sass/main.scss */
-#news article header h2 {
+#news article header h3 {
   font-size: 16px;
 }
 /* line 1017, sass/main.scss */
