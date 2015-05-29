@@ -272,39 +272,40 @@ a#scrollUp i{
       padding-top: 5px;
       margin-left: 0;
       margin-right: 0;
-      [class^="col-"] {
-        padding-left: 0;
-        padding-right: 0;
-        a {
-          color: #3e8893;
-          text-transform: uppercase;
+      ul {
+        padding: 0;
+        margin: 0 20px;
+        li {
           display: inline-block;
-          line-height: 21px;
-          span {
+          a {
+            display: block;
+            line-height: 25px;
+            color: #3f8893;
+            text-transform: uppercase;
+            span {
               font-style: italic;
               text-transform: none;
             }
+            &.money-back {
+              padding-left: 25px;
+              @include background-image-hdpi("icon-heart.png", "icon-heart@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
 
-          &.money-back {
-            padding-left: 25px;
-            @include background-image-hdpi("icon-heart.png", "icon-heart@2x.png");
-            background-repeat: no-repeat;
-            background-position: 0 50%;
+            }
+            &.delivery {
+              padding-left: 30px;
+              @include background-image-hdpi("icon-delivery.png", "icon-delivery@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
 
-          }
-
-          &.delivery {
-            padding-left: 30px;
-            @include background-image-hdpi("icon-delivery.png", "icon-delivery@2x.png");
-            background-repeat: no-repeat;
-            background-position: 0 50%;
-          }
-
-          &.star {
-            padding-left: 25px;
-            @include background-image-hdpi("icon-star.png", "icon-star@2x.png");
-            background-repeat: no-repeat;
-            background-position: 0 50%;
+            &.star {
+              padding-left: 25px;
+              @include background-image-hdpi("icon-star.png", "icon-star@2x.png");
+              background-repeat: no-repeat;
+              background-position: 0 50%;
+            }
           }
         }
       }
