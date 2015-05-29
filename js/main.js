@@ -91,7 +91,6 @@ function initSliderMobile(classNameContainer)
 				grabCursor: true,
 				centeredSlides: true,
 				slidesPerView: 2,
-				speed: 600,
 				nextButton: '.swiper-products-button-next',
 				prevButton: '.swiper-products-button-prev',
 				})
