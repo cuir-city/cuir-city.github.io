@@ -147,21 +147,21 @@
   }
 
   /* line 138, sass/responsive.scss */
-  #swiper {
+  #billboard {
     margin-top: 0;
     margin-bottom: 0;
   }
   /* line 141, sass/responsive.scss */
-  #swiper .container {
+  #billboard .container {
     padding: 0;
   }
   /* line 143, sass/responsive.scss */
-  #swiper .container .row {
+  #billboard .container .row {
     margin: 0;
     padding: 0;
   }
   /* line 146, sass/responsive.scss */
-  #swiper .container .row .col-sm-12 {
+  #billboard .container .row .col-sm-12 {
     margin: 0;
     padding: 0;
   }
