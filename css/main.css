@@ -2419,7 +2419,6 @@ article header h2, article header h3 {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 375px;
     overflow: hidden;
   }
   /* line 178, sass/responsive.scss */
