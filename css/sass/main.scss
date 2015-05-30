@@ -746,6 +746,7 @@ article {
 
   div.background {
     position: absolute;
+    height: inherit;
     z-index: 0;
     width: 100%;
      /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -785,11 +786,9 @@ article header {
   margin-bottom: 10px;
   .swiper-slide {
     position: relative;
-    min-height: 395px;
+    height: 395px;
     article {
-      .background {
-        height: 395px;
-      }
+      height: inherit;
       img {
         width: 100%;
         max-width: 100%;
@@ -799,7 +798,7 @@ article header {
       }
       header {
         position: absolute;
-        top: 190px;
+        bottom: 50px;
         h2 {
           font-size: 30px;
         }
@@ -827,12 +826,9 @@ article header {
     padding-right: 0;
   }
   article {
-    min-height: 270px;
-    .background {
-      height: 270px;
-    }
+    height: 230px;
     header {
-      padding-top: 140px;
+      bottom: 20px;
     }
     h2 {
       font-size: 24px;
@@ -1049,13 +1045,12 @@ article header {
   padding: 20px 0;
   article {
     background-color: #333333;
-    min-height: 267px;
+    height: 270px;
     .background {
       opacity: 0.4;
-      min-height: 267px;
     }
     header {
-      padding-top: 140px;
+      bottom: 20px;
       h2 {
         font-size: 24px;
       }
@@ -1402,6 +1397,17 @@ i{
     float: left;
   }
 }
+
+// Vertical offsets
+.voffset1 { margin-top: 5px; }
+.voffset2 { margin-top: 10px; }
+.voffset3 { margin-top: 15px; }
+.voffset4 { margin-top: 30px; }
+.voffset5 { margin-top: 40px; }
+.voffset6 { margin-top: 60px; }
+.voffset7 { margin-top: 80px; }
+.voffset8 { margin-top: 100px; }
+.voffset9 { margin-top: 150px; }
 
 // Effects
 @-webkit-keyframes fadeInUp {

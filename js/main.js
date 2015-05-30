@@ -35,11 +35,14 @@ $(document).ready(function(){
 		effect : "fadeIn"
 	});
 
-
 	// Desktop menu
 	initDesktopMenu();
 	// Sliders mobile
 	initSliderMobile();
+	// Banner info
+	$('.banner-info .close-link').on('click',function(){
+		$(this).parent().slideUp();
+	});
 });
 
 $(window).resize(function() {

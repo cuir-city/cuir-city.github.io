@@ -33,17 +33,25 @@
         .container .row {
             padding-left: 10px;
         }
+        ul {
+            text-align: center;
+            line-height: 0px;
+        }
         a {
             display:  table-cell !important;
             height: 40px;
             vertical-align: middle;
-            // line-height: 12px;
-            // font-size: 12px;
         }
     }
 
     .desktop-menu .categories .sub-menu {
         width: 720px !important;
+    }
+
+    #billboard {
+        .swiper-slide {
+            height: 290px;
+        }
     }
 
     #news {
