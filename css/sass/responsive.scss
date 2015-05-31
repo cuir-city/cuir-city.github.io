@@ -158,9 +158,6 @@
                     }
                 }
             }
-            .swiper-slide {
-                min-height: 375px;
-            }
         }
     #featured-products,#promotions {
         .container {
@@ -173,7 +170,6 @@
             padding-right: 0;
             margin-left: 0;
             margin-right: 0;
-            // width: 375px;
             overflow: hidden;
             .product .favorite {
                 display: none;
@@ -183,9 +179,6 @@
             }
         }
     }
-
-
-
 
     #services {
         padding-bottom: 20px;
@@ -242,6 +235,11 @@
 
 /* XS Portrait */
 @media (max-width: 480px) {
+    #billboard {
+        .swiper-slide {
+            height: 375px;
+        }
+    }
 }
 
 @media only screen and (max-width: 240px) and (orientation : portrait) {
@@ -255,5 +253,10 @@
     [class^="col-"] {
         padding-left: 0;
         padding-right: 0;
+    }
+    #billboard {
+        .swiper-slide {
+            height: 240px;
+        }
     }
   }
