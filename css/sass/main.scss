@@ -2,7 +2,7 @@
 /*************************
 *******Typography******
 **************************/
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic);
 
 @import "compass";
 @import "_compass-hdpi";
@@ -86,8 +86,7 @@ a#scrollUp i{
 
 .discover:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
-  background: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .nopadding {
@@ -1036,7 +1035,8 @@ article header {
     border-radius: 0;
     vertical-align: middle;
     margin-top: 150px;
-    padding: 5px 30px;
+    padding: 5px 0;
+    min-width: 220px;
   }
 }
 
@@ -1055,7 +1055,7 @@ article header {
         font-size: 24px;
       }
       h3 {
-        font-size: 20px;
+        font-size: 14px;
       }
     }
     &.newsweek {
@@ -1066,12 +1066,14 @@ article header {
           font-size: 24px;
         }
         h3 {
+          font-weight: 300;
           font-size: 20px;
         }
         hr {
           width: 10%;
         }
         p {
+          font-weight: 300;
           padding-left: 20px;
           padding-right: 20px;
         }
@@ -1215,7 +1217,6 @@ i{
   line-height: 20px;
   color: #585656;
   font-size: 14px;
-  font-weight: 300;
   padding: 5px 0;
 }
 
