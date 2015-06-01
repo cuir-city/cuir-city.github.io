@@ -66,11 +66,7 @@
         }
     }
 
-    #services {
-        .service {
-            margin-bottom: 20px;
-        }
-    }
+
 
     #contact {
         .card {
@@ -94,6 +90,9 @@
 @media (max-width: 767px) {
 
     #header-top-mobile {
+        .col-xs-2:first-child {
+            padding-left: 0;
+        }
         #logo-mobile {
             margin-top: 10px;
         }
@@ -125,7 +124,7 @@
     }
 
     .navbar-toggle {
-        margin-right: 0px;
+        float: none;
     }
 
     .navbar-toggle .icon-bar {
@@ -182,8 +181,13 @@
 
     #services {
         padding-bottom: 20px;
-        a {
-            margin-bottom: 20px;
+        .service {
+            &:nth-child(1), &:nth-child(2) {
+                height: 140px;
+            }
+            a {
+                // margin-bottom: 20px;
+            }
         }
     }
 

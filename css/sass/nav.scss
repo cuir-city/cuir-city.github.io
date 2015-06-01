@@ -25,7 +25,7 @@
 /* slide menu left and right, push menu left and right */
 nav.push-menu-left {
   top: 0;
-  width: 320px;
+  width: calc(100% - 45px);
   height: 100%;
 }
 nav.push-menu-left {
@@ -37,7 +37,7 @@ body.pml-open nav.push-menu-left {
 }
 
 body.pml-open #wrapper {
-  -webkit-transform: translate3d(320px, 0, 0);
+  -webkit-transform: translate3d(calc(100% - 45px), 0, 0);
 }
 
 nav.mobile-menu {
@@ -56,6 +56,15 @@ nav.mobile-menu {
     text-transform: uppercase;
     color: #000;
   }
+
+  .see-all {
+    border: 2px solid #000;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin: 20px 15px 20px 0px;
+    text-align: center;
+  }
+
   .search-box {
     padding-left: 50px;
     text-decoration: italic;
@@ -130,10 +139,6 @@ nav.mobile-menu {
       text-transform: none;
       &.see-all {
         border: 2px solid #fff;
-        padding: 0 20px;
-        text-transform: uppercase;
-        margin: 20px 15px 20px 0px;
-        text-align: center;
       }
     }
   }
@@ -316,15 +321,6 @@ Nokia 2700
 Nokia N95
 Samsung Galaxy S3 Mini
 Nokia 300*/
-body.pml-open #wrapper {
-  -webkit-transform: translate3d(200px, 0, 0);
-}
-nav.push-menu-left {
-  top: 0;
-  width: 200px;
-  height: 100%;
-}
-
 nav.mobile-menu .product-category {
   .icon {
     padding-left: 40px !important;
