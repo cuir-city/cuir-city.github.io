@@ -1196,6 +1196,13 @@ i{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    i.leather {
+      display: inline-block;
+      width: 14px;
+      height: 15px;
+      @include background-image-hdpi("icon-leather.png", "icon-leather@2x.png");
+      margin-right: 10px;
+    }
   }
   ul {
     padding: 0;
@@ -1301,6 +1308,9 @@ i{
   padding: 20px;
   ul {
     padding-left: 0;
+    li {
+      text-align: center;
+    }
   }
   a {
     display: inline-block;
