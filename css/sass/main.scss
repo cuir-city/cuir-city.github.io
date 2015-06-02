@@ -11,12 +11,22 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   @include smooth;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   height: 100%;
+  @include font-size(1.6);
 }
 
 a {
@@ -109,6 +119,7 @@ a#scrollUp i{
     padding-bottom: 5px  !important;
   }
   .need-help {
+    @include font-size(1.2);
     margin-left: 10px;
     @include background-image-hdpi("icon-tel.png", "icon-tel@2x.png");
     background-repeat: no-repeat;
@@ -126,6 +137,7 @@ a#scrollUp i{
     }
   }
   .user-info {
+    @include font-size(1.3);
     ul
     {
       li {
@@ -258,14 +270,14 @@ a#scrollUp i{
 }
 
 .banner-info {
+  @include font-size(1.4);
   position: relative;
+  margin-top: 10px;
   .container
   {
     .row {
       position: relative;
       border: 1px solid #3e8893;
-      margin-top: 20px;
-      margin-bottom: 20px;
       padding-bottom: 5px;
       padding-top: 5px;
       margin-left: 0;
@@ -389,7 +401,7 @@ header .search-box {
   > a {
     color: #000;
     text-transform: uppercase;
-    font-size: 16px;
+    // @include font-size(1.6);
     padding-left: 10px;
     padding-right: 10px;
   }
