@@ -416,13 +416,14 @@ header .search-box {
           width: 100%;
           background-repeat: no-repeat;
           background-position: 0 50%;
+          padding-left: 45px;
           &.blousons {
             @include background-image-hdpi("icon-blousons.png", "icon-blousons@2x.png");
-            padding-left: 30px;
+            // padding-left: 30px;
           }
           &.blousons-femme {
             @include background-image-hdpi("icon-blousons-femme.png", "icon-blousons-femme@2x.png");
-            padding-left: 30px;
+            // padding-left: 30px;
           }
           &.vestes {
             @include background-image-hdpi("icon-vestes.png", "icon-vestes@2x.png");
@@ -435,11 +436,11 @@ header .search-box {
           }
           &.chaussures {
             @include background-image-hdpi("icon-chaussures.png", "icon-chaussures@2x.png");
-            padding-left: 35px;
+            // padding-left: 35px;
           }
           &.accessoires {
             @include background-image-hdpi("icon-accessoires.png", "icon-accessoires@2x.png");
-            padding-left: 35px;
+            // padding-left: 35px;
           }
           &.textiles {
             @include background-image-hdpi("icon-textiles.png", "icon-textiles@2x.png");
@@ -451,7 +452,7 @@ header .search-box {
             }
             &.blousons-femme {
               @include background-image-hdpi("icon-blousons-femme-hover.png", "icon-blousons-femme-hover@2x.png");
-              padding-left: 30px;
+              // padding-left: 30px;
             }
             &.vestes {
               @include background-image-hdpi("icon-vestes-hover.png", "icon-vestes-hover@2x.png");
@@ -892,9 +893,6 @@ article header {
 
 #featured-products, #promotions {
   margin-bottom: 20px;
-  [class^="col-"] {
-    // margin-bottom: 10px;
-  }
   .swiper-products-pagination {
     text-align:center;
     .swiper-pagination-bullet {
@@ -912,6 +910,7 @@ article header {
 /** Product **/
 .product {
   text-align: center;
+  margin-bottom: 20px;
   .wrapper-image {
     position: relative;
     min-height: 210px;
@@ -935,15 +934,19 @@ article header {
         margin-bottom: 10px;
       }
       ul {
+        padding-left: 15px;
+        margin: 0;
         li {
           display: inline-block;
           background-color: #fff;
+          font-size: 12px;
           font-weight: 700;
           color: #000;
           margin-bottom: 10px;
           margin-right: 10px;
           text-transform: uppercase;
-          padding: 5px 10px;
+          padding: 5px 0;
+          width: 35px;
         }
       }
       a {
