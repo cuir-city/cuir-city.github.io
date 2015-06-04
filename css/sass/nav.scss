@@ -126,6 +126,12 @@ nav.mobile-menu {
         color: #fff;
       }
     }
+    .store-link {
+      @include background-image-hdpi("icon-map-pin.png", "icon-map-pin@2x.png");
+      background-repeat: no-repeat;
+      background-position: 0% 50%;
+      padding-left: 20px;
+    }
   }
   ul.level-2 {
     display: none;

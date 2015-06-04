@@ -163,31 +163,48 @@ nav.mobile-menu ul.level-1 li.product-category {
 nav.mobile-menu ul.level-1 li.product-category a {
   color: #fff;
 }
-/* line 130, sass/nav.scss */
+/* line 129, sass/nav.scss */
+nav.mobile-menu ul.level-1 .store-link {
+  background-image: url('../images/icon-map-pin.png?1432930128');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  padding-left: 20px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  /* line 129, sass/nav.scss */
+  nav.mobile-menu ul.level-1 .store-link {
+    background-image: url('../images/icon-map-pin@2x.png?1432930128');
+    -moz-background-size: 14px 18px;
+    -o-background-size: 14px 18px;
+    -webkit-background-size: 14px 18px;
+    background-size: 14px 18px;
+  }
+}
+/* line 136, sass/nav.scss */
 nav.mobile-menu ul.level-2 {
   display: none;
   padding-left: 20px;
 }
-/* line 133, sass/nav.scss */
+/* line 139, sass/nav.scss */
 nav.mobile-menu ul.level-2 .icon {
   line-height: 45px;
   padding-left: 55px;
 }
-/* line 138, sass/nav.scss */
+/* line 144, sass/nav.scss */
 nav.mobile-menu ul.level-3 {
   display: none;
   padding-left: 55px;
 }
-/* line 142, sass/nav.scss */
+/* line 148, sass/nav.scss */
 nav.mobile-menu ul.level-4 {
   display: none;
   padding-left: 0;
 }
-/* line 145, sass/nav.scss */
+/* line 151, sass/nav.scss */
 nav.mobile-menu ul.level-4 a {
   text-transform: none;
 }
-/* line 147, sass/nav.scss */
+/* line 153, sass/nav.scss */
 nav.mobile-menu ul.level-4 a.see-all {
   border: 2px solid #fff;
 }
@@ -205,16 +222,16 @@ nav.mobile-menu ul.level-4 a.see-all {
   Nokia N95
   Samsung Galaxy S3 Mini
   Nokia 300*/
-  /* line 169, sass/nav.scss */
+  /* line 175, sass/nav.scss */
   nav.mobile-menu .product-category a {
     font-size: 12px;
   }
-  /* line 171, sass/nav.scss */
+  /* line 177, sass/nav.scss */
   nav.mobile-menu .product-category a i {
     width: 35px;
   }
 
-  /* line 176, sass/nav.scss */
+  /* line 182, sass/nav.scss */
   nav.mobile-menu ul.level-3 {
     padding-left: 25px;
   }
