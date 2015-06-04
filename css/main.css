@@ -965,7 +965,7 @@ header .search-box button {
 }
 /* line 746, sass/main.scss */
 .shops-link > a {
-  background-image: url('../images/icon-store.png?1432930128');
+  background-image: url('../images/icon-map-pin.png?1432054710');
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding-right: 20px !important;
@@ -974,11 +974,11 @@ header .search-box button {
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   /* line 746, sass/main.scss */
   .shops-link > a {
-    background-image: url('../images/icon-store@2x.png?1432930128');
-    -moz-background-size: 14px 18px;
-    -o-background-size: 14px 18px;
-    -webkit-background-size: 14px 18px;
-    background-size: 14px 18px;
+    background-image: url('../images/icon-map-pin@2x.png?1432054710');
+    -moz-background-size: 16px 20px;
+    -o-background-size: 16px 20px;
+    -webkit-background-size: 16px 20px;
+    background-size: 16px 20px;
   }
 }
 /* line 753, sass/main.scss */
