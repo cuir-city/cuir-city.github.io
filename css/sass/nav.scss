@@ -57,6 +57,13 @@ nav.mobile-menu {
     color: #000;
   }
 
+  [class^="icon"] {
+    display: inline-block;
+    width: 50px;
+    font-size: 2.5em;
+    vertical-align: -25%;
+  }
+
   .see-all {
     border: 2px solid #000;
     padding: 0 20px;
@@ -143,169 +150,6 @@ nav.mobile-menu {
     }
   }
 
-  .icon {
-    &.store {
-      @include background-image-hdpi("icon-store.png", "icon-store@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      padding-left: 20px;
-    }
-    &.blousons {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-blousons.png", "icon-blousons@2x.png");
-    }
-    &.blousons-femme {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-blousons-femme-light.png", "icon-blousons-femme-light@2x.png");
-    }
-    &.vestes {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-vestes.png", "icon-vestes@2x.png");
-    }
-    &.vestes-femme {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-vestes-femme-light.png", "icon-vestes-femme-light@2x.png");
-    }
-    &.pantalons {
-      background-repeat: no-repeat;
-      background-position: 10px 50%;
-      @include background-image-hdpi("icon-pantalons.png", "icon-pantalons@2x.png");
-    }
-    &.chaussures {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-chaussures.png", "icon-chaussures@2x.png");
-    }
-    &.accessoires {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-accessoires.png", "icon-accessoires@2x.png");
-    }
-    &.textiles {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-textiles.png", "icon-textiles@2x.png");
-    }
-    &.textiles-femme {
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-      @include background-image-hdpi("icon-textiles-femme-light.png", "icon-textiles-femme-light@2x.png");
-    }
-    &.aviateur {
-      @include background-image-hdpi("icon-aviateur-light.png", "icon-aviateur-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.perfecto {
-      @include background-image-hdpi("icon-perfecto-light.png", "icon-perfecto-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.perfecto-femme {
-      @include background-image-hdpi("icon-perfecto-femme-light.png", "icon-perfecto-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.bombardier {
-      @include background-image-hdpi("icon-bombardier-light.png", "icon-bombardier-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.bombardier-femme {
-      @include background-image-hdpi("icon-bombardier-femme-light.png", "icon-bombardier-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.teddy {
-      @include background-image-hdpi("icon-teddy-light.png", "icon-teddy-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.doudoune {
-      @include background-image-hdpi("icon-doudoune-light.png", "icon-doudoune-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.doudoune-femme {
-      @include background-image-hdpi("icon-doudoune-femme-light.png", "icon-doudoune-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.gilet {
-      @include background-image-hdpi("icon-gilet-light.png", "icon-gilet-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 6px 50%;
-    }
-    &.capuche {
-      @include background-image-hdpi("icon-capuche-light.png", "icon-capuche-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.capuche-femme {
-      @include background-image-hdpi("icon-capuche-femme-light.png", "icon-capuche-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.col-motard {
-      @include background-image-hdpi("icon-col-motard-light.png", "icon-col-motard-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.col-motard-femme {
-      @include background-image-hdpi("icon-col-motard-femme-light.png", "icon-col-motard-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.col-chemise {
-      @include background-image-hdpi("icon-col-chemise-light.png", "icon-col-chemise-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.col-fourrure {
-      @include background-image-hdpi("icon-col-fourrure-light.png", "icon-col-fourrure-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.fourrure-femme {
-      @include background-image-hdpi("icon-fourrure-femme-light.png", "icon-fourrure-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.mi-longues{
-      @include background-image-hdpi("icon-mi-longues-light.png", "icon-mi-longues-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.mi-longues-femme{
-      @include background-image-hdpi("icon-mi-longues-femme-light.png", "icon-mi-longues-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.manteaux{
-      @include background-image-hdpi("icon-manteaux-light.png", "icon-manteaux-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.manteaux-femme{
-      @include background-image-hdpi("icon-manteaux-femme-light.png", "icon-manteaux-femme-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.blazers{
-      @include background-image-hdpi("icon-blazers-light.png", "icon-blazers-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-    &.blazers-femme{
-      @include background-image-hdpi("icon-blazers-femme-light.png", "icon-blazers-light@2x.png");
-      background-repeat: no-repeat;
-      background-position: 0 50%;
-    }
-  }
 }
 
 /* ------------------------------------------------------------ *\
@@ -321,16 +165,15 @@ Nokia 2700
 Nokia N95
 Samsung Galaxy S3 Mini
 Nokia 300*/
-nav.mobile-menu .product-category {
-  .icon {
-    padding-left: 40px !important;
-    background-size: 20% !important;
-    &.pantalons {
-      background-size: 10% !important;
+  nav.mobile-menu .product-category {
+    a {
+      font-size: 12px;
+      i {
+      width: 35px;
+      }
     }
   }
-  ul.level-3 {
-    padding-left: 10px;
+  nav.mobile-menu ul.level-3 {
+    padding-left: 25px;
   }
-}
 }

@@ -16,8 +16,143 @@
   font-size: $sizeValue + rem;
 }
 
+@font-face {
+  font-family: "cuir-city";
+  src:url("../fonts/cuir-city.eot");
+  src:url("../fonts/cuir-city.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cuir-city.woff") format("woff"),
+    url("../fonts/cuir-city.ttf") format("truetype"),
+    url("../fonts/cuir-city.svg#cuir-city") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "cuir-city" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "cuir-city" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accessoires:before {
+  content: "a";
+}
+.icon-vestes-mi-longues-homme:before {
+  content: "b";
+}
+.icon-blousons-avec-capuche-femme:before {
+  content: "c";
+}
+.icon-blousons-avec-capuche-homme:before {
+  content: "d";
+}
+.icon-blousons-aviateur-homme:before {
+  content: "e";
+}
+.icon-blousons-bombardier-femme:before {
+  content: "f";
+}
+.icon-blousons-bombardier-homme:before {
+  content: "g";
+}
+.icon-blousons-doudoune-femme:before {
+  content: "h";
+}
+.icon-blousons-doudoune-homme:before {
+  content: "i";
+}
+.icon-blousons-femme:before {
+  content: "j";
+}
+.icon-blousons-fourrure-femme:before {
+  content: "k";
+}
+.icon-blousons-homme:before {
+  content: "l";
+}
+.icon-blousons-gilet-homme:before {
+  content: "m";
+}
+.icon-blousons-perfecto-femme:before {
+  content: "n";
+}
+.icon-blousons-perfecto-homme:before {
+  content: "o";
+}
+.icon-blousons-teddy-homme:before {
+  content: "p";
+}
+.icon-chaussures:before {
+  content: "q";
+}
+.icon-col-chemise:before {
+  content: "r";
+}
+.icon-col-fourrure:before {
+  content: "s";
+}
+.icon-col-motard:before {
+  content: "t";
+}
+.icon-leather:before {
+  content: "u";
+}
+.icon-pantalons-femme:before {
+  content: "v";
+}
+.icon-textiles-femme:before {
+  content: "w";
+}
+.icon-pantalons-homme:before {
+  content: "x";
+}
+.icon-textiles-homme:before {
+  content: "y";
+}
+.icon-vestes-blazers-femme:before {
+  content: "z";
+}
+.icon-vestes-blazers-homme:before {
+  content: "A";
+}
+.icon-vestes-femme:before {
+  content: "B";
+}
+.icon-vestes-homme:before {
+  content: "C";
+}
+.icon-vestes-manteaux-femme:before {
+  content: "D";
+}
+.icon-vestes-manteaux-homme:before {
+  content: "E";
+}
+.icon-vestes-mi-longues-femme:before {
+  content: "F";
+}
+
 html {
-  font-size: 62.5%;
+  // font-size: 62.5%;
 }
 
 body {
@@ -26,7 +161,7 @@ body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   height: 100%;
-  @include font-size(1.6);
+  // @include font-size(1.6);
 }
 
 a {
@@ -71,8 +206,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a#scrollUp {
-  bottom: 0px;
-  right: 10px;
+  bottom: 20%;
+  right: 0px;
   padding: 5px 10px;
   background: #333333 !important;
   color: #FFF;
@@ -380,6 +515,7 @@ header .search-box {
 }
 
 .desktop-menu {
+  line-height: 40px;
   .sub-menu {
     display: none;
     position: absolute;
@@ -387,8 +523,15 @@ header .search-box {
   }
 }
 
-.desktop-menu .categories > li.dropdown {
-  position: inherit;
+.desktop-menu .categories {
+  padding-left: 0;
+  margin: 0;
+  > li {
+    display: inline-block;
+    &.dropdown {
+      position: inherit;
+    }
+  }
 }
 
 .desktop-menu .categories li.dropdown {
@@ -401,7 +544,7 @@ header .search-box {
   > a {
     color: #000;
     text-transform: uppercase;
-    // @include font-size(1.6);
+    @include font-size(1.6);
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -416,73 +559,28 @@ header .search-box {
     width: 1140px;
     text-align: center;
     > ul {
+      padding-top: 10px;
+      padding-bottom: 10px;
       padding-left: 0;
       background: #000;
       > li {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
         > a {
+          font-size: 14px;
           color: #fff;
-          line-height: 60px;
           text-transform: uppercase;
           display: block;
           width: 100%;
-          background-repeat: no-repeat;
-          background-position: 0 50%;
-          padding-left: 45px;
-          &.blousons {
-            @include background-image-hdpi("icon-blousons.png", "icon-blousons@2x.png");
-            // padding-left: 30px;
+          i {
+            display: inline-block;
+            width: 50px;
+            font-size: 2.7em;
+            vertical-align: -25%;
           }
-          &.blousons-femme {
-            @include background-image-hdpi("icon-blousons-femme.png", "icon-blousons-femme@2x.png");
-            // padding-left: 30px;
-          }
-          &.vestes {
-            @include background-image-hdpi("icon-vestes.png", "icon-vestes@2x.png");
-          }
-          &.vestes-femme {
-            @include background-image-hdpi("icon-vestes-femme.png", "icon-vestes-femme@2x.png");
-          }
-          &.pantalons {
-            @include background-image-hdpi("icon-pantalons.png", "icon-pantalons@2x.png");
-          }
-          &.chaussures {
-            @include background-image-hdpi("icon-chaussures.png", "icon-chaussures@2x.png");
-            // padding-left: 35px;
-          }
-          &.accessoires {
-            @include background-image-hdpi("icon-accessoires.png", "icon-accessoires@2x.png");
-            // padding-left: 35px;
-          }
-          &.textiles {
-            @include background-image-hdpi("icon-textiles.png", "icon-textiles@2x.png");
-          }
-          &.active {
+          &:hover {
             color: #3e8893;
-            &.blousons {
-              @include background-image-hdpi("icon-blousons-hover.png", "icon-blousons-hover@2x.png");
-            }
-            &.blousons-femme {
-              @include background-image-hdpi("icon-blousons-femme-hover.png", "icon-blousons-femme-hover@2x.png");
-              // padding-left: 30px;
-            }
-            &.vestes {
-              @include background-image-hdpi("icon-vestes-hover.png", "icon-vestes-hover@2x.png");
-            }
-            &.vestes-femme {
-              @include background-image-hdpi("icon-vestes-femme-hover.png", "icon-vestes-femme-hover@2x.png");
-            }
-            &.pantalons {
-              @include background-image-hdpi("icon-pantalons-hover.png", "icon-pantalons-hover@2x.png");
-            }
-            &.chaussures {
-            @include background-image-hdpi("icon-chaussures-hover.png", "icon-chaussures-hover@2x.png");
-            }
-            &.accessoires {
-            @include background-image-hdpi("icon-accessoires-hover.png", "icon-accessoires-hover@2x.png");
-            }
-            &.textiles {
-            @include background-image-hdpi("icon-textiles-hover.png", "icon-textiles-hover@2x.png");
-          }
           }
         }
       }
@@ -493,8 +591,8 @@ header .search-box {
         display: block;
       }
       &.default {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         text-align: center;
         p {
           font-size: 16px;
@@ -524,6 +622,7 @@ header .search-box {
       text-align: left;
       .columns {
         min-height: 300px;
+        height: 300px;
         padding-left: 15px;
         overflow: hidden;
          [class^="col-"] {
@@ -544,107 +643,24 @@ header .search-box {
           padding-left: 0;
           padding-top: 10px;
           li {
-            line-height: 30px;
+            line-height: 35px;
           }
         }
         ul li a {
           color: #000;
-          background-repeat: no-repeat;
-          background-position: 0 50%;
-          &.icon {
-            display: block;
-            line-height: 45px;
-          }
-          &.aviateur {
-            @include background-image-hdpi("icon-aviateur.png", "icon-aviateur@2x.png");
-            padding-left: 45px;
-          }
-          &.perfecto {
-            @include background-image-hdpi("icon-perfecto.png", "icon-perfecto@2x.png");
-            padding-left: 45px;
-          }
-          &.perfecto-femme {
-            @include background-image-hdpi("icon-perfecto-femme.png", "icon-perfecto-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.bombardier {
-            @include background-image-hdpi("icon-bombardier.png", "icon-bombardier@2x.png");
-            padding-left: 45px;
-          }
-          &.bombardier-femme {
-            @include background-image-hdpi("icon-bombardier-femme.png", "icon-bombardier-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.teddy {
-            @include background-image-hdpi("icon-teddy.png", "icon-teddy@2x.png");
-            padding-left: 45px;
-          }
-          &.doudoune {
-            @include background-image-hdpi("icon-doudoune.png", "icon-doudoune@2x.png");
-            padding-left: 45px;
-          }
-          &.doudoune-femme {
-            @include background-image-hdpi("icon-doudoune-femme.png", "icon-doudoune-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.fourrure-femme {
-            @include background-image-hdpi("icon-fourrure-femme.png", "icon-fourrure-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.gilet {
-            @include background-image-hdpi("icon-gilet.png", "icon-gilet@2x.png");
-            padding-left: 45px;
-            background-position: 6px 50%;
-          }
-          &.capuche {
-            @include background-image-hdpi("icon-capuche.png", "icon-capuche@2x.png");
-            padding-left: 45px;
-          }
-          &.capuche-femme {
-            @include background-image-hdpi("icon-capuche-femme.png", "icon-capuche-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.col-motard {
-            @include background-image-hdpi("icon-col-motard.png", "icon-col-motard@2x.png");
-            padding-left: 45px;
-          }
-          &.col-chemise {
-            @include background-image-hdpi("icon-col-chemise.png", "icon-col-chemise@2x.png");
-            padding-left: 45px;
-          }
-          &.col-fourrure {
-            @include background-image-hdpi("icon-col-fourrure.png", "icon-col-fourrure@2x.png");
-            padding-left: 45px;
-          }
-          &.mi-longues {
-            @include background-image-hdpi("icon-mi-longues.png", "icon-mi-longues@2x.png");
-            padding-left: 45px;
-          }
-          &.mi-longues-femme {
-            @include background-image-hdpi("icon-mi-longues-femme.png", "icon-mi-longues-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.manteaux {
-            @include background-image-hdpi("icon-manteaux.png", "icon-manteaux@2x.png");
-            padding-left: 45px;
-          }
-          &.manteaux-femme {
-            @include background-image-hdpi("icon-manteaux-femme.png", "icon-manteaux-femme@2x.png");
-            padding-left: 45px;
-          }
-          &.blazers {
-            @include background-image-hdpi("icon-blazers.png", "icon-blazers@2x.png");
-            padding-left: 45px;
-          }
-          &.blazers-femme {
-            @include background-image-hdpi("icon-blazers-femme.png", "icon-blazers-femme@2x.png");
-            padding-left: 45px;
-          }
+          i {
+              display: inline-block;
+              width: 40px;
+              font-size: 2.5em;
+              vertical-align: -25%;
+            }
           &:hover {
             color: #3e8893;
           }
         }
         .background-image {
+          height: 300px;
+          background-position: center 0;
           &.background-image-vestes {
             background-image: url(../images/homme-veste.jpg);
           }
@@ -654,13 +670,17 @@ header .search-box {
           &.background-image-chaussures {
             background-image: url(http://placehold.it/1000x300);
           }
+          &.background-image-pantalons {
+            background-image: url(../images/background-pantalons.jpg);
+          }
         }
       }
       .links {
         background: #f2f2f2;
-        padding: 20px 0;
+        padding: 10px 0;
         text-align: center;
         a {
+          font-size: 12px;
           color: #302e31;
           border: 1px solid #302e31;
           padding: 10px 38px !important;
@@ -673,6 +693,7 @@ header .search-box {
 }
 
 .desktop-menu .shops {
+  margin: 0;
   li.dropdown {
     position: inherit;
     > a {
@@ -722,7 +743,6 @@ header .search-box {
   font-size: 16px;
   text-transform: uppercase;
   color: #727272;
-  line-height: 40px;
   > a {
     @include background-image-hdpi("icon-store.png", "icon-store@2x.png");
     background-repeat: no-repeat;
@@ -1191,8 +1211,13 @@ i{
   p {
     color: #585656;
     span.phone {
+      font-size: 18px;
       font-weight: 700;
       color: #3e8893;
+      i {
+        font-size: 14px;
+        font-weight: 400;
+      }
     }
   }
 }
@@ -1231,7 +1256,7 @@ i{
   color: #3e8893;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -1450,6 +1475,8 @@ i{
     transform: translateY(0);
   }
 }
+
+
 
 // Imports
 @import "responsive";

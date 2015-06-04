@@ -55,6 +55,7 @@ function initDesktopMenu()
 		$('#main-overlay').show();
 		$('.desktop-menu li.dropdown').removeClass('active');
 		$(this).addClass('active');
+		$(this).find('.sub-menu').css('top',$('ul.categories').height());
 		$(this).find('.sub-menu').show();
 		$(this).find('.sub-menu').children('.content').removeClass('active');
 		$(this).find('.sub-menu').children('.content').first().addClass('active');
