@@ -98,6 +98,11 @@
 /* xs */
 @media (max-width: 767px) {
 
+    .col-sm-15 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     #header-top-mobile {
         .col-xs-2:first-child {
             padding-left: 0;
@@ -188,58 +193,64 @@
         }
     }
 
-    #services {
-        padding-bottom: 20px;
-        .service {
-            &:nth-child(1), &:nth-child(2) {
-                height: 140px;
+    #footer {
+         display: table;
+         #contact {
+             display: table-header-group;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            .row {
+                display: table;
+            }
+            .card {
+                width: 100% !important;
+            }
+            #customer-support {
+                display: table-header-group;
+                background-color: #f2f2f2 !important;
+                text-align:center;
+                p:last-child {
+                    margin-bottom: 20px;
+                }
+                p {
+                    i {
+                        display: none;
+                    }
+                    span.phone {
+                        font-size: 36px;
+                    }
+                }
+            }
+            #newsletter {
+                text-align: center;
+                form {
+                    margin: 10px 20px;
+                    button {
+                        margin-left: 55px;
+                    }
+                }
             }
         }
-    }
-
-    #contact {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        .card {
-            width: 100% !important;
-        }
-    }
-
-    #newsletter {
-        text-align: center;
-        form {
-            margin: 0 20px;
-        }
-    }
-
-    #customer-support {
-        text-align:center;
-        p {
-            i {
-                display: none;
-            }
-            span.phone {
-                font-size: 36px;
+        #services {
+            padding-bottom: 20px;
+            .service {
+                &:nth-child(1), &:nth-child(2) {
+                    height: 140px;
+                }
             }
         }
-    }
-
-    .social {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    #seo {
-        margin-bottom: 0;
-        .container {
-            margin-left: 0;
-            margin-right: 0;
+        .social {
+            margin-top: 20px;
+            text-align: center;
         }
-    }
 
-    .col-sm-15 {
-        padding-left: 0;
-        padding-right: 0;
+        #seo {
+            margin-bottom: 0;
+            .container {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
     }
 }
 

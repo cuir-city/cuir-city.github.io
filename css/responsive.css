@@ -91,19 +91,25 @@
 }
 /* xs */
 @media (max-width: 767px) {
-  /* line 102, sass/responsive.scss */
+  /* line 101, sass/responsive.scss */
+  .col-sm-15 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 107, sass/responsive.scss */
   #header-top-mobile .col-xs-2:first-child {
     padding-left: 0;
   }
-  /* line 105, sass/responsive.scss */
+  /* line 110, sass/responsive.scss */
   #header-top-mobile #logo-mobile {
     margin-top: 10px;
   }
-  /* line 108, sass/responsive.scss */
+  /* line 113, sass/responsive.scss */
   #header-top-mobile #shopping-bag {
     position: relative;
   }
-  /* line 110, sass/responsive.scss */
+  /* line 115, sass/responsive.scss */
   #header-top-mobile #shopping-bag a {
     position: absolute;
     display: block;
@@ -116,7 +122,7 @@
   }
 }
 @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi) {
-  /* line 110, sass/responsive.scss */
+  /* line 115, sass/responsive.scss */
   #header-top-mobile #shopping-bag a {
     background-image: url('../images/icon-shopping-bag-mobile@2x.png?1432373642');
     -moz-background-size: 26px 24px;
@@ -126,7 +132,7 @@
   }
 }
 @media (max-width: 767px) {
-  /* line 120, sass/responsive.scss */
+  /* line 125, sass/responsive.scss */
   #header-top-mobile #shopping-bag span {
     position: absolute;
     background-color: #3e8893;
@@ -140,58 +146,58 @@
     font-weight: 700;
   }
 
-  /* line 135, sass/responsive.scss */
+  /* line 140, sass/responsive.scss */
   .navbar-toggle {
     float: none;
   }
 
-  /* line 139, sass/responsive.scss */
+  /* line 144, sass/responsive.scss */
   .navbar-toggle .icon-bar {
     background-color: #fff;
   }
 
-  /* line 143, sass/responsive.scss */
+  /* line 148, sass/responsive.scss */
   .mainmenu {
     text-align: center;
   }
 
-  /* line 147, sass/responsive.scss */
+  /* line 152, sass/responsive.scss */
   .mainmenu ul li {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* line 152, sass/responsive.scss */
+  /* line 157, sass/responsive.scss */
   #logo {
     text-align: center;
   }
 
-  /* line 155, sass/responsive.scss */
+  /* line 160, sass/responsive.scss */
   #billboard {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 158, sass/responsive.scss */
+  /* line 163, sass/responsive.scss */
   #billboard .container {
     padding: 0;
   }
-  /* line 160, sass/responsive.scss */
+  /* line 165, sass/responsive.scss */
   #billboard .container .row {
     margin: 0;
     padding: 0;
   }
-  /* line 163, sass/responsive.scss */
+  /* line 168, sass/responsive.scss */
   #billboard .container .row .col-sm-12 {
     margin: 0;
     padding: 0;
   }
 
-  /* line 171, sass/responsive.scss */
+  /* line 176, sass/responsive.scss */
   #featured-products .container, #promotions .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  /* line 176, sass/responsive.scss */
+  /* line 181, sass/responsive.scss */
   #featured-products .swiper-products-container, #promotions .swiper-products-container {
     padding-left: 0;
     padding-right: 0;
@@ -199,81 +205,89 @@
     margin-right: 0;
     overflow: hidden;
   }
-  /* line 182, sass/responsive.scss */
+  /* line 187, sass/responsive.scss */
   #featured-products .swiper-products-container .product .favorite, #promotions .swiper-products-container .product .favorite {
     display: none;
   }
-  /* line 185, sass/responsive.scss */
+  /* line 190, sass/responsive.scss */
   #featured-products .swiper-products-container .product .wrapper-image img, #promotions .swiper-products-container .product .wrapper-image img {
     max-width: 140px;
   }
 
-  /* line 191, sass/responsive.scss */
-  #services {
-    padding-bottom: 20px;
+  /* line 196, sass/responsive.scss */
+  #footer {
+    display: table;
   }
-  /* line 194, sass/responsive.scss */
-  #services .service:nth-child(1), #services .service:nth-child(2) {
-    height: 140px;
-  }
-
-  /* line 200, sass/responsive.scss */
-  #contact {
+  /* line 198, sass/responsive.scss */
+  #footer #contact {
+    display: table-header-group;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 203, sass/responsive.scss */
-  #contact .card {
+  /* line 202, sass/responsive.scss */
+  #footer #contact .row {
+    display: table;
+  }
+  /* line 205, sass/responsive.scss */
+  #footer #contact .card {
     width: 100% !important;
   }
-
   /* line 208, sass/responsive.scss */
-  #newsletter {
+  #footer #contact #customer-support {
+    display: table-header-group;
+    background-color: #f2f2f2 !important;
     text-align: center;
   }
-  /* line 210, sass/responsive.scss */
-  #newsletter form {
-    margin: 0 20px;
+  /* line 212, sass/responsive.scss */
+  #footer #contact #customer-support p:last-child {
+    margin-bottom: 20px;
   }
-
-  /* line 215, sass/responsive.scss */
-  #customer-support {
-    text-align: center;
-  }
-  /* line 218, sass/responsive.scss */
-  #customer-support p i {
+  /* line 216, sass/responsive.scss */
+  #footer #contact #customer-support p i {
     display: none;
   }
-  /* line 221, sass/responsive.scss */
-  #customer-support p span.phone {
+  /* line 219, sass/responsive.scss */
+  #footer #contact #customer-support p span.phone {
     font-size: 36px;
   }
-
-  /* line 227, sass/responsive.scss */
-  .social {
+  /* line 224, sass/responsive.scss */
+  #footer #contact #newsletter {
+    text-align: center;
+  }
+  /* line 226, sass/responsive.scss */
+  #footer #contact #newsletter form {
+    margin: 10px 20px;
+  }
+  /* line 228, sass/responsive.scss */
+  #footer #contact #newsletter form button {
+    margin-left: 55px;
+  }
+  /* line 234, sass/responsive.scss */
+  #footer #services {
+    padding-bottom: 20px;
+  }
+  /* line 237, sass/responsive.scss */
+  #footer #services .service:nth-child(1), #footer #services .service:nth-child(2) {
+    height: 140px;
+  }
+  /* line 242, sass/responsive.scss */
+  #footer .social {
     margin-top: 20px;
     text-align: center;
   }
-
-  /* line 232, sass/responsive.scss */
-  #seo {
+  /* line 247, sass/responsive.scss */
+  #footer #seo {
     margin-bottom: 0;
   }
-  /* line 234, sass/responsive.scss */
-  #seo .container {
+  /* line 249, sass/responsive.scss */
+  #footer #seo .container {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  /* line 240, sass/responsive.scss */
-  .col-sm-15 {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 /* XS Portrait */
 @media (max-width: 480px) {
-  /* line 249, sass/responsive.scss */
+  /* line 260, sass/responsive.scss */
   #billboard .swiper-slide {
     height: 375px;
   }
@@ -286,13 +300,13 @@
   Nokia N95
   Samsung Galaxy S3 Mini
   Nokia 300*/
-  /* line 263, sass/responsive.scss */
+  /* line 274, sass/responsive.scss */
   [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
   }
 
-  /* line 268, sass/responsive.scss */
+  /* line 279, sass/responsive.scss */
   #billboard .swiper-slide {
     height: 240px;
   }

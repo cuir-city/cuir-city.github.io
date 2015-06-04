@@ -1126,15 +1126,18 @@ article header {
 }
 
 #contact {
+  padding: 20px 0;
   div.card {
-    min-height: 160px;
+    min-height: 150px;
     width: 32.333333%;
     &:not(:last-child)
     {
       margin-right: 15px;
     }
+    p {
+      margin: 0;
+    }
   }
-padding: 20px 0;
 h1 {
   margin-top: 15px;
 }
@@ -1157,6 +1160,7 @@ i{
     }
   }
   form {
+    margin-top: 10px;
     border-bottom: 1px solid #fff;
     height: 30px;
   }
