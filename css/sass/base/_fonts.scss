@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic);
+
+// Cuir City Font Icons
+@font-face {
+  font-family: "cuir-city";
+  src:url("../fonts/cuir-city.eot");
+  src:url("../fonts/cuir-city.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cuir-city.woff") format("woff"),
+    url("../fonts/cuir-city.ttf") format("truetype"),
+    url("../fonts/cuir-city.svg#cuir-city") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "cuir-city" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "cuir-city" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-accessoires:before {
+  content: "a";
+}
+.icon-vestes-mi-longues-homme:before {
+  content: "b";
+}
+.icon-blousons-avec-capuche-femme:before {
+  content: "c";
+}
+.icon-blousons-avec-capuche-homme:before {
+  content: "d";
+}
+.icon-blousons-aviateur-homme:before {
+  content: "e";
+}
+.icon-blousons-bombardier-femme:before {
+  content: "f";
+}
+.icon-blousons-bombardier-homme:before {
+  content: "g";
+}
+.icon-blousons-doudoune-femme:before {
+  content: "h";
+}
+.icon-blousons-doudoune-homme:before {
+  content: "i";
+}
+.icon-blousons-femme:before {
+  content: "j";
+}
+.icon-blousons-fourrure-femme:before {
+  content: "k";
+}
+.icon-blousons-homme:before {
+  content: "l";
+}
+.icon-blousons-gilet-homme:before {
+  content: "m";
+}
+.icon-blousons-perfecto-femme:before {
+  content: "n";
+}
+.icon-blousons-perfecto-homme:before {
+  content: "o";
+}
+.icon-blousons-teddy-homme:before {
+  content: "p";
+}
+.icon-chaussures:before {
+  content: "q";
+}
+.icon-col-chemise:before {
+  content: "r";
+}
+.icon-col-fourrure:before {
+  content: "s";
+}
+.icon-col-motard:before {
+  content: "t";
+}
+.icon-leather:before {
+  content: "u";
+}
+.icon-pantalons-femme:before {
+  content: "v";
+}
+.icon-textiles-femme:before {
+  content: "w";
+}
+.icon-pantalons-homme:before {
+  content: "x";
+}
+.icon-textiles-homme:before {
+  content: "y";
+}
+.icon-vestes-blazers-femme:before {
+  content: "z";
+}
+.icon-vestes-blazers-homme:before {
+  content: "A";
+}
+.icon-vestes-femme:before {
+  content: "B";
+}
+.icon-vestes-homme:before {
+  content: "C";
+}
+.icon-vestes-manteaux-femme:before {
+  content: "D";
+}
+.icon-vestes-manteaux-homme:before {
+  content: "E";
+}
+.icon-vestes-mi-longues-femme:before {
+  content: "F";
+}
