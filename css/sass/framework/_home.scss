@@ -180,6 +180,9 @@ article header {
 
 #featured-products, #promotions {
   margin-bottom: 20px;
+  .product {
+    width: 220px;
+  }
   .swiper-products-pagination {
     text-align:center;
     .swiper-pagination-bullet {
@@ -195,12 +198,46 @@ article header {
 }
 
 /** Product **/
+.no-touch {
+  .product {
+    .wrapper-image {
+      &:hover {
+        .previous, .next {
+          display: block;
+        }
+        .sizes-overlay {
+          display: block;
+          -webkit-animation: fadeInUp 400ms;
+          -moz-animation: fadeInUp 400ms;
+          -ms-animation: fadeInUp 400ms;
+          -o-animation: fadeInUp 400ms;
+          animation: fadeInUp 400ms;
+        }
+      }
+    }
+  }
+}
+
 .product {
   text-align: center;
   margin-bottom: 20px;
   .wrapper-image {
     position: relative;
     min-height: 210px;
+    .previous, .next {
+      display: none;
+      top: 25%;
+      position: absolute;
+      z-index: 99999;
+      color: #000;
+      font-size: 24px;
+    }
+    .previous {
+      left: 20px;
+    }
+    .next {
+      right: 10px;
+    }
     img {
       max-width: 230px;
     }
@@ -295,16 +332,20 @@ article header {
   }
   .favorite {
     display: block;
-    overflow: hidden;
-    text-indent: -9999px;
     position: absolute;
     z-index: 999;
-    right: 0;
+    right: 0px;
     top: 5px;
-    @include background-image-hdpi("icon-favorite.png", "icon-favorite.png");
-    background-repeat: no-repeat;
+    color: #3e8893;
+    i {
+      font-size: 1.3em;
+    }
     &:hover {
-      @include background-image-hdpi("icon-favorite-hover.png", "icon-favorite-hover.png");
+      i {
+        &:before {
+          content: "C";
+        }
+      }
     }
   }
 }
@@ -377,20 +418,3 @@ article header {
 *******Footer CSS******
 **************************/
 
-// No touch css
-.no-touch {
-  .product {
-    .wrapper-image {
-      &:hover {
-        .sizes-overlay {
-          display: block;
-          -webkit-animation: fadeInUp 400ms;
-          -moz-animation: fadeInUp 400ms;
-          -ms-animation: fadeInUp 400ms;
-          -o-animation: fadeInUp 400ms;
-          animation: fadeInUp 400ms;
-        }
-      }
-    }
-  }
-}

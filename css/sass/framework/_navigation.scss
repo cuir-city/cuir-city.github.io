@@ -228,10 +228,6 @@
   text-transform: uppercase;
   color: #727272;
   > a {
-    @include background-image-hdpi("icon-map-pin.png", "icon-map-pin@2x.png");
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    padding-right: 20px !important;
     margin-right: 10px;
   }
   &:hover {
@@ -239,6 +235,8 @@
   }
   i {
     color: #3e8893;
+    font-size: 1em;
+    vertical-align: 0;
   }
 }
 

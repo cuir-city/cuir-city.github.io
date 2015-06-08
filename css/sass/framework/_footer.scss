@@ -18,9 +18,6 @@
 h1 {
   margin-top: 15px;
 }
-i{
-  vertical-align: middle;
-}
 #newsletter {
   background-color: #3e8893;
   color: #fff;
@@ -28,12 +25,11 @@ i{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    i.mail {
-      display: inline-block;
-      width: 26px;
-      height: 18px;
-      @include background-image-hdpi("icon-mail.png", "icon-mail@2x.png");
-      margin-right: 10px;
+    i{
+      &.icon-mail {
+        font-size: 1.6em;
+        vertical-align: -40%;
+      }
     }
   }
   form {
@@ -81,12 +77,12 @@ i{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    i.adviser {
-      display: inline-block;
-      width: 21px;
-      height: 24px;
-      @include background-image-hdpi("icon-adviser.png", "icon-adviser@2x.png");
-      margin-right: 10px;
+    i {
+      &.icon-hotline {
+        font-size: 1.3em;
+        vertical-align: -10%;
+        color: #3e8893;
+      }
     }
   }
   p {
@@ -109,12 +105,11 @@ i{
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    i.leather {
-      display: inline-block;
-      width: 14px;
-      height: 15px;
-      @include background-image-hdpi("icon-leather.png", "icon-leather@2x.png");
-      margin-right: 10px;
+    i {
+      &.icon-leather {
+        vertical-align: -15%;
+        color: #3e8893;
+      }
     }
   }
   ul {
@@ -142,7 +137,7 @@ i{
 }
 
 .single-widget ul li a{
-  line-height: 20px;
+  line-height: 15px;
   color: #585656;
   font-size: 14px;
   padding: 5px 0;
@@ -167,25 +162,23 @@ i{
 .social {
   padding: 0;
   li {
-    display: inline-block;
+    float: left;
     margin-bottom: 5px;
     text-align: center;
+    margin-right: 5px;
   }
   a {
+    padding: 0;
+    margin: 0 !important;
+    color: #3e8893 !important;
     font-size: 20px;
-    background-color: #3e8893 !important;
-    color: #fff !important;
-    border-radius: 20px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    vertical-align: middle;
-    margin-right: 5px;
+    text-align: left;
     &:hover {
-      background-color: #333333 !important;
+      color: #333333 !important;
     }
     i {
-      line-height: 30px;
+      margin-right: 0;
+      font-size: 2.5em;
     }
   }
 }
@@ -233,31 +226,22 @@ i{
     text-align: center;
     color: #585656;
     text-transform: uppercase;
-    padding-top: 60px;
-    &.delivery {
-      @include background-image-hdpi("icon-delivery-black.png", "icon-delivery-black@2x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-    }
-    &.moneyback {
-      @include background-image-hdpi("icon-money-back.png", "icon-money-back@2x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-    }
-    &.payment-facility {
-      @include background-image-hdpi("icon-payment-facility.png", "icon-payment-facility@2x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-    }
-    &.secure-payment {
-      @include background-image-hdpi("icon-secure-black.png", "icon-secure-black@2x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-    }
-    &.satisfy {
-      @include background-image-hdpi("icon-satisfy-black.png", "icon-satisfy-black@2x.png");
-      background-repeat: no-repeat;
-      background-position: 50% 0;
+    i {
+      display: inline-block;
+      background-color: #333333;
+      color: #fff;
+      width: 45px;
+      height: 45px;
+      line-height: 50px;
+      border-radius: 50px;
+      margin-bottom: 10px;
+      font-size: 1.4em;
+      &.icon-heart {
+        line-height: 55px;
+      }
+      &.icon-padlock {
+        padding-left: 4px;
+      }
     }
     span:first-child {
       color: #3e8893;

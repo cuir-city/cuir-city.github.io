@@ -95,9 +95,7 @@ function initSliderMobile(classNameContainer)
 				grabCursor: true,
 				centeredSlides: true,
 				slidesPerView: 2,
-				speed: 1200,
-				nextButton: '.swiper-products-button-next',
-				prevButton: '.swiper-products-button-prev',
+				speed: 1200
 				})
 
 				swipers.push(mySwiper);
@@ -116,8 +114,8 @@ function initSliderMobile(classNameContainer)
 			    simulateTouch: false,
 			    allowSwipeToPrev: false,
 			    allowSwipeToNext: false,
-			    nextButton : container.parents('.product').find('.btn-next'),
-			    prevButton : container.parents('.product').find('.btn-previous'),
+			    nextButton : container.parents('.product').find('.next'),
+			    prevButton : container.parents('.product').find('.previous'),
 			    lazyLoading: true
 			  })
 		});

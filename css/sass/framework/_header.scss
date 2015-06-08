@@ -7,14 +7,23 @@
   .need-help {
     @include font-size(1.2);
     margin-left: 10px;
-    @include background-image-hdpi("icon-tel.png", "icon-tel@2x.png");
-    background-repeat: no-repeat;
-    background-position: 0 50%;
     padding-top: 5px;
-    padding-left: 30px;
     padding-bottom: 5px;
     span {
       color: #fff;
+      i {
+        display: inline-block;
+        color: #000;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 20px;
+        width: 20px;
+        height: 20px;
+        font-size: 1.1em;
+        padding-top: 2px;
+        padding-left: 1px;
+        vertical-align: -10%;
+      }
     }
     a {
       font-weight: 700;
@@ -37,11 +46,11 @@
           &:hover {
             background-color: #000;
           }
-          &.shopping-bag-link {
-            @include background-image-hdpi("icon-shopping-bag.png", "icon-shopping-bag@2x.png");
-            background-repeat: no-repeat;
-            background-position: 0 50%;
-            padding-left: 30px ! important;
+          &.cart-link {
+            i {
+              font-size: 1.3em;
+              vertical-align: -10%;
+            }
           }
         }
         ul.sub-menu {
@@ -125,6 +134,7 @@
                 }
               }
               a.delete {
+                font-size: 0.7em;
                 color: #2a2a2a;
               }
 
@@ -164,8 +174,8 @@
     .row {
       position: relative;
       border: 1px solid #3e8893;
-      padding-bottom: 5px;
-      padding-top: 5px;
+      padding-bottom: 2px;
+      padding-top: 2px;
       margin-left: 0;
       margin-right: 0;
       ul {
@@ -174,33 +184,26 @@
         li {
           display: inline-block;
           a {
+            font-size: 14px;
             display: block;
             line-height: 25px;
             color: #3f8893;
             text-transform: uppercase;
+            i {
+              font-size: 1.4em;
+              &.icon-heart {
+                vertical-align: -25%;
+              }
+              &.icon-delivery {
+                vertical-align: -20%;
+              }
+              &.icon-star {
+                vertical-align: -20%;
+              }
+            }
             span {
               font-style: italic;
               text-transform: none;
-            }
-            &.money-back {
-              padding-left: 25px;
-              @include background-image-hdpi("icon-heart.png", "icon-heart@2x.png");
-              background-repeat: no-repeat;
-              background-position: 0 50%;
-
-            }
-            &.delivery {
-              padding-left: 30px;
-              @include background-image-hdpi("icon-delivery.png", "icon-delivery@2x.png");
-              background-repeat: no-repeat;
-              background-position: 0 50%;
-            }
-
-            &.star {
-              padding-left: 25px;
-              @include background-image-hdpi("icon-star.png", "icon-star@2x.png");
-              background-repeat: no-repeat;
-              background-position: 0 50%;
             }
           }
         }
@@ -214,13 +217,14 @@
         color: #fff;
         width: 30px;
         height: 100%;
-        line-height: 31px;
+        line-height: 28px;
         text-align: center;
         font-size: 14px;
-        text-indent: -9999px;
-        @include background-image-hdpi("icon-close.png", "icon-close@2x.png");
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
+        i {
+          font-size: 0.9em;
+          margin-right: 0px;
+          vertical-align: -15%;
+        }
       }
     }
   }
@@ -237,6 +241,11 @@ header .search-box {
   margin-top: 20px;
   width: 100%;
   background: #f2f2f2;
+  i {
+    font-size: 1.4em;
+    margin-left: 10px;
+    vertical-align: -20%;
+  }
   input {
     border: medium none;
     color: #8b8a8a;
@@ -245,12 +254,9 @@ header .search-box {
     height: 35px;
     outline: medium none;
     background: rgba(0,0,0,0);
-    @include background-image-hdpi("icon-search.png", "icon-search@2x.png");
-    background-repeat: no-repeat;
-    background-position: 10px 50%;
-    padding-left: 50px;
     font-style: italic;
     font-weight: 300;
+    padding-left: 5px;
     @include input-placeholder {
       font-style: italic;
       font-weight: 300;
