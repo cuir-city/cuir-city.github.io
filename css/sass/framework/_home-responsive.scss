@@ -112,13 +112,10 @@
             position: relative;
             a {
                 position: absolute;
-                display: block;
-                text-indent: -9999px;
-                width: 26px;
-                height: 24px;
-                @include background-image-hdpi("icon-shopping-bag-mobile.png", "icon-shopping-bag-mobile@2x.png");
-                background-repeat: no-repeat;
-                margin-top: 10px;
+                color: #fff;
+                i {
+                    font-size: 2em;
+                }
             }
             span {
                 position: absolute;
