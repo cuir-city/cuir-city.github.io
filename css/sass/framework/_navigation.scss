@@ -1,3 +1,4 @@
+// Desktop menu
 .desktop-menu {
   line-height: 40px;
   .sub-menu {
@@ -41,6 +42,15 @@
     margin-left: 16px;
     background: #fff;
     width: 1140px;
+    @include mq($until:desktop) {
+      width: 720px !important;
+      > ul > li > a {
+            font-size: 12px !important;
+            i {
+                width: 100% !important;
+            }
+        }
+    }
     text-align: center;
     > ul {
       padding-top: 10px;
@@ -240,6 +250,48 @@
   }
 }
 
+// Home header top mobile
+#header-top-mobile {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  .col-xs-2:first-child {
+      padding-left: 0;
+  }
+  #logo-mobile {
+      margin-top: 10px;
+  }
+  #shopping-bag {
+      position: relative;
+      a {
+          position: absolute;
+          color: #fff;
+          i {
+              font-size: 2em;
+          }
+      }
+      span {
+          position: absolute;
+          background-color: #3e8893;
+          top: 10px;
+          left: 5px;
+          border-radius: 10px;
+          color: #fff;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          font-weight: 700;
+      }
+  }
+}
+
+.navbar-toggle {
+  float: none;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
 #wrapper {
   position: relative;
   z-index: 10;
@@ -261,7 +313,7 @@
   background: rgba(0, 0, 0, 0);
 }
 
-/* slide menu left and right, push menu left and right */
+// Slide menu left and right, push menu left and right
 nav.push-menu-left {
   top: 0;
   width: calc(100% - 45px);

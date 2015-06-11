@@ -1,3 +1,4 @@
+// Black header top
 .header-top {
   background: none repeat scroll 0 0 #171717;
   a {
@@ -27,7 +28,7 @@
     }
     a {
       font-weight: 700;
-      color: #3e8893;
+      color: $green;
       margin-left: 5px;
     }
   }
@@ -66,7 +67,7 @@
           display: none;
           z-index: 999;
           &.account {
-            background-color: #3e8893;
+            background-color: $green;
             padding: 20px;
             ul {
               margin: 0;
@@ -121,7 +122,7 @@
                 }
                 &.product-price {
                   font-weight: 700;
-                  color: #3e8893;
+                  color: $green;
                 }
                 &.total {
                   text-transform: uppercase;
@@ -129,7 +130,7 @@
                 }
                 &.total-price {
                   font-size: 18px;
-                  color: #3e8893;
+                  color: $green;
                   font-weight: 700;
                 }
               }
@@ -165,6 +166,7 @@
   }
 }
 
+// Banner info
 .banner-info {
   @include font-size(1.4);
   position: relative;
@@ -173,7 +175,7 @@
   {
     .row {
       position: relative;
-      border: 1px solid #3e8893;
+      border: 1px solid $green;
       padding-bottom: 2px;
       padding-top: 2px;
       margin-left: 0;
@@ -181,6 +183,7 @@
       ul {
         padding: 0;
         margin: 0 20px;
+        text-align: center;
         li {
           display: inline-block;
           a {
@@ -231,12 +234,14 @@
 
 }
 
+// Logo
 header .logo {
   a {
     margin-left: 10px;
   }
 }
 
+// Search box
 header .search-box {
   margin-top: 20px;
   width: 100%;
