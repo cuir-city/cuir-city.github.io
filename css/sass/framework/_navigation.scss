@@ -141,7 +141,12 @@
           }
         }
         ul li a {
+          display: inline-block;
           color: #000;
+          @include mq($until:desktop) {
+            font-size: 13px;
+            line-height: 16px;
+          }
           i {
               display: inline-block;
               width: 40px;
