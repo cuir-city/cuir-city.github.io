@@ -5,8 +5,8 @@ var currentMenu;
 var mySwiper = new Swiper ('.swiper-push', {
     direction: 'horizontal',
     loop: true,
-    autoplay: 2000,
-    autoplayDisableOnInteraction: true,
+    // autoplay: 2000,
+    // autoplayDisableOnInteraction: true,
     speed: 500,
     pagination: '.swiper-pagination',
     paginationClickable: true

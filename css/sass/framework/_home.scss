@@ -27,9 +27,12 @@
   }
 }
 // Articles General Css
-article {
+article.push {
   position: relative;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   div.background {
     position: absolute;
@@ -96,13 +99,6 @@ article {
     }
     article {
       height: inherit;
-      img {
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-      }
       header {
         position: absolute;
         bottom: 50px;
