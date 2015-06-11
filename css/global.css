@@ -857,7 +857,7 @@ header .search-box button {
   width: 1140px;
   text-align: center;
 }
-@media (max-width: 61.24em) {
+@media (min-width: 46.25em) and (max-width: 81.24em) {
   /* line 37, sass/framework/_navigation.scss */
   .desktop-menu .categories li.dropdown .sub-menu {
     width: 720px !important;
@@ -1638,6 +1638,7 @@ nav.mobile-menu ul.level-4 a.see-all {
 /* line 202, sass/framework/_home.scss */
 #home #featured-products .product, #home #promotions .product {
   width: 220px;
+  margin: 0 auto 20px auto;
 }
 @media (max-width: 46.24em) {
   /* line 202, sass/framework/_home.scss */
@@ -1645,13 +1646,13 @@ nav.mobile-menu ul.level-4 a.see-all {
     width: 140px;
   }
 }
-/* line 208, sass/framework/_home.scss */
+/* line 209, sass/framework/_home.scss */
 #home #featured-products .swiper-scrollbar, #home #promotions .swiper-scrollbar {
   display: none;
   height: 1px;
   background-color: #000;
 }
-/* line 212, sass/framework/_home.scss */
+/* line 213, sass/framework/_home.scss */
 #home #featured-products .swiper-scrollbar .swiper-scrollbar-drag, #home #promotions .swiper-scrollbar .swiper-scrollbar-drag {
   height: 4px !important;
   top: -2px !important;
@@ -1659,12 +1660,12 @@ nav.mobile-menu ul.level-4 a.see-all {
   background-color: #3e8893;
 }
 @media (max-width: 46.24em) {
-  /* line 208, sass/framework/_home.scss */
+  /* line 209, sass/framework/_home.scss */
   #home #featured-products .swiper-scrollbar, #home #promotions .swiper-scrollbar {
     display: block;
   }
 }
-/* line 227, sass/framework/_home.scss */
+/* line 228, sass/framework/_home.scss */
 #home .more-articles a {
   display: inline-block;
   font-size: 12px;
@@ -1680,41 +1681,40 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding: 5px 0;
   min-width: 220px;
 }
-/* line 241, sass/framework/_home.scss */
+/* line 242, sass/framework/_home.scss */
 #home .more-articles a:hover {
   color: #fff;
   background-color: #000 !important;
 }
-/* line 248, sass/framework/_home.scss */
+/* line 249, sass/framework/_home.scss */
 #home #news {
   background-color: #f2f2f2;
   padding: 20px 0;
 }
-/* line 251, sass/framework/_home.scss */
+/* line 252, sass/framework/_home.scss */
 #home #news article {
   background-color: #333333;
   height: 270px;
 }
-/* line 254, sass/framework/_home.scss */
+/* line 255, sass/framework/_home.scss */
 #home #news article .background {
   opacity: 0.4;
 }
-/* line 257, sass/framework/_home.scss */
+/* line 258, sass/framework/_home.scss */
 #home #news article header {
   bottom: 30px;
 }
-/* line 259, sass/framework/_home.scss */
+/* line 260, sass/framework/_home.scss */
 #home #news article header h2 {
   font-size: 24px;
 }
-/* line 262, sass/framework/_home.scss */
+/* line 263, sass/framework/_home.scss */
 #home #news article header h3 {
   font-size: 14px;
 }
-/* line 267, sass/framework/_home.scss */
+/* line 268, sass/framework/_home.scss */
 #home #news article.newsweek header {
   background: none;
-  padding-top: 30px;
 }
 /* line 270, sass/framework/_home.scss */
 #home #news article.newsweek header h2 {
@@ -1728,25 +1728,38 @@ nav.mobile-menu ul.level-4 a.see-all {
 /* line 277, sass/framework/_home.scss */
 #home #news article.newsweek header hr {
   width: 10%;
+  margin: 10px auto;
 }
-/* line 280, sass/framework/_home.scss */
+/* line 281, sass/framework/_home.scss */
 #home #news article.newsweek header p {
   font-weight: 300;
   padding-left: 20px;
   padding-right: 20px;
 }
-
-/* line 292, sass/framework/_home.scss */
-.product {
-  text-align: center;
-  margin-bottom: 20px;
+@media (max-width: 61.24em) {
+  /* line 281, sass/framework/_home.scss */
+  #home #news article.newsweek header p {
+    font-size: 12px;
+  }
 }
-/* line 295, sass/framework/_home.scss */
+@media (max-width: 61.24em) {
+  /* line 290, sass/framework/_home.scss */
+  #home #news article.newsweek header a {
+    margin-top: 5px;
+  }
+}
+
+/* line 303, sass/framework/_home.scss */
+.product {
+  position: relative;
+  text-align: center;
+}
+/* line 306, sass/framework/_home.scss */
 .product .wrapper-image {
   position: relative;
   min-height: 210px;
 }
-/* line 298, sass/framework/_home.scss */
+/* line 309, sass/framework/_home.scss */
 .product .wrapper-image .previous, .product .wrapper-image .next {
   display: none;
   top: 25%;
@@ -1755,20 +1768,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   color: #000;
   font-size: 24px;
 }
-/* line 306, sass/framework/_home.scss */
+/* line 317, sass/framework/_home.scss */
 .product .wrapper-image .previous {
   left: 20px;
 }
-/* line 309, sass/framework/_home.scss */
+/* line 320, sass/framework/_home.scss */
 .product .wrapper-image .next {
   right: 10px;
 }
-/* line 312, sass/framework/_home.scss */
+/* line 323, sass/framework/_home.scss */
 .product .wrapper-image img {
   width: 100%;
   max-width: 100%;
 }
-/* line 316, sass/framework/_home.scss */
+/* line 327, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay {
   display: none;
   position: absolute;
@@ -1778,7 +1791,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   width: 100%;
   z-index: 999999;
 }
-/* line 324, sass/framework/_home.scss */
+/* line 335, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay span {
   font-weight: 700;
   display: inline-block;
@@ -1787,12 +1800,12 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 332, sass/framework/_home.scss */
+/* line 343, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay ul {
   padding-left: 15px;
   margin: 0;
 }
-/* line 335, sass/framework/_home.scss */
+/* line 346, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay ul li {
   display: inline-block;
   background-color: #fff;
@@ -1805,7 +1818,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding: 5px 0;
   width: 35px;
 }
-/* line 348, sass/framework/_home.scss */
+/* line 359, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay a {
   display: block;
   width: 100%;
@@ -1815,20 +1828,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-weight: 700;
   padding: 10px;
 }
-/* line 358, sass/framework/_home.scss */
+/* line 369, sass/framework/_home.scss */
 .product .wrapper-image .product-link {
   display: block;
 }
-/* line 363, sass/framework/_home.scss */
+/* line 374, sass/framework/_home.scss */
 .product .brand {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 366, sass/framework/_home.scss */
+/* line 377, sass/framework/_home.scss */
 .product .brand img {
   max-width: 100%;
 }
-/* line 370, sass/framework/_home.scss */
+/* line 381, sass/framework/_home.scss */
 .product .price {
   display: block;
   margin-top: 10px;
@@ -1836,18 +1849,18 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 376, sass/framework/_home.scss */
+/* line 387, sass/framework/_home.scss */
 .product .price.crossed {
   color: #e13250;
 }
-/* line 378, sass/framework/_home.scss */
+/* line 389, sass/framework/_home.scss */
 .product .price.crossed span {
   font-size: 14px;
   text-decoration: line-through;
   color: #949494;
   padding-right: 5px;
 }
-/* line 386, sass/framework/_home.scss */
+/* line 397, sass/framework/_home.scss */
 .product span.tag {
   display: inline-block;
   color: #221a32;
@@ -1858,18 +1871,18 @@ nav.mobile-menu ul.level-4 a.see-all {
   text-transform: uppercase;
   margin: 2px;
 }
-/* line 395, sass/framework/_home.scss */
+/* line 406, sass/framework/_home.scss */
 .product span.tag.offer-percentage {
   border: 1px solid #e13250;
   color: #e13250;
 }
-/* line 399, sass/framework/_home.scss */
+/* line 410, sass/framework/_home.scss */
 .product span.tag.offer-label {
   border: 1px solid #e13250;
   color: #fff;
   background-color: #e13250;
 }
-/* line 405, sass/framework/_home.scss */
+/* line 416, sass/framework/_home.scss */
 .product .favorite {
   display: block;
   position: absolute;
@@ -1878,20 +1891,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   top: 5px;
   color: #3e8893;
 }
-/* line 412, sass/framework/_home.scss */
+/* line 423, sass/framework/_home.scss */
 .product .favorite i {
   font-size: 1.3em;
 }
-/* line 417, sass/framework/_home.scss */
+/* line 428, sass/framework/_home.scss */
 .product .favorite:hover i:before {
   content: "C";
 }
 
-/* line 430, sass/framework/_home.scss */
+/* line 441, sass/framework/_home.scss */
 .no-touch .product .wrapper-image:hover .previous, .no-touch .product .wrapper-image:hover .next {
   display: block;
 }
-/* line 433, sass/framework/_home.scss */
+/* line 444, sass/framework/_home.scss */
 .no-touch .product .wrapper-image:hover .sizes-overlay {
   display: block;
   -webkit-animation: fadeInUp 400ms;
@@ -1988,7 +2001,7 @@ nav.mobile-menu ul.level-4 a.see-all {
 }
 /* line 63, sass/framework/_footer.scss */
 #footer #keep-in-touch div.card {
-  min-height: 150px;
+  min-height: 160px;
   width: 31.333333%;
 }
 /* line 66, sass/framework/_footer.scss */
@@ -2039,7 +2052,11 @@ nav.mobile-menu ul.level-4 a.see-all {
   border-bottom: 1px solid #fff;
   height: 30px;
 }
-/* line 104, sass/framework/_footer.scss */
+/* line 103, sass/framework/_footer.scss */
+#footer #keep-in-touch #newsletter form [class^='col-'] {
+  padding: 0;
+}
+/* line 107, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter input[type=email] {
   color: #fff;
   width: 100%;
@@ -2075,7 +2092,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   color: #fff;
   font-style: italic;
 }
-/* line 121, sass/framework/_footer.scss */
+/* line 124, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter button {
   width: 100%;
   background: none;
@@ -2087,15 +2104,15 @@ nav.mobile-menu ul.level-4 a.see-all {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 132, sass/framework/_footer.scss */
+/* line 135, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter .col-sm-2 {
   padding-left: 0;
 }
-/* line 136, sass/framework/_footer.scss */
+/* line 139, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support {
   background-color: #fff;
 }
-/* line 138, sass/framework/_footer.scss */
+/* line 141, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support h3 {
   background-repeat: no-repeat;
   color: #333333;
@@ -2103,58 +2120,58 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 145, sass/framework/_footer.scss */
+/* line 148, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support h3 i.icon-hotline {
   font-size: 1.3em;
   vertical-align: -10%;
   color: #3e8893;
 }
-/* line 152, sass/framework/_footer.scss */
+/* line 155, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p {
   color: #585656;
 }
-/* line 154, sass/framework/_footer.scss */
+/* line 157, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p span.phone {
   font-size: 18px;
   font-weight: 700;
   color: #3e8893;
 }
-/* line 158, sass/framework/_footer.scss */
+/* line 161, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p span.phone i {
   font-size: 14px;
   font-weight: 400;
 }
-/* line 165, sass/framework/_footer.scss */
+/* line 168, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice {
   background-color: #fff;
 }
-/* line 167, sass/framework/_footer.scss */
+/* line 170, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice h3 {
   color: #333333;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 173, sass/framework/_footer.scss */
+/* line 176, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice h3 i.icon-leather {
   vertical-align: -15%;
   color: #3e8893;
 }
-/* line 179, sass/framework/_footer.scss */
+/* line 182, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice ul {
   padding: 0;
   margin: 0;
 }
-/* line 182, sass/framework/_footer.scss */
+/* line 185, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice ul a {
   color: #585656;
 }
-/* line 189, sass/framework/_footer.scss */
+/* line 192, sass/framework/_footer.scss */
 #footer #navigation-footer {
   border-top: 1px solid #fff;
   margin-bottom: 20px;
 }
-/* line 193, sass/framework/_footer.scss */
+/* line 196, sass/framework/_footer.scss */
 #footer #navigation-footer .content h3 {
   color: #3e8893;
   font-size: 14px;
@@ -2162,29 +2179,29 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 200, sass/framework/_footer.scss */
+/* line 203, sass/framework/_footer.scss */
 #footer #navigation-footer .content ul li a {
   line-height: 15px;
   color: #585656;
   font-size: 14px;
   padding: 5px 0;
 }
-/* line 205, sass/framework/_footer.scss */
+/* line 208, sass/framework/_footer.scss */
 #footer #navigation-footer .content ul li a:hover {
   background: none;
   color: #3e8893;
 }
-/* line 211, sass/framework/_footer.scss */
+/* line 214, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us a {
   display: block;
   color: #585656;
   margin-bottom: 10px;
 }
-/* line 216, sass/framework/_footer.scss */
+/* line 219, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social {
   padding: 0;
 }
-/* line 218, sass/framework/_footer.scss */
+/* line 221, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social li {
   float: left;
   margin-bottom: 5px;
@@ -2192,19 +2209,19 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-right: 5px;
 }
 @media (max-width: 46.24em) {
-  /* line 218, sass/framework/_footer.scss */
+  /* line 221, sass/framework/_footer.scss */
   #footer #navigation-footer .content.follow-us ul.social li {
     float: none;
     display: inline-block;
   }
 }
 @media (min-width: 46.25em) and (max-width: 61.24em) {
-  /* line 230, sass/framework/_footer.scss */
+  /* line 233, sass/framework/_footer.scss */
   #footer #navigation-footer .content.follow-us ul.social li:nth-child(2) {
     float: none;
   }
 }
-/* line 235, sass/framework/_footer.scss */
+/* line 238, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a {
   padding: 0;
   margin: 0 !important;
@@ -2212,49 +2229,49 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-size: 20px;
   text-align: left;
 }
-/* line 241, sass/framework/_footer.scss */
+/* line 244, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a:hover {
   color: #333333 !important;
 }
-/* line 244, sass/framework/_footer.scss */
+/* line 247, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a i {
   margin-right: 0;
   font-size: 1.75em;
 }
 @media (max-width: 46.24em) {
-  /* line 216, sass/framework/_footer.scss */
+  /* line 219, sass/framework/_footer.scss */
   #footer #navigation-footer .content.follow-us ul.social {
     margin-top: 20px;
     text-align: center;
   }
 }
-/* line 255, sass/framework/_footer.scss */
+/* line 258, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list {
   padding: 0;
   margin: 20px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
 }
-/* line 260, sass/framework/_footer.scss */
+/* line 263, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li {
   border-bottom: 1px solid #fff;
   padding: 20px;
 }
-/* line 261, sass/framework/_footer.scss */
+/* line 264, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li:first-child {
   border-top: 1px solid #fff;
 }
-/* line 266, sass/framework/_footer.scss */
+/* line 269, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li a {
   color: #585656;
 }
 @media (max-width: 46.24em) {
-  /* line 189, sass/framework/_footer.scss */
+  /* line 192, sass/framework/_footer.scss */
   #footer #navigation-footer {
     margin-bottom: 0;
   }
 }
-/* line 277, sass/framework/_footer.scss */
+/* line 280, sass/framework/_footer.scss */
 #footer #seo-description {
   border-top: 1px solid #fff;
   font-size: 12px;
@@ -2262,17 +2279,17 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-/* line 283, sass/framework/_footer.scss */
+/* line 286, sass/framework/_footer.scss */
 #footer #seo-description p {
   text-align: center;
 }
-/* line 288, sass/framework/_footer.scss */
+/* line 291, sass/framework/_footer.scss */
 #footer #copyright {
   background: #000000;
   padding: 10px 0;
   color: #fff;
 }
-/* line 292, sass/framework/_footer.scss */
+/* line 295, sass/framework/_footer.scss */
 #footer #copyright span {
   margin-left: 20px;
 }
@@ -2281,49 +2298,45 @@ nav.mobile-menu ul.level-4 a.see-all {
   #footer {
     display: table;
   }
-  /* line 300, sass/framework/_footer.scss */
+  /* line 303, sass/framework/_footer.scss */
   #footer #keep-in-touch {
     display: table-header-group;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 304, sass/framework/_footer.scss */
+  /* line 307, sass/framework/_footer.scss */
   #footer #keep-in-touch .row {
     display: table;
   }
-  /* line 307, sass/framework/_footer.scss */
+  /* line 310, sass/framework/_footer.scss */
   #footer #keep-in-touch .card {
     width: 100% !important;
   }
-  /* line 310, sass/framework/_footer.scss */
+  /* line 313, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support {
     display: table-header-group;
     background-color: #f2f2f2 !important;
     text-align: center;
   }
-  /* line 314, sass/framework/_footer.scss */
+  /* line 317, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p:last-child {
     margin-bottom: 20px;
   }
-  /* line 318, sass/framework/_footer.scss */
+  /* line 321, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p i {
     display: none;
   }
-  /* line 321, sass/framework/_footer.scss */
+  /* line 324, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p span.phone {
     font-size: 36px;
   }
-  /* line 326, sass/framework/_footer.scss */
+  /* line 329, sass/framework/_footer.scss */
   #footer #keep-in-touch #newsletter {
     text-align: center;
   }
-  /* line 328, sass/framework/_footer.scss */
+  /* line 331, sass/framework/_footer.scss */
   #footer #keep-in-touch #newsletter form {
     margin: 10px 20px;
-  }
-  /* line 330, sass/framework/_footer.scss */
-  #footer #keep-in-touch #newsletter form button {
-    margin-left: 55px;
   }
 }
 

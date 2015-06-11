@@ -42,7 +42,7 @@
     margin-left: 16px;
     background: #fff;
     width: 1140px;
-    @include mq($until:desktop) {
+    @include mq($from:tablet,$until:wide) {
       width: 720px !important;
       > ul > li > a {
             font-size: 12px !important;
