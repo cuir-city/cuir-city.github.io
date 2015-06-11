@@ -3,11 +3,11 @@ var currentMenu;
 
 /* Swiper */
 var mySwiper = new Swiper ('.swiper-push', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
-
-    // If we need pagination
+    autoplay: 2000,
+    autoplayDisableOnInteraction: true,
+    speed: 500,
     pagination: '.swiper-pagination',
     paginationClickable: true
   })
