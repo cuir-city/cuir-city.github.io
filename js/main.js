@@ -89,7 +89,7 @@ function initSliderMobile(classNameContainer)
 				wrapper.addClass('swiper-wrapper');
 				wrapper.children().addClass('swiper-slide');
 				var mySwiper = new Swiper ($(this), {
-				pagination: $(this).find('.swiper-products-pagination'),
+				scrollbar: $(this).find('.swiper-scrollbar'),
 				direction: 'horizontal',
 				loop: true,
 				grabCursor: true,

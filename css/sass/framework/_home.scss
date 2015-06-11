@@ -200,6 +200,9 @@ article {
 // Featured products and promotions
 #featured-products, #promotions {
   margin-bottom: 20px;
+  @include mq($until: tablet) {
+    margin-bottom: 0;
+  }
   .product {
     width: 220px;
     @include mq($until:tablet) {
@@ -207,16 +210,14 @@ article {
     }
   }
 
-  .swiper-products-pagination {
-    text-align:center;
-    .swiper-pagination-bullet {
-      background: #fff;
-      border: 1px solid $green;
-      margin-right: 2px;
-    }
-    .swiper-pagination-bullet-active {
-      background: $green;
-      opacity: 1;
+  .swiper-scrollbar {
+    height: 1px;
+    background-color: #000;
+    .swiper-scrollbar-drag {
+      height: 4px !important;
+      top: -2px !important;
+      border-radius: 0;
+      background-color: $green;
     }
   }
 }
