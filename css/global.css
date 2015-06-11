@@ -1907,12 +1907,12 @@ nav.mobile-menu ul.level-4 a.see-all {
   text-align: center;
 }
 @media (max-width: 46.24em) {
-  /* line 10, sass/framework/_footer.scss */
-  #footer #services ul li {
+  /* line 13, sass/framework/_footer.scss */
+  #footer #services ul li:nth-child(1), #footer #services ul li:nth-child(2) {
     height: 150px;
   }
 }
-/* line 17, sass/framework/_footer.scss */
+/* line 19, sass/framework/_footer.scss */
 #footer #services a {
   display: inline-block;
   font-size: 14px;
@@ -1921,7 +1921,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   color: #585656;
   text-transform: uppercase;
 }
-/* line 24, sass/framework/_footer.scss */
+/* line 26, sass/framework/_footer.scss */
 #footer #services a i {
   display: inline-block;
   background-color: #333333;
@@ -1933,15 +1933,15 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-bottom: 10px;
   font-size: 1.4em;
 }
-/* line 34, sass/framework/_footer.scss */
+/* line 36, sass/framework/_footer.scss */
 #footer #services a i.icon-heart {
   line-height: 55px;
 }
-/* line 37, sass/framework/_footer.scss */
+/* line 39, sass/framework/_footer.scss */
 #footer #services a i.icon-padlock {
   padding-left: 4px;
 }
-/* line 40, sass/framework/_footer.scss */
+/* line 42, sass/framework/_footer.scss */
 #footer #services a i.icon-facily-pay {
   background-image: url('../images/icon-payment-facility.png?1432054710');
   background-repeat: no-repeat;
@@ -1949,7 +1949,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   height: 45px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 40, sass/framework/_footer.scss */
+  /* line 42, sass/framework/_footer.scss */
   #footer #services a i.icon-facily-pay {
     background-image: url('../images/icon-payment-facility@2x.png?1432054710');
     -moz-background-size: 46px 46px;
@@ -1958,74 +1958,74 @@ nav.mobile-menu ul.level-4 a.see-all {
     background-size: 46px 46px;
   }
 }
-/* line 47, sass/framework/_footer.scss */
+/* line 49, sass/framework/_footer.scss */
 #footer #services a span:first-child {
   color: #3e8893;
 }
-/* line 50, sass/framework/_footer.scss */
+/* line 52, sass/framework/_footer.scss */
 #footer #services a span:last-child {
   text-transform: none;
   font-weight: 400;
   font-style: italic;
 }
-/* line 58, sass/framework/_footer.scss */
+/* line 60, sass/framework/_footer.scss */
 #footer #keep-in-touch {
   padding: 20px 0;
 }
-/* line 60, sass/framework/_footer.scss */
+/* line 62, sass/framework/_footer.scss */
 #footer #keep-in-touch div.card {
   min-height: 150px;
   width: 31.333333%;
 }
-/* line 63, sass/framework/_footer.scss */
+/* line 65, sass/framework/_footer.scss */
 #footer #keep-in-touch div.card:not(:last-child) {
   margin-right: 15px;
 }
-/* line 67, sass/framework/_footer.scss */
+/* line 69, sass/framework/_footer.scss */
 #footer #keep-in-touch div.card p {
   margin: 0;
 }
 @media (max-width: 46.24em) {
-  /* line 60, sass/framework/_footer.scss */
+  /* line 62, sass/framework/_footer.scss */
   #footer #keep-in-touch div.card {
     text-align: center;
     width: 100%;
   }
 }
 @media (min-width: 46.25em) and (max-width: 61.24em) {
-  /* line 60, sass/framework/_footer.scss */
+  /* line 62, sass/framework/_footer.scss */
   #footer #keep-in-touch div.card {
     min-height: 190px !important;
     width: 31.333333% !important;
   }
 }
-/* line 79, sass/framework/_footer.scss */
+/* line 81, sass/framework/_footer.scss */
 #footer #keep-in-touch h1 {
   margin-top: 15px;
 }
-/* line 82, sass/framework/_footer.scss */
+/* line 84, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter {
   background-color: #3e8893;
   color: #fff;
 }
-/* line 85, sass/framework/_footer.scss */
+/* line 87, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter h3 {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 90, sass/framework/_footer.scss */
+/* line 92, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter h3 i.icon-mail {
   font-size: 1.6em;
   vertical-align: -40%;
 }
-/* line 96, sass/framework/_footer.scss */
+/* line 98, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter form {
   margin-top: 10px;
   border-bottom: 1px solid #fff;
   height: 30px;
 }
-/* line 101, sass/framework/_footer.scss */
+/* line 103, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter input[type=email] {
   color: #fff;
   width: 100%;
@@ -2061,7 +2061,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   color: #fff;
   font-style: italic;
 }
-/* line 118, sass/framework/_footer.scss */
+/* line 120, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter button {
   width: 100%;
   background: none;
@@ -2073,15 +2073,15 @@ nav.mobile-menu ul.level-4 a.see-all {
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 129, sass/framework/_footer.scss */
+/* line 131, sass/framework/_footer.scss */
 #footer #keep-in-touch #newsletter .col-sm-2 {
   padding-left: 0;
 }
-/* line 133, sass/framework/_footer.scss */
+/* line 135, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support {
   background-color: #fff;
 }
-/* line 135, sass/framework/_footer.scss */
+/* line 137, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support h3 {
   background-repeat: no-repeat;
   color: #333333;
@@ -2089,58 +2089,58 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 142, sass/framework/_footer.scss */
+/* line 144, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support h3 i.icon-hotline {
   font-size: 1.3em;
   vertical-align: -10%;
   color: #3e8893;
 }
-/* line 149, sass/framework/_footer.scss */
+/* line 151, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p {
   color: #585656;
 }
-/* line 151, sass/framework/_footer.scss */
+/* line 153, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p span.phone {
   font-size: 18px;
   font-weight: 700;
   color: #3e8893;
 }
-/* line 155, sass/framework/_footer.scss */
+/* line 157, sass/framework/_footer.scss */
 #footer #keep-in-touch #customer-support p span.phone i {
   font-size: 14px;
   font-weight: 400;
 }
-/* line 162, sass/framework/_footer.scss */
+/* line 164, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice {
   background-color: #fff;
 }
-/* line 164, sass/framework/_footer.scss */
+/* line 166, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice h3 {
   color: #333333;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 170, sass/framework/_footer.scss */
+/* line 172, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice h3 i.icon-leather {
   vertical-align: -15%;
   color: #3e8893;
 }
-/* line 176, sass/framework/_footer.scss */
+/* line 178, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice ul {
   padding: 0;
   margin: 0;
 }
-/* line 179, sass/framework/_footer.scss */
+/* line 181, sass/framework/_footer.scss */
 #footer #keep-in-touch #advice ul a {
   color: #585656;
 }
-/* line 186, sass/framework/_footer.scss */
+/* line 188, sass/framework/_footer.scss */
 #footer #navigation-footer {
   border-top: 1px solid #fff;
   margin-bottom: 20px;
 }
-/* line 190, sass/framework/_footer.scss */
+/* line 192, sass/framework/_footer.scss */
 #footer #navigation-footer .content h3 {
   color: #3e8893;
   font-size: 14px;
@@ -2148,29 +2148,29 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 197, sass/framework/_footer.scss */
+/* line 199, sass/framework/_footer.scss */
 #footer #navigation-footer .content ul li a {
   line-height: 15px;
   color: #585656;
   font-size: 14px;
   padding: 5px 0;
 }
-/* line 202, sass/framework/_footer.scss */
+/* line 204, sass/framework/_footer.scss */
 #footer #navigation-footer .content ul li a:hover {
   background: none;
   color: #3e8893;
 }
-/* line 208, sass/framework/_footer.scss */
+/* line 210, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us a {
   display: block;
   color: #585656;
   margin-bottom: 10px;
 }
-/* line 213, sass/framework/_footer.scss */
+/* line 215, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social {
   padding: 0;
 }
-/* line 215, sass/framework/_footer.scss */
+/* line 217, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social li {
   float: left;
   margin-bottom: 5px;
@@ -2178,13 +2178,13 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-right: 5px;
 }
 @media (max-width: 46.24em) {
-  /* line 215, sass/framework/_footer.scss */
+  /* line 217, sass/framework/_footer.scss */
   #footer #navigation-footer .content.follow-us ul.social li {
     float: none;
     display: inline-block;
   }
 }
-/* line 226, sass/framework/_footer.scss */
+/* line 228, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a {
   padding: 0;
   margin: 0 !important;
@@ -2192,49 +2192,49 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-size: 20px;
   text-align: left;
 }
-/* line 232, sass/framework/_footer.scss */
+/* line 234, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a:hover {
   color: #333333 !important;
 }
-/* line 235, sass/framework/_footer.scss */
+/* line 237, sass/framework/_footer.scss */
 #footer #navigation-footer .content.follow-us ul.social a i {
   margin-right: 0;
   font-size: 1.75em;
 }
 @media (max-width: 46.24em) {
-  /* line 213, sass/framework/_footer.scss */
+  /* line 215, sass/framework/_footer.scss */
   #footer #navigation-footer .content.follow-us ul.social {
     margin-top: 20px;
     text-align: center;
   }
 }
-/* line 246, sass/framework/_footer.scss */
+/* line 248, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list {
   padding: 0;
   margin: 20px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
 }
-/* line 251, sass/framework/_footer.scss */
+/* line 253, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li {
   border-bottom: 1px solid #fff;
   padding: 20px;
 }
-/* line 252, sass/framework/_footer.scss */
+/* line 254, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li:first-child {
   border-top: 1px solid #fff;
 }
-/* line 257, sass/framework/_footer.scss */
+/* line 259, sass/framework/_footer.scss */
 #footer #navigation-footer .content #services-list li a {
   color: #585656;
 }
 @media (max-width: 46.24em) {
-  /* line 186, sass/framework/_footer.scss */
+  /* line 188, sass/framework/_footer.scss */
   #footer #navigation-footer {
     margin-bottom: 0;
   }
 }
-/* line 268, sass/framework/_footer.scss */
+/* line 270, sass/framework/_footer.scss */
 #footer #seo-description {
   border-top: 1px solid #fff;
   font-size: 12px;
@@ -2242,17 +2242,17 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding-top: 20px;
   padding-bottom: 10px;
 }
-/* line 274, sass/framework/_footer.scss */
+/* line 276, sass/framework/_footer.scss */
 #footer #seo-description p {
   text-align: center;
 }
-/* line 279, sass/framework/_footer.scss */
+/* line 281, sass/framework/_footer.scss */
 #footer #copyright {
   background: #000000;
   padding: 10px 0;
   color: #fff;
 }
-/* line 283, sass/framework/_footer.scss */
+/* line 285, sass/framework/_footer.scss */
 #footer #copyright span {
   margin-left: 20px;
 }
@@ -2261,47 +2261,47 @@ nav.mobile-menu ul.level-4 a.see-all {
   #footer {
     display: table;
   }
-  /* line 291, sass/framework/_footer.scss */
+  /* line 293, sass/framework/_footer.scss */
   #footer #keep-in-touch {
     display: table-header-group;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  /* line 295, sass/framework/_footer.scss */
+  /* line 297, sass/framework/_footer.scss */
   #footer #keep-in-touch .row {
     display: table;
   }
-  /* line 298, sass/framework/_footer.scss */
+  /* line 300, sass/framework/_footer.scss */
   #footer #keep-in-touch .card {
     width: 100% !important;
   }
-  /* line 301, sass/framework/_footer.scss */
+  /* line 303, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support {
     display: table-header-group;
     background-color: #f2f2f2 !important;
     text-align: center;
   }
-  /* line 305, sass/framework/_footer.scss */
+  /* line 307, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p:last-child {
     margin-bottom: 20px;
   }
-  /* line 309, sass/framework/_footer.scss */
+  /* line 311, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p i {
     display: none;
   }
-  /* line 312, sass/framework/_footer.scss */
+  /* line 314, sass/framework/_footer.scss */
   #footer #keep-in-touch #customer-support p span.phone {
     font-size: 36px;
   }
-  /* line 317, sass/framework/_footer.scss */
+  /* line 319, sass/framework/_footer.scss */
   #footer #keep-in-touch #newsletter {
     text-align: center;
   }
-  /* line 319, sass/framework/_footer.scss */
+  /* line 321, sass/framework/_footer.scss */
   #footer #keep-in-touch #newsletter form {
     margin: 10px 20px;
   }
-  /* line 321, sass/framework/_footer.scss */
+  /* line 323, sass/framework/_footer.scss */
   #footer #keep-in-touch #newsletter form button {
     margin-left: 55px;
   }

@@ -10,7 +10,9 @@
     li {
       text-align: center;
       @include mq($until:tablet) {
-        height: 150px;
+        &:nth-child(1), &:nth-child(2) {
+          height: 150px;
+        }
       }
     }
   }
