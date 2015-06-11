@@ -91,7 +91,7 @@ function initSliderMobile(classNameContainer)
 				var mySwiper = new Swiper ($(this), {
 				scrollbar: $(this).find('.swiper-scrollbar'),
 				direction: 'horizontal',
-				loop: true,
+				loop: false,
 				grabCursor: true,
 				centeredSlides: true,
 				slidesPerView: 2,
