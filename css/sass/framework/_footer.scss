@@ -225,6 +225,12 @@ h1 {
             float: none;
             display: inline-block;
           }
+          @include mq($from:tablet,$until:desktop)
+          {
+            &:nth-child(2) {
+              float: none;
+            }
+          }
         }
         a {
           padding: 0;
