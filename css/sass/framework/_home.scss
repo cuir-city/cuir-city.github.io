@@ -209,8 +209,8 @@ article {
       width: 140px;
     }
   }
-
   .swiper-scrollbar {
+    display: none;
     height: 1px;
     background-color: #000;
     .swiper-scrollbar-drag {
@@ -218,6 +218,9 @@ article {
       top: -2px !important;
       border-radius: 0;
       background-color: $green;
+    }
+    @include mq($until:tablet) {
+      display: block;
     }
   }
 }
