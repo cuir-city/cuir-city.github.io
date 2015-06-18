@@ -854,37 +854,32 @@ header .search-box button {
   overflow: hidden;
   margin-left: 16px;
   background: #fff;
-  width: 1140px;
   text-align: center;
 }
 @media (min-width: 46.25em) and (max-width: 81.24em) {
-  /* line 37, sass/framework/_navigation.scss */
-  .desktop-menu .categories li.dropdown .sub-menu {
-    width: 720px !important;
-  }
-  /* line 47, sass/framework/_navigation.scss */
+  /* line 45, sass/framework/_navigation.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a {
     font-size: 12px !important;
   }
-  /* line 49, sass/framework/_navigation.scss */
+  /* line 47, sass/framework/_navigation.scss */
   .desktop-menu .categories li.dropdown .sub-menu > ul > li > a i {
     width: 100% !important;
   }
 }
-/* line 55, sass/framework/_navigation.scss */
+/* line 53, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 0;
   background: #000;
 }
-/* line 60, sass/framework/_navigation.scss */
+/* line 58, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li {
   text-align: center;
   padding-left: 0;
   padding-right: 0;
 }
-/* line 64, sass/framework/_navigation.scss */
+/* line 62, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a {
   font-size: 14px;
   color: #fff;
@@ -892,47 +887,47 @@ header .search-box button {
   display: block;
   width: 100%;
 }
-/* line 70, sass/framework/_navigation.scss */
+/* line 68, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a i {
   display: inline-block;
   width: 60px;
   font-size: 3em;
   vertical-align: -33%;
 }
-/* line 76, sass/framework/_navigation.scss */
+/* line 74, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu > ul > li > a:hover {
   color: #3e8893;
 }
-/* line 82, sass/framework/_navigation.scss */
+/* line 80, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content {
   display: none;
   text-align: left;
 }
-/* line 84, sass/framework/_navigation.scss */
+/* line 82, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.active {
   display: block;
 }
-/* line 87, sass/framework/_navigation.scss */
+/* line 85, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default {
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
 }
-/* line 91, sass/framework/_navigation.scss */
+/* line 89, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p {
   font-size: 16px;
   text-transform: uppercase;
 }
-/* line 94, sass/framework/_navigation.scss */
+/* line 92, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p.up {
   font-size: 24px;
 }
-/* line 97, sass/framework/_navigation.scss */
+/* line 95, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p span {
   font-style: italic;
   text-transform: none;
 }
-/* line 101, sass/framework/_navigation.scss */
+/* line 99, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content.default p a {
   display: inline-block;
   font-size: 12px;
@@ -946,23 +941,23 @@ header .search-box button {
   vertical-align: middle;
   padding: 10px 40px !important;
 }
-/* line 117, sass/framework/_navigation.scss */
+/* line 115, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns {
   min-height: 300px;
   height: 300px;
   padding-left: 15px;
   overflow: hidden;
 }
-/* line 122, sass/framework/_navigation.scss */
+/* line 120, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns [class^="col-"] {
   margin-bottom: -9999px;
   padding-bottom: 9999px;
 }
-/* line 126, sass/framework/_navigation.scss */
+/* line 124, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .border {
   border-left: 1px solid #e1e1e1;
 }
-/* line 129, sass/framework/_navigation.scss */
+/* line 127, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns h2 {
   font-size: 14px;
   font-weight: 700;
@@ -970,66 +965,66 @@ header .search-box button {
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 136, sass/framework/_navigation.scss */
+/* line 134, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul {
   padding-left: 0;
   padding-top: 10px;
 }
-/* line 139, sass/framework/_navigation.scss */
+/* line 137, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li {
   line-height: 35px;
 }
-/* line 143, sass/framework/_navigation.scss */
+/* line 141, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a {
   display: inline-block;
   color: #000;
 }
 @media (max-width: 61.24em) {
-  /* line 143, sass/framework/_navigation.scss */
+  /* line 141, sass/framework/_navigation.scss */
   .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a {
     font-size: 13px;
     line-height: 16px;
   }
 }
-/* line 150, sass/framework/_navigation.scss */
+/* line 148, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a i {
   display: inline-block;
   width: 40px;
   font-size: 2.5em;
   vertical-align: -25%;
 }
-/* line 156, sass/framework/_navigation.scss */
+/* line 154, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns ul li a:hover {
   color: #3e8893;
 }
-/* line 160, sass/framework/_navigation.scss */
+/* line 158, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image {
   height: 300px;
   background-position: center 0;
 }
-/* line 163, sass/framework/_navigation.scss */
+/* line 161, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-vestes {
   background-image: url(../images/homme-veste.jpg);
 }
-/* line 166, sass/framework/_navigation.scss */
+/* line 164, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-vestes-femme {
   background-image: url(../images/femme-veste.jpg);
 }
-/* line 169, sass/framework/_navigation.scss */
+/* line 167, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-chaussures {
   background-image: url(http://placehold.it/1000x300);
 }
-/* line 172, sass/framework/_navigation.scss */
+/* line 170, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .columns .background-image.background-image-pantalons {
   background-image: url(../images/background-pantalons.jpg);
 }
-/* line 177, sass/framework/_navigation.scss */
+/* line 175, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .links {
   background: #f2f2f2;
   padding: 10px 0;
   text-align: center;
 }
-/* line 181, sass/framework/_navigation.scss */
+/* line 179, sass/framework/_navigation.scss */
 .desktop-menu .categories li.dropdown .sub-menu .content .links a {
   font-size: 12px;
   color: #302e31;
@@ -1039,34 +1034,34 @@ header .search-box button {
   text-transform: uppercase;
 }
 
-/* line 194, sass/framework/_navigation.scss */
+/* line 192, sass/framework/_navigation.scss */
 .desktop-menu .shops {
   margin: 0;
 }
-/* line 196, sass/framework/_navigation.scss */
+/* line 194, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown {
   position: inherit;
 }
-/* line 198, sass/framework/_navigation.scss */
+/* line 196, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown > a {
   color: #171717;
 }
-/* line 201, sass/framework/_navigation.scss */
+/* line 199, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu {
   right: 15px;
   background-color: #000;
   width: 315px !important;
   margin-left: 0;
 }
-/* line 206, sass/framework/_navigation.scss */
+/* line 204, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul {
   padding: 20px 25px;
 }
-/* line 209, sass/framework/_navigation.scss */
+/* line 207, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li:not(:first-child) {
   margin-top: 15px;
 }
-/* line 212, sass/framework/_navigation.scss */
+/* line 210, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a {
   display: block;
   text-transform: none;
@@ -1075,74 +1070,74 @@ header .search-box button {
   color: #fff;
   text-align: center;
 }
-/* line 219, sass/framework/_navigation.scss */
+/* line 217, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a:hover {
   background-color: #3e8893 !important;
   color: #fff;
 }
-/* line 223, sass/framework/_navigation.scss */
+/* line 221, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span {
   line-height: 16px;
   display: block;
 }
-/* line 226, sass/framework/_navigation.scss */
+/* line 224, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span.shop-label {
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 230, sass/framework/_navigation.scss */
+/* line 228, sass/framework/_navigation.scss */
 .desktop-menu .shops li.dropdown .sub-menu ul li a span.shop-address {
   font-size: 12px;
 }
 
-/* line 241, sass/framework/_navigation.scss */
+/* line 239, sass/framework/_navigation.scss */
 .shops-link {
   font-size: 16px;
   text-transform: uppercase;
   color: #727272;
 }
-/* line 245, sass/framework/_navigation.scss */
+/* line 243, sass/framework/_navigation.scss */
 .shops-link > a {
   margin-right: 10px;
 }
-/* line 248, sass/framework/_navigation.scss */
+/* line 246, sass/framework/_navigation.scss */
 .shops-link:hover {
   color: #3e8893;
 }
-/* line 251, sass/framework/_navigation.scss */
+/* line 249, sass/framework/_navigation.scss */
 .shops-link i {
   color: #3e8893;
   font-size: 1em;
   vertical-align: 0;
 }
 
-/* line 259, sass/framework/_navigation.scss */
+/* line 257, sass/framework/_navigation.scss */
 #header-top-mobile {
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
-/* line 262, sass/framework/_navigation.scss */
+/* line 260, sass/framework/_navigation.scss */
 #header-top-mobile .col-xs-2:first-child {
   padding-left: 0;
 }
-/* line 265, sass/framework/_navigation.scss */
+/* line 263, sass/framework/_navigation.scss */
 #header-top-mobile #logo-mobile {
   margin-top: 10px;
 }
-/* line 268, sass/framework/_navigation.scss */
+/* line 266, sass/framework/_navigation.scss */
 #header-top-mobile #shopping-bag {
   position: relative;
 }
-/* line 270, sass/framework/_navigation.scss */
+/* line 268, sass/framework/_navigation.scss */
 #header-top-mobile #shopping-bag a {
   position: absolute;
   color: #fff;
 }
-/* line 273, sass/framework/_navigation.scss */
+/* line 271, sass/framework/_navigation.scss */
 #header-top-mobile #shopping-bag a i {
   font-size: 2em;
 }
-/* line 277, sass/framework/_navigation.scss */
+/* line 275, sass/framework/_navigation.scss */
 #header-top-mobile #shopping-bag span {
   position: absolute;
   background-color: #3e8893;
@@ -1156,17 +1151,17 @@ header .search-box button {
   font-weight: 700;
 }
 
-/* line 292, sass/framework/_navigation.scss */
+/* line 290, sass/framework/_navigation.scss */
 .navbar-toggle {
   float: none;
 }
 
-/* line 296, sass/framework/_navigation.scss */
+/* line 294, sass/framework/_navigation.scss */
 .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 
-/* line 300, sass/framework/_navigation.scss */
+/* line 298, sass/framework/_navigation.scss */
 #wrapper {
   position: relative;
   z-index: 10;
@@ -1179,7 +1174,7 @@ header .search-box button {
   transition: all 0.5s;
 }
 
-/* line 311, sass/framework/_navigation.scss */
+/* line 309, sass/framework/_navigation.scss */
 .mask {
   position: fixed;
   top: 0;
@@ -1190,29 +1185,29 @@ header .search-box button {
   background: transparent;
 }
 
-/* line 322, sass/framework/_navigation.scss */
+/* line 320, sass/framework/_navigation.scss */
 nav.push-menu-left {
   top: 0;
   width: calc(100% - 45px);
   height: 100%;
 }
 
-/* line 327, sass/framework/_navigation.scss */
+/* line 325, sass/framework/_navigation.scss */
 nav.push-menu-left {
   -webkit-transform: translate3d(-100%, 0, 0);
 }
 
-/* line 331, sass/framework/_navigation.scss */
+/* line 329, sass/framework/_navigation.scss */
 body.pml-open nav.push-menu-left {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 335, sass/framework/_navigation.scss */
+/* line 333, sass/framework/_navigation.scss */
 body.pml-open #wrapper {
   -webkit-transform: translate3d(calc(100% - 45px), 0, 0);
 }
 
-/* line 339, sass/framework/_navigation.scss */
+/* line 337, sass/framework/_navigation.scss */
 nav.mobile-menu {
   position: fixed;
   z-index: 20;
@@ -1225,20 +1220,20 @@ nav.mobile-menu {
   transition: all 0.5s;
   box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.3) inset;
 }
-/* line 350, sass/framework/_navigation.scss */
+/* line 348, sass/framework/_navigation.scss */
 nav.mobile-menu a {
   display: block;
   text-transform: uppercase;
   color: #000;
 }
-/* line 356, sass/framework/_navigation.scss */
+/* line 354, sass/framework/_navigation.scss */
 nav.mobile-menu [class^="icon"] {
   display: inline-block;
   width: 50px;
   font-size: 2.5em;
   vertical-align: -25%;
 }
-/* line 363, sass/framework/_navigation.scss */
+/* line 361, sass/framework/_navigation.scss */
 nav.mobile-menu .see-all {
   border: 2px solid #000;
   padding: 0 20px;
@@ -1246,7 +1241,7 @@ nav.mobile-menu .see-all {
   margin: 20px 15px 20px 0px;
   text-align: center;
 }
-/* line 371, sass/framework/_navigation.scss */
+/* line 369, sass/framework/_navigation.scss */
 nav.mobile-menu .search-box {
   padding-left: 50px;
   text-decoration: italic;
@@ -1255,7 +1250,7 @@ nav.mobile-menu .search-box {
   background-position: 20px 50%;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 371, sass/framework/_navigation.scss */
+  /* line 369, sass/framework/_navigation.scss */
   nav.mobile-menu .search-box {
     background-image: url('../images/icon-search@2x.png?1432373868');
     -moz-background-size: 20px 20px;
@@ -1264,7 +1259,7 @@ nav.mobile-menu .search-box {
     background-size: 20px 20px;
   }
 }
-/* line 377, sass/framework/_navigation.scss */
+/* line 375, sass/framework/_navigation.scss */
 nav.mobile-menu .search-box input {
   width: 100%;
   background: transparent;
@@ -1301,11 +1296,11 @@ nav.mobile-menu .search-box input::-webkit-input-placeholder {
   font-style: italic;
   font-weight: 300;
 }
-/* line 398, sass/framework/_navigation.scss */
+/* line 396, sass/framework/_navigation.scss */
 nav.mobile-menu li.dropdown.open > a:after {
   content: "\f0d8";
 }
-/* line 404, sass/framework/_navigation.scss */
+/* line 402, sass/framework/_navigation.scss */
 nav.mobile-menu li.dropdown > a:after {
   content: "\f0d7";
   font-family: FontAwesome;
@@ -1313,24 +1308,24 @@ nav.mobile-menu li.dropdown > a:after {
   right: 20px;
   font-size: 12px;
 }
-/* line 413, sass/framework/_navigation.scss */
+/* line 411, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-1 {
   padding-left: 0;
 }
-/* line 415, sass/framework/_navigation.scss */
+/* line 413, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-1 > li {
   line-height: 40px;
   padding-left: 20px;
 }
-/* line 419, sass/framework/_navigation.scss */
+/* line 417, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-1 li.product-category {
   background: #000;
 }
-/* line 421, sass/framework/_navigation.scss */
+/* line 419, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-1 li.product-category a {
   color: #fff;
 }
-/* line 425, sass/framework/_navigation.scss */
+/* line 423, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-1 .store-link {
   background-image: url('../images/icon-map-pin.png?1432930128');
   background-repeat: no-repeat;
@@ -1338,7 +1333,7 @@ nav.mobile-menu ul.level-1 .store-link {
   padding-left: 20px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  /* line 425, sass/framework/_navigation.scss */
+  /* line 423, sass/framework/_navigation.scss */
   nav.mobile-menu ul.level-1 .store-link {
     background-image: url('../images/icon-map-pin@2x.png?1432930128');
     -moz-background-size: 14px 18px;
@@ -1347,31 +1342,31 @@ nav.mobile-menu ul.level-1 .store-link {
     background-size: 14px 18px;
   }
 }
-/* line 432, sass/framework/_navigation.scss */
+/* line 430, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-2 {
   display: none;
   padding-left: 20px;
 }
-/* line 435, sass/framework/_navigation.scss */
+/* line 433, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-2 .icon {
   line-height: 45px;
   padding-left: 55px;
 }
-/* line 440, sass/framework/_navigation.scss */
+/* line 438, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-3 {
   display: none;
   padding-left: 55px;
 }
-/* line 444, sass/framework/_navigation.scss */
+/* line 442, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-4 {
   display: none;
   padding-left: 0;
 }
-/* line 447, sass/framework/_navigation.scss */
+/* line 445, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-4 a {
   text-transform: none;
 }
-/* line 449, sass/framework/_navigation.scss */
+/* line 447, sass/framework/_navigation.scss */
 nav.mobile-menu ul.level-4 a.see-all {
   border: 2px solid #fff;
 }
@@ -1384,16 +1379,16 @@ nav.mobile-menu ul.level-4 a.see-all {
   Nokia N95
   Samsung Galaxy S3 Mini
   Nokia 300*/
-  /* line 465, sass/framework/_navigation.scss */
+  /* line 463, sass/framework/_navigation.scss */
   nav.mobile-menu .product-category a {
     font-size: 12px;
   }
-  /* line 467, sass/framework/_navigation.scss */
+  /* line 465, sass/framework/_navigation.scss */
   nav.mobile-menu .product-category a i {
     width: 35px;
   }
 
-  /* line 472, sass/framework/_navigation.scss */
+  /* line 470, sass/framework/_navigation.scss */
   nav.mobile-menu ul.level-3 {
     padding-left: 25px;
   }
@@ -1633,26 +1628,27 @@ nav.mobile-menu ul.level-4 a.see-all {
   /* line 197, sass/framework/_home.scss */
   #home #featured-products, #home #promotions {
     margin-bottom: 0;
+    padding: 0 20px;
   }
 }
-/* line 202, sass/framework/_home.scss */
+/* line 203, sass/framework/_home.scss */
 #home #featured-products .product, #home #promotions .product {
   width: 220px;
   margin: 0 auto 20px auto;
 }
 @media (max-width: 46.24em) {
-  /* line 202, sass/framework/_home.scss */
+  /* line 203, sass/framework/_home.scss */
   #home #featured-products .product, #home #promotions .product {
-    width: 140px;
+    width: 120px;
   }
 }
-/* line 209, sass/framework/_home.scss */
+/* line 210, sass/framework/_home.scss */
 #home #featured-products .swiper-scrollbar, #home #promotions .swiper-scrollbar {
   display: none;
   height: 1px;
   background-color: #000;
 }
-/* line 213, sass/framework/_home.scss */
+/* line 214, sass/framework/_home.scss */
 #home #featured-products .swiper-scrollbar .swiper-scrollbar-drag, #home #promotions .swiper-scrollbar .swiper-scrollbar-drag {
   height: 4px !important;
   top: -2px !important;
@@ -1660,12 +1656,12 @@ nav.mobile-menu ul.level-4 a.see-all {
   background-color: #3e8893;
 }
 @media (max-width: 46.24em) {
-  /* line 209, sass/framework/_home.scss */
+  /* line 210, sass/framework/_home.scss */
   #home #featured-products .swiper-scrollbar, #home #promotions .swiper-scrollbar {
     display: block;
   }
 }
-/* line 228, sass/framework/_home.scss */
+/* line 229, sass/framework/_home.scss */
 #home .more-articles a {
   display: inline-block;
   font-size: 12px;
@@ -1681,85 +1677,85 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding: 5px 0;
   min-width: 220px;
 }
-/* line 242, sass/framework/_home.scss */
+/* line 243, sass/framework/_home.scss */
 #home .more-articles a:hover {
   color: #fff;
   background-color: #000 !important;
 }
-/* line 249, sass/framework/_home.scss */
+/* line 250, sass/framework/_home.scss */
 #home #news {
   background-color: #f2f2f2;
   padding: 20px 0;
 }
-/* line 252, sass/framework/_home.scss */
+/* line 253, sass/framework/_home.scss */
 #home #news article {
   background-color: #333333;
   height: 270px;
 }
-/* line 255, sass/framework/_home.scss */
+/* line 256, sass/framework/_home.scss */
 #home #news article .background {
   opacity: 0.4;
 }
-/* line 258, sass/framework/_home.scss */
+/* line 259, sass/framework/_home.scss */
 #home #news article header {
   bottom: 30px;
 }
-/* line 260, sass/framework/_home.scss */
+/* line 261, sass/framework/_home.scss */
 #home #news article header h2 {
   font-size: 24px;
 }
-/* line 263, sass/framework/_home.scss */
+/* line 264, sass/framework/_home.scss */
 #home #news article header h3 {
   font-size: 14px;
 }
-/* line 268, sass/framework/_home.scss */
+/* line 269, sass/framework/_home.scss */
 #home #news article.newsweek header {
   background: none;
 }
-/* line 270, sass/framework/_home.scss */
+/* line 271, sass/framework/_home.scss */
 #home #news article.newsweek header h2 {
   font-size: 24px;
 }
-/* line 273, sass/framework/_home.scss */
+/* line 274, sass/framework/_home.scss */
 #home #news article.newsweek header h3 {
   font-weight: 300;
   font-size: 20px;
 }
-/* line 277, sass/framework/_home.scss */
+/* line 278, sass/framework/_home.scss */
 #home #news article.newsweek header hr {
   width: 10%;
   margin: 10px auto;
 }
-/* line 281, sass/framework/_home.scss */
+/* line 282, sass/framework/_home.scss */
 #home #news article.newsweek header p {
   font-weight: 300;
   padding-left: 20px;
   padding-right: 20px;
 }
 @media (max-width: 61.24em) {
-  /* line 281, sass/framework/_home.scss */
+  /* line 282, sass/framework/_home.scss */
   #home #news article.newsweek header p {
     font-size: 12px;
   }
 }
 @media (max-width: 61.24em) {
-  /* line 290, sass/framework/_home.scss */
+  /* line 291, sass/framework/_home.scss */
   #home #news article.newsweek header a {
     margin-top: 5px;
   }
 }
 
-/* line 303, sass/framework/_home.scss */
+/* line 304, sass/framework/_home.scss */
 .product {
   position: relative;
   text-align: center;
 }
-/* line 306, sass/framework/_home.scss */
+/* line 307, sass/framework/_home.scss */
 .product .wrapper-image {
   position: relative;
   min-height: 210px;
 }
-/* line 309, sass/framework/_home.scss */
+/* line 310, sass/framework/_home.scss */
 .product .wrapper-image .previous, .product .wrapper-image .next {
   display: none;
   top: 25%;
@@ -1768,20 +1764,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   color: #000;
   font-size: 24px;
 }
-/* line 317, sass/framework/_home.scss */
+/* line 318, sass/framework/_home.scss */
 .product .wrapper-image .previous {
   left: 20px;
 }
-/* line 320, sass/framework/_home.scss */
+/* line 321, sass/framework/_home.scss */
 .product .wrapper-image .next {
   right: 10px;
 }
-/* line 323, sass/framework/_home.scss */
+/* line 324, sass/framework/_home.scss */
 .product .wrapper-image img {
   width: 100%;
   max-width: 100%;
 }
-/* line 327, sass/framework/_home.scss */
+/* line 328, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay {
   display: none;
   position: absolute;
@@ -1791,7 +1787,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   width: 100%;
   z-index: 999999;
 }
-/* line 335, sass/framework/_home.scss */
+/* line 336, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay span {
   font-weight: 700;
   display: inline-block;
@@ -1800,12 +1796,12 @@ nav.mobile-menu ul.level-4 a.see-all {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 343, sass/framework/_home.scss */
+/* line 344, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay ul {
   padding-left: 15px;
   margin: 0;
 }
-/* line 346, sass/framework/_home.scss */
+/* line 347, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay ul li {
   display: inline-block;
   background-color: #fff;
@@ -1818,7 +1814,7 @@ nav.mobile-menu ul.level-4 a.see-all {
   padding: 5px 0;
   width: 35px;
 }
-/* line 359, sass/framework/_home.scss */
+/* line 360, sass/framework/_home.scss */
 .product .wrapper-image .sizes-overlay a {
   display: block;
   width: 100%;
@@ -1828,20 +1824,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-weight: 700;
   padding: 10px;
 }
-/* line 369, sass/framework/_home.scss */
+/* line 370, sass/framework/_home.scss */
 .product .wrapper-image .product-link {
   display: block;
 }
-/* line 374, sass/framework/_home.scss */
+/* line 375, sass/framework/_home.scss */
 .product .brand {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 377, sass/framework/_home.scss */
+/* line 378, sass/framework/_home.scss */
 .product .brand img {
   max-width: 100%;
 }
-/* line 381, sass/framework/_home.scss */
+/* line 382, sass/framework/_home.scss */
 .product .price {
   display: block;
   margin-top: 10px;
@@ -1849,18 +1845,18 @@ nav.mobile-menu ul.level-4 a.see-all {
   font-size: 16px;
   font-weight: 700;
 }
-/* line 387, sass/framework/_home.scss */
+/* line 388, sass/framework/_home.scss */
 .product .price.crossed {
   color: #e13250;
 }
-/* line 389, sass/framework/_home.scss */
+/* line 390, sass/framework/_home.scss */
 .product .price.crossed span {
   font-size: 14px;
   text-decoration: line-through;
   color: #949494;
   padding-right: 5px;
 }
-/* line 397, sass/framework/_home.scss */
+/* line 398, sass/framework/_home.scss */
 .product span.tag {
   display: inline-block;
   color: #221a32;
@@ -1871,18 +1867,18 @@ nav.mobile-menu ul.level-4 a.see-all {
   text-transform: uppercase;
   margin: 2px;
 }
-/* line 406, sass/framework/_home.scss */
+/* line 407, sass/framework/_home.scss */
 .product span.tag.offer-percentage {
   border: 1px solid #e13250;
   color: #e13250;
 }
-/* line 410, sass/framework/_home.scss */
+/* line 411, sass/framework/_home.scss */
 .product span.tag.offer-label {
   border: 1px solid #e13250;
   color: #fff;
   background-color: #e13250;
 }
-/* line 416, sass/framework/_home.scss */
+/* line 417, sass/framework/_home.scss */
 .product .favorite {
   display: block;
   position: absolute;
@@ -1891,20 +1887,20 @@ nav.mobile-menu ul.level-4 a.see-all {
   top: 5px;
   color: #3e8893;
 }
-/* line 423, sass/framework/_home.scss */
+/* line 424, sass/framework/_home.scss */
 .product .favorite i {
   font-size: 1.3em;
 }
-/* line 428, sass/framework/_home.scss */
+/* line 429, sass/framework/_home.scss */
 .product .favorite:hover i:before {
   content: "C";
 }
 
-/* line 441, sass/framework/_home.scss */
+/* line 442, sass/framework/_home.scss */
 .no-touch .product .wrapper-image:hover .previous, .no-touch .product .wrapper-image:hover .next {
   display: block;
 }
-/* line 444, sass/framework/_home.scss */
+/* line 445, sass/framework/_home.scss */
 .no-touch .product .wrapper-image:hover .sizes-overlay {
   display: block;
   -webkit-animation: fadeInUp 400ms;
